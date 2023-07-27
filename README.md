@@ -1,5 +1,8 @@
 # captive-sdk
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Gem Version](https://img.shields.io/gem/v/captive-sdk.svg)](https://rubygems.org/gems/captive-sdk)
+
 Captive SDK is a tool that includes everything needed to create an web application quickly
 
 ## Usage
