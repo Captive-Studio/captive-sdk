@@ -1,28 +1,24 @@
-# Captive::Theme
-Short description and motivation.
+# captive-theme
 
-## Usage
-How to use my plugin.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Gem Version](https://img.shields.io/gem/v/captive-theme.svg)](https://rubygems.org/gems/captive-theme)
+
+A UI theme that follows [Captive](https://captive.fr)'s Design System
 
 ## Installation
-Add this line to your application's Gemfile:
+
+- Add this to you Gemfile:
 
 ```ruby
-gem "captive-theme"
+gem 'captive-theme'
 ```
 
-And then execute:
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install captive-theme
-```
+- Run `bundle install`
 
 ## Contributing
-Contribution directions go here.
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/Captive-Studio/captive-sdk.
 
 ## License
+
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

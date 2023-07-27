@@ -1,5 +1,6 @@
-# Captive::Sdk
-Short description and motivation.
+# captive-sdk
+
+Captive SDK is a tool that includes everything needed to create an web application quickly
 
 ## Usage
 How to use my plugin.
@@ -9,6 +10,12 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem "captive-sdk"
+
+# or include each gem manually
+
+# gem "captive-admin"
+# gem "captive-api"
+# gem "captive-theme"
 ```
 
 And then execute:
@@ -20,6 +27,13 @@ Or install it yourself as:
 ```bash
 $ gem install captive-sdk
 ```
+
+## Frameworks and libraries
+
+- [captive-admin](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-admin/README.md), A UI theme for **ActiveAdmin** that follows [Captive](https://captive.fr)'s Design System
+- [captive-api](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-api/README.md), a library to made an API quickly
+- [captive-theme](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-theme/README.md), A UI theme that follows [Captive](https://captive.fr)'s Design System
+
 
 ## Contributing
 Contribution directions go here.

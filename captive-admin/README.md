@@ -1,4 +1,4 @@
-# CaptiveAdmin
+# captive-admin
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Gem Version](https://img.shields.io/gem/v/captive-admin.svg)](https://rubygems.org/gems/captive-admin)
