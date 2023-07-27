@@ -5,5 +5,24 @@
     "captive-api",
     "captive-theme"
   ],
+  "scripts": {
+    "postinstall": "concurrently \"npm:postinstall:*\"",
+    "postinstall:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks"
+  },
+  "commitlint": {
+    "extends": [
+      "@captive/commitlint-config"
+    ]
+  },
+  "devDependencies": {
+    "@captive/commitlint-config": "1.1.20",
+    "@captive/cspell-config": "1.0.9",
+    "@captive/eslint-config": "1.8.1",
+    "@captive/stylelint-config": "1.4.0",
+    "concurrently": "8.2.0",
+    "eslint": "8.45.0",
+    "prettier": "^3.0.0",
+    "stylelint": "15.10.2"
+  },
   "packageManager": "yarn@3.6.1"
 }
