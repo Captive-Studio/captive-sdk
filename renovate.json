@@ -1,6 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>Captive-Studio/renovate-config"
-  ]
+  "extends": ["github>Captive-Studio/renovate-config:library"]
 }
