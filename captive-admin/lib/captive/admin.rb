@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Captive
-  module Theme
+  module Admin
     class Error < StandardError; end
     # Your code goes here...
     module Rails
