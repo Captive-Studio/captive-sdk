@@ -142,10 +142,15 @@ Temporary Items
 lib/
 
 
-/.bundle/
-/doc/
-/log/*.log
-/pkg/
-/tmp/
+.bundle/
+doc/
+pkg/
+tmp/
+
+## Documentation cache and generated files:
+**/.yardoc/
+**/_yardoc/
+**/doc/
+**/rdoc/
 
 **/*.gem
