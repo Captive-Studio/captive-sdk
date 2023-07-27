@@ -1,0 +1,11 @@
+@mixin sans-family {
+  @include body-family;
+}
+
+@mixin body-family {
+  font-family: $default-font-family;
+}
+
+@mixin title-family {
+  font-family: $title-font-family;
+}

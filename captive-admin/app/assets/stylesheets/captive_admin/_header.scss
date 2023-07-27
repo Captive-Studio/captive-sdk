@@ -1,0 +1,29 @@
+// ----------------------------------- Header
+#header {
+  text-shadow: none;
+  background: $bg-emphasis;
+
+  h1 {
+    color: $fg-onEmphasis;
+  }
+
+  a, a:link { color: $fg-onEmphasis; }
+
+  ul.tabs {
+    & > li {
+      &.current > a {
+        background: $accent-subtle;
+        color: $fg-default;
+      }
+
+      &:hover > a {
+        background: $accent-subtle;
+        color: $accent-fg;
+      }
+    }
+  }
+
+  #utility_nav {
+    a:hover { color: $accent-fg; }
+  }
+}

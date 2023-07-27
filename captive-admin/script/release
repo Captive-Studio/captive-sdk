@@ -1,0 +1,66 @@
+#!/bin/sh
+
+##
+# This script creates a new version of a gem on a GitHub repository.
+# You can run it with 'script/release major', 'script/release minor', or 'script/release patch' to create the corresponding release.
+# You can also add a second optional argument for the version suffix.
+#
+#
+# Tradeoffs of this solutions :
+# Advantages
+# - Captive still have its ownership of the repository: every rule is explicit in its configuration
+# - Captive can disable the sync script if there is a problem with @w5s/eslint-config
+#
+# Drawbacks
+# - When pulling changes, semantic versioning information is lost (breaking changes, etc)
+#
+cd $(dirname $(dirname $0))
+ROOT=`pwd`
+cd $ROOT;
+
+
+# Check if the current branch is the main branch
+branch=$(git branch --show-current)
+if [ "$branch" != "main" ]; then
+  echo "You are not on the main branch"
+  exit 1
+fi
+
+# Get the latest version of the code
+git pull origin main
+
+# Determine the current version of the gem
+version=$(grep -E "VERSION = '[0-9]+\.[0-9]+\.[0-9]+" lib/captive_admin/version.rb | cut -d "'" -f 2)
+echo "Current version is ${version}"
+
+# Determine the version to release
+if [ "$1" == "major" ]; then
+  new_version=$(echo "${version}" | awk -F. '{$1++; print $1"."0"."0}')
+elif [ "$1" == "minor" ]; then
+  new_version=$(echo "${version}" | awk -F. '{$2++; print $1"."$2"."0}')
+elif [ "$1" == "patch" ]; then
+  new_version=$(echo "${version}" | awk -F. '{$3++; print $1"."$2"."$3}')
+else
+  echo "Usage : script/release (major|minor|patch) [version-suffix]"
+  exit 1
+fi
+
+# Add suffix to the new version, if specified
+if [ ! -z "$2" ]; then
+  new_version="${new_version}-${2}"
+fi
+
+echo "Creating version ${new_version} ..."
+
+# Update the version in captive_admin/version.rb
+sed -i '' "s/VERSION = '${version}'/VERSION = '${new_version}'/" lib/captive_admin/version.rb
+
+# Add the modified file and create a commit
+git add lib/captive_admin/version.rb
+git commit -m "🔖 Publish version ${new_version}"
+
+# Create a new release on GitHub
+git tag ${new_version}
+git push origin ${new_version}
+
+echo "Version ${new_version} created."

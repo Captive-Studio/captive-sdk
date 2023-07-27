@@ -1,0 +1,14 @@
+form {
+  fieldset {
+    &.inputs {
+      background-color: $bg-subtle;
+    }
+  }
+
+  /* Buttons */
+  input[type=submit], form input[type=button], form button {
+    @include primary-button;
+    cursor: pointer;
+  }
+}
+

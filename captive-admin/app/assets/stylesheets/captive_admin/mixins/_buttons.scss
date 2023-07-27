@@ -1,0 +1,64 @@
+@mixin basic-button {
+  //default AA style
+  @include rounded(200px);
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.0em;
+  @include sans-family;
+  line-height: 12px;
+  margin-right: 3px;
+  text-decoration: none;
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  //End default AA style
+  padding: $spacer-2 $spacer-4;
+  transition: background-color .3s;
+  box-shadow: $shadow-xs;
+}
+@mixin primary-button {
+  background-color: $primary-emphasis;
+  background-image: none;
+  color: $primary-onEmphasis;
+  border: none;
+  text-shadow: none;
+  box-shadow: $shadow-s;
+
+  &:not(.disabled) {
+    &:hover{
+      background-color: $primary-muted;
+      background-image: none;
+    }
+
+    &:active {
+      box-shadow: $shadow-xs;
+      background-image: none;
+    }
+  }
+}
+
+@mixin outline-button {
+  // style AA
+  @include basic-button;
+  outline: solid 1px;
+  color: $fg-muted;
+  background-color: $bg-subtle;
+
+  &:not(.disabled) {
+    &:hover {
+      background-color: $bg-default;
+    }
+
+    &:active {
+      background-color: $bg-emphasis;
+      color: $fg-onEmphasis
+    }
+  }
+}
+
+
+@mixin light-button {
+  @include outline-button;
+}

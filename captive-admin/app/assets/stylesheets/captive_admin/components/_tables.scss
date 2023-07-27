@@ -1,0 +1,30 @@
+// --------- Index Tables
+
+
+table.index_table {
+  @include shadow-xs;
+  border-radius: $border-radius-s;
+  overflow: hidden;
+
+  th {
+    a, a:link, a:visited {
+      color: $fg-muted;
+    }
+
+    &.sorted-asc, &.sorted-desc {
+      background: $bg-default;
+      border-bottom: 2px solid $border-color-emphasis;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  tr.even td { background: $bg-subtle; }
+
+  td {
+    border-bottom: none;
+    vertical-align: middle;
+  }
+}

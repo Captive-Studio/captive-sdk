@@ -1,0 +1,47 @@
+#!/bin/sh
+
+##
+# This script synchronize rules directory with @w5s/eslint-config
+# It is an open source repository maintained by Julien Polo
+#
+#
+# Tradeoffs of this solutions :
+# Advantages
+# - Captive still have its ownership of the repository: every rule is explicit in its configuration
+# - Captive can disable the sync script if there is a problem with @w5s/eslint-config
+#
+# Drawbacks
+# - When pulling changes, semantic versioning information is lost (breaking changes, etc)
+#
+cd $(dirname $(dirname $0))
+ROOT=`pwd`
+UPSTREAM_URL="https://raw.githubusercontent.com/airbnb/ruby/main/rubocop-airbnb"
+
+sync_file ()
+{
+  PROJECT_NAME=$1
+  curl "$UPSTREAM_URL/$1" --silent --output "./$2" --fail --silent --show-error
+
+  # Hotfix
+  sed -i '' -e '1s;^;### 🚨 GENERATED WITH `script/pull`. DO NOT EDIT MANUALLY. ###\n;' "./$2"
+  sed -i '' -e "s/IgnoredMethods:/AllowedMethods:/" "./$2"
+}
+
+cd $ROOT;
+echo "Pull github:airbnb/ruby"
+
+sync_file 'config/rubocop-airbnb.yml' 'config/__private__/rubocop-airbnb.yml';
+sync_file 'config/rubocop-bundler.yml' 'config/__private__/rubocop-bundler.yml';
+sync_file 'config/rubocop-gemspec.yml' 'config/__private__/rubocop-gemspec.yml';
+sync_file 'config/rubocop-layout.yml' 'config/__private__/rubocop-layout.yml';
+sync_file 'config/rubocop-lint.yml' 'config/__private__/rubocop-lint.yml';
+sync_file 'config/rubocop-metrics.yml' 'config/__private__/rubocop-metrics.yml';
+sync_file 'config/rubocop-naming.yml' 'config/__private__/rubocop-naming.yml';
+sync_file 'config/rubocop-performance.yml' 'config/__private__/rubocop-performance.yml';
+sync_file 'config/rubocop-rails.yml' 'config/__private__/rubocop-rails.yml';
+sync_file 'config/rubocop-rspec.yml' 'config/__private__/rubocop-rspec.yml';
+sync_file 'config/rubocop-security.yml' 'config/__private__/rubocop-security.yml';
+sync_file 'config/rubocop-style.yml' 'config/__private__/rubocop-style.yml';
+
+# Hotfix
+yq -i 'del(.RSpec/Capybara/CurrentPathExpectation) | del(.RSpec/Capybara/FeatureMethods) | del(.RSpec/FactoryBot/AttributeDefinedStatically) | del(.RSpec/FactoryBot/CreateList)' config/__private__/rubocop-rspec.yml

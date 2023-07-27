@@ -1,0 +1,23 @@
+@mixin section-header {
+  // héritage AA
+
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 0.5em;
+
+  // Fin héritage AA
+  padding: $spacer-2 $spacer-4;
+
+  color: $fg-muted;
+  background: $bg-subtle;
+  border-bottom: 1px solid $border-color;
+  // @include shadow-xs;
+}
+
+@mixin section-background {
+  background: $bg-subtle;
+  @include rounded($border-radius-s);
+  @include shadow-xs;
+  overflow: hidden;
+}

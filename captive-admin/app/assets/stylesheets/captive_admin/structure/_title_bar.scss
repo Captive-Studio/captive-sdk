@@ -1,0 +1,10 @@
+#title_bar {
+  .action_items {
+    span.action_item {
+      & > a, & > .dropdown_menu > a {
+        @include primary-button;
+        padding: $spacer-3 $spacer-4;
+      }
+    }
+  }
+}

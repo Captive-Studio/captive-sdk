@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "husky": "8.0.3",
+    "lint-staged": "13.2.3"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "lib/**/*.rb": [
+      "yard -o docs",
+      "git add docs/"
+    ]
+  }
+}
