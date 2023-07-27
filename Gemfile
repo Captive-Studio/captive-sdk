@@ -15,7 +15,6 @@ gem "sqlite3"
 # Start debugger with binding.b [https://github.com/ruby/debug]
 # gem "debug", ">= 1.0.0"
 
-
 group :development do
   gem 'yard', '~> 0.9.34'
 end

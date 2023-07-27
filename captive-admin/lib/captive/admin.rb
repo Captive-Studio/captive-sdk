@@ -3,6 +3,7 @@
 module Captive
   module Admin
     class Error < StandardError; end
+
     # Your code goes here...
     module Rails
       class Engine < ::Rails::Engine

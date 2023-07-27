@@ -3,6 +3,7 @@
 module Captive
   module Theme
     class Error < StandardError; end
+
     # Your code goes here...
     module Rails
       class Engine < ::Rails::Engine
