@@ -1,7 +1,7 @@
 # CaptiveAdmin
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Gem Version](https://img.shields.io/gem/v/captive_admin.svg)](https://rubygems.org/gems/captive_admin)
+[![Gem Version](https://img.shields.io/gem/v/captive-admin.svg)](https://rubygems.org/gems/captive-admin)
 
 A UI theme for ActiveAdmin that follows [Captive](https://captive.fr)'s Design System
 
@@ -12,7 +12,7 @@ A UI theme for ActiveAdmin that follows [Captive](https://captive.fr)'s Design S
 - Add this to you Gemfile:
 
 ```ruby
-gem 'captive_admin'
+gem 'captive-admin'
 ```
 
 - Run `bundle install`
@@ -25,13 +25,13 @@ gem 'captive_admin'
   ```
   - Replace with these two lines
   ```scss
-  @import "captive_admin/mixins";
-  @import "captive_admin/base";
+  @import "captive-admin/mixins";
+  @import "captive-admin/base";
   ```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Captive-Studio/captive_admin.
+Bug reports and pull requests are welcome on GitHub at https://github.com/Captive-Studio/captive-sdk.
 
 ## License
 

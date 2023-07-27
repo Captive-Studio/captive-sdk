@@ -3,7 +3,7 @@
 version = File.read(File.expand_path("../CAPTIVE_SDK_VERSION", __dir__)).strip
 
 Gem::Specification.new do |spec|
-  spec.name = "captive_admin"
+  spec.name = "captive-admin"
   spec.version = version
   spec.authors = ['Captive', "Stéphane Hanser"]
   spec.email = ["shanser@captive.fr"]
