@@ -138,19 +138,14 @@ Temporary Items
 .eslintcache
 # END ### ESLint ###
 
-# Build directory
-lib/
-
 
 .bundle/
-doc/
 pkg/
 tmp/
 
 ## Documentation cache and generated files:
 **/.yardoc/
 **/_yardoc/
-**/doc/
 **/rdoc/
 
 **/*.gem
