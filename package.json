@@ -13,11 +13,21 @@
       "@captive/commitlint-config"
     ]
   },
+  "eslintConfig": {
+    "extends": [
+      "@captive/eslint-config",
+      "./.eslint_todo.cjs"
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
+  },
   "devDependencies": {
     "@captive/commitlint-config": "1.1.20",
     "@captive/cspell-config": "1.0.9",
     "@captive/eslint-config": "1.8.1",
     "@captive/stylelint-config": "1.4.0",
+    "@captive/ts-config": "1.4.2",
     "concurrently": "8.2.0",
     "eslint": "8.45.0",
     "prettier": "^3.0.0",

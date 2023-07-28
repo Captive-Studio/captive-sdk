@@ -156,6 +156,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@captive/ts-config@npm:1.4.2":
+  version: 1.4.2
+  resolution: "@captive/ts-config@npm:1.4.2"
+  peerDependencies:
+    typescript: ">=5.x"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: b7da7328e508c6cb5f156c51ecc2c567d761d181fb4057b3409f47cea2e81facb2b2a548e3179d9a2846b8740f288ece89f69b7320d30f8648dd00cf4377ce96
+  languageName: node
+  linkType: hard
+
 "@commitlint/types@npm:^17.0.0":
   version: 17.4.4
   resolution: "@commitlint/types@npm:17.4.4"
@@ -3812,6 +3824,7 @@ __metadata:
     "@captive/cspell-config": 1.0.9
     "@captive/eslint-config": 1.8.1
     "@captive/stylelint-config": 1.4.0
+    "@captive/ts-config": 1.4.2
     concurrently: 8.2.0
     eslint: 8.45.0
     prettier: ^3.0.0
