@@ -1,10 +1,17 @@
 {
   "name": "@captive/api",
   "private": true,
-  "lint-staged": {
-    "lib/**/*.rb": [
-      "yard -o docs",
-      "git add docs/"
-    ]
+  "scripts": {
+    "build": "concurrently \"npm:build:*\" \":\"",
+    "clean": "concurrently \"npm:clean:*\" \":\"",
+    "format": "concurrently \"npm:format:*\" \":\"",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml,vue",
+    "lint": "concurrently \"npm:lint:*\" \":\"",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml,vue",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
+    "prepublishOnly": "npm run clean; npm run build",
+    "spellcheck": "cspell --no-progress '**'",
+    "test": "concurrently \"npm:test:*\" \":\"",
+    "test:src": ""
   }
 }
