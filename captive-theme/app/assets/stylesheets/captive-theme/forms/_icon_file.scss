@@ -1,0 +1,17 @@
+
+@mixin icon() {
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.icon-preview {
+  @include icon;
+  width: 78px;
+  height: 78px;
+
+  &__small {
+    @include icon;
+    width: 36px;
+    height: 36px;
+  }
+}
