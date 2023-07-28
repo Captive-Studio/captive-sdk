@@ -1,9 +1,9 @@
 {
   "version": "0.2",
-  "language": "en",
+  "language": "en,fr",
   "words": [],
   "ignoreWords": [],
   "flagWords": [],
-  "ignorePaths": ["**/package.json"],
+  "ignorePaths": ["**/package.json", "Gemfile"],
   "import": ["@captive/cspell-config"]
 }
