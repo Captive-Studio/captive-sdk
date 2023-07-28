@@ -23,6 +23,5 @@ jobs:
         with:
           node-version-file: '.tool-versions'
           cache: 'yarn'
-      - name: Run Lint (rubocop + eslint)
-        run: |
-          yarn lint
+      - run: yarn install
+      - run: yarn lint
