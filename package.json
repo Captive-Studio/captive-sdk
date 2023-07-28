@@ -27,6 +27,7 @@
     ]
   },
   "eslintConfig": {
+    "root": true,
     "extends": [
       "@captive/eslint-config",
       "./.eslint_todo.cjs"
