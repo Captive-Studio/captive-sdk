@@ -1,4 +1,6 @@
 {
+  "name": "@captive/api",
+  "private": true,
   "lint-staged": {
     "lib/**/*.rb": [
       "yard -o docs",

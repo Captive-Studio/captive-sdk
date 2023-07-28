@@ -48,6 +48,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@captive/admin@workspace:packages/captive-admin":
+  version: 0.0.0-use.local
+  resolution: "@captive/admin@workspace:packages/captive-admin"
+  languageName: unknown
+  linkType: soft
+
+"@captive/api@workspace:packages/captive-api":
+  version: 0.0.0-use.local
+  resolution: "@captive/api@workspace:packages/captive-api"
+  languageName: unknown
+  linkType: soft
+
 "@captive/commitlint-config@npm:1.1.20":
   version: 1.1.20
   resolution: "@captive/commitlint-config@npm:1.1.20"
@@ -137,6 +149,12 @@ __metadata:
   checksum: 01cf7c5487b79de3b1189eee4e20e19d51edb4faa50a9d861cc796f359d78f3422320ffadcc55396e49c0e0d53976b288e180d71187134ff199dabcdfb4b9643
   languageName: node
   linkType: hard
+
+"@captive/theme@workspace:packages/captive-theme":
+  version: 0.0.0-use.local
+  resolution: "@captive/theme@workspace:packages/captive-theme"
+  languageName: unknown
+  linkType: soft
 
 "@commitlint/types@npm:^17.0.0":
   version: 17.4.4
@@ -1245,12 +1263,6 @@ __metadata:
   checksum: 8c96818a9076434998511251dcb2761a94817ea17dbdc37f47ac080bd088fc62c7369429a19e2178b993497132c8cbcf5cc1f44ba963e76782ba469c0474938d
   languageName: node
   linkType: hard
-
-"captive-api-0022f0@workspace:packages/captive-api":
-  version: 0.0.0-use.local
-  resolution: "captive-api-0022f0@workspace:packages/captive-api"
-  languageName: unknown
-  linkType: soft
 
 "chalk@npm:^2.0.0":
   version: 2.4.2
