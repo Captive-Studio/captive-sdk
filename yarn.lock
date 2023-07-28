@@ -48,15 +48,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/admin@workspace:packages/captive-admin":
+"@captive/admin@workspace:captive-admin":
   version: 0.0.0-use.local
-  resolution: "@captive/admin@workspace:packages/captive-admin"
+  resolution: "@captive/admin@workspace:captive-admin"
   languageName: unknown
   linkType: soft
 
-"@captive/api@workspace:packages/captive-api":
+"@captive/api@workspace:captive-api":
   version: 0.0.0-use.local
-  resolution: "@captive/api@workspace:packages/captive-api"
+  resolution: "@captive/api@workspace:captive-api"
   languageName: unknown
   linkType: soft
 
@@ -150,9 +150,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/theme@workspace:packages/captive-theme":
+"@captive/theme@workspace:captive-theme":
   version: 0.0.0-use.local
-  resolution: "@captive/theme@workspace:packages/captive-theme"
+  resolution: "@captive/theme@workspace:captive-theme"
   languageName: unknown
   linkType: soft
 
