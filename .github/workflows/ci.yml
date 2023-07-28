@@ -21,11 +21,11 @@ jobs:
       - uses: dtinth/setup-github-actions-caching-for-turbo@v1
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '.tool-versions'
+          ruby-version: .tool-versions
           bundler-cache: true
       - uses: actions/setup-node@v3
         with:
-          node-version-file: '.tool-versions'
-          cache: 'yarn'
+          node-version-file: .tool-versions
+          cache: yarn
       - run: yarn install
       - run: yarn lint
