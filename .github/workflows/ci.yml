@@ -5,9 +5,6 @@ name: Rubocop
 
 on: [pull_request, push]
 
-env:
-  BUNDLE_ONLY: rubocop
-
 permissions:
   contents: read
 
