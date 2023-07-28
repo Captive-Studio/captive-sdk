@@ -1246,9 +1246,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"captive-api-660760@workspace:captive-api":
+"captive-api-0022f0@workspace:packages/captive-api":
   version: 0.0.0-use.local
-  resolution: "captive-api-660760@workspace:captive-api"
+  resolution: "captive-api-0022f0@workspace:packages/captive-api"
   languageName: unknown
   linkType: soft
 
