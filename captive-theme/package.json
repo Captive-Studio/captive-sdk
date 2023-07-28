@@ -8,7 +8,7 @@
     "format:rubocop": "bundle exec rubocop --no-server -a",
     "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml,vue",
     "lint": "concurrently \"npm:lint:*\" \":\"",
-    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml,vue",
+    "__lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml,vue",
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepublishOnly": "npm run clean; npm run build",
     "spellcheck": "cspell --no-progress '**'",
