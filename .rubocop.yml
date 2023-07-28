@@ -1,3 +1,9 @@
 inherit_gem:
   rubocop-config-captive:
     - config/default.yml
+
+AllCops:
+  Exclude:
+    - '**/bin/**/*'
+    - '**/node_modules/**/*'
+    - '**/vendor/**/*'

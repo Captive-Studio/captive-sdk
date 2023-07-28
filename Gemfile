@@ -1,9 +1,9 @@
+# rubocop:disable Captive/Translation/RailsI18nPresence
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Specify your gem's dependencies in captive-sdk.gemspec.
 gemspec
-
 
 gem "rails", '~> 7.0.6'
 gem "puma", '~> 6.3.0'
@@ -20,3 +20,5 @@ end
 group :rubocop do
   gem 'rubocop-config-captive', '~> 1.5.0'
 end
+
+# rubocop:enable Captive/Translation/RailsI18nPresence
