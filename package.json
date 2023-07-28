@@ -4,8 +4,9 @@
     "captive-*"
   ],
   "scripts": {
-    "postinstall": "concurrently \"npm:postinstall:*\"",
-    "postinstall:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks"
+    "postinstall": "npm run prepare",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
+    "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks"
   },
   "commitlint": {
     "extends": [
