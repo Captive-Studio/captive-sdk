@@ -1,9 +1,7 @@
 {
   "private": true,
   "workspaces": [
-    "captive-admin",
-    "captive-api",
-    "captive-theme"
+    "captive-*"
   ],
   "scripts": {
     "postinstall": "concurrently \"npm:postinstall:*\"",
