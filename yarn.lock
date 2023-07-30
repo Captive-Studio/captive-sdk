@@ -3723,7 +3723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.0.0":
+"prettier@npm:3.0.0":
   version: 3.0.0
   resolution: "prettier@npm:3.0.0"
   bin:
@@ -3930,7 +3930,7 @@ __metadata:
     "@captive/ts-config": 1.4.2
     concurrently: 8.2.0
     eslint: 8.46.0
-    prettier: ^3.0.0
+    prettier: 3.0.0
     stylelint: 15.10.2
     turbo: 1.10.12
   languageName: unknown
