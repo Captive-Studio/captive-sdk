@@ -28,4 +28,4 @@ jobs:
           node-version-file: .tool-versions
           cache: yarn
       - run: yarn install
-      - run: yarn lint
+      - run: yarn validate
