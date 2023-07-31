@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount Captive::Api::Engine => "/captive-api"
+  mount Captive::API::Engine => "/captive-api"
 end

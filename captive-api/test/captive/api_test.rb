@@ -1,7 +1,7 @@
 require "test_helper"
 
-class Captive::ApiTest < ActiveSupport::TestCase
+class Captive::APITest < ActiveSupport::TestCase
   test "it has a version number" do
-    assert Captive::Api::VERSION
+    assert Captive::API::VERSION
   end
 end

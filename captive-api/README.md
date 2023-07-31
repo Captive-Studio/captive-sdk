@@ -1,27 +1,27 @@
-# Captive::Api
+# Captive::API
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Gem Version](https://img.shields.io/gem/v/captive-api.svg)](https://rubygems.org/gems/captive-api)
 
-
 Code commun des API de Captive
 
 ## Usage
+
 How to use my plugin.
 
 Implementation :
 
 ```ruby
-module Api
+module API
   module V1
-    class BaseController < Captive::Api::ApplicationController
+    class BaseController < Captive::API::ApplicationController
       ...
     end
   end
 end
 ```
 
-The class `Captive::Api::ApplicationController` includes 2 concerns :
+The class `Captive::API::ApplicationController` includes 2 concerns :
 
 | Nom du concern |  Description  |
 |:-----|:--------:|
@@ -32,7 +32,7 @@ The class `Captive::Api::ApplicationController` includes 2 concerns :
 
 #### `#pagination`
 
-You can use the pagination method like this : 
+You can use the pagination method like this :
 
 ```ruby
 @tenues = @tenues.page(pagination[:page])
@@ -41,7 +41,7 @@ You can use the pagination method like this :
 
 *The method `page` and `per` come from [will_paginate](https://github.com/mislav/will_paginate)*
 
-The pagination method return an hash like this : 
+The pagination method return an hash like this :
 
 ```ruby
 { page: 1, per_page: 20 }
@@ -54,6 +54,7 @@ The pagination method return an hash like this :
 TODO
 
 ## Installation
+
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -61,17 +62,21 @@ gem "captive-api"
 ```
 
 And then execute:
+
 ```bash
-$ bundle
+bundle
 ```
 
 Or install it yourself as:
+
 ```bash
-$ gem install captive-api
+gem install captive-api
 ```
 
 ## Contributing
+
 Contribution directions go here.
 
 ## License
+
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

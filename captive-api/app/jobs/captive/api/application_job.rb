@@ -1,5 +1,5 @@
 module Captive
-  module Api
+  module API
     class ApplicationJob < ActiveJob::Base
     end
   end

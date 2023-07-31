@@ -1,8 +1,8 @@
 module Captive
-  module Api
+  module API
     class ApplicationController < ActionController::API
-      include ::Api::PaginationConcern
-      include ::Api::RenderErrorConcern
+      include ::API::PaginationConcern
+      include ::API::RenderErrorConcern
     end
   end
 end

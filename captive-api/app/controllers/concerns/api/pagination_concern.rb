@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Api
+module API
   ##
   # Défini le nombre max d'items par page à 100
   # `MAX_ITEMS_PAR_PAGE = 100`

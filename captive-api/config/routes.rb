@@ -1,2 +1,2 @@
-Captive::Api::Engine.routes.draw do
+Captive::API::Engine.routes.draw do
 end

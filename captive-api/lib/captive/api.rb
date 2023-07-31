@@ -1,7 +1,7 @@
 require "captive/api/engine"
 
 module Captive
-  module Api
+  module API
     # Your code goes here...
   end
 end
