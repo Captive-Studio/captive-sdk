@@ -19,7 +19,9 @@
     "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
     "prepare:packages": "turbo run prepare",
     "spellcheck": "turbo run spellcheck",
-    "spellcheck:root": "npx cspell --no-progress '**' --exclude='captive-*/**'"
+    "spellcheck:root": "npx cspell --no-progress '**' --exclude='captive-*/**'",
+    "test": "turbo run test",
+    "validate": "turbo build lint test"
   },
   "commitlint": {
     "extends": [
