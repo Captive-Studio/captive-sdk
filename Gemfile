@@ -17,7 +17,12 @@ group :development do
   gem 'yard', '~> 0.9.34'
 end
 
-group :rubocop do
+group :test do
+  gem 'rspec', '~> 3.12.0'
+  gem 'rspec-mocks', '~> 3.12.6'
+end
+
+group :development, :test do
   gem 'rubocop-config-captive', '~> 1.5.0'
 end
 
