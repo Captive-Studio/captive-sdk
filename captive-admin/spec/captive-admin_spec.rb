@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe CaptiveAdmin do
+RSpec.describe Captive::Admin do
   it "has a version number" do
-    expect(CaptiveAdmin::VERSION).not_to be nil
+    expect(Captive::Admin::VERSION).not_to be nil
   end
 
   it "does something useful" do
