@@ -143,6 +143,8 @@ Temporary Items
 pkg/
 tmp/
 
+!*/lib/
+
 ## Documentation cache and generated files:
 **/.yardoc/
 **/_yardoc/
