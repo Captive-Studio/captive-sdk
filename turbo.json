@@ -32,9 +32,6 @@
     },
     "develop": {
       "cache": false
-    },
-    "pull-external": {
-      "cache": false
     }
   },
   "globalDependencies": ["tsconfig.settings.json"]
