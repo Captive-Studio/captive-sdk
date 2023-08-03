@@ -19,7 +19,7 @@ module API
       def render_error_from_object(
         object,
         status: :unprocessable_entity,
-        message: 'Erreur de validation'
+        message: "Erreur de validation"
       )
         errors = object.errors.messages
         Rails.logger.error("Impossible de sauvagarder l'objet #{object.class} : #{errors}")
