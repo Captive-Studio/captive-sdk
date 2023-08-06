@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Fonction pour afficher un message d'avertissement en jaune
+print_warning() {
+  local message="$1"
+  tput setaf 3   # Définir la couleur en jaune
+  echo "$message"
+  tput sgr0       # Réinitialiser les attributs de texte
+}
+
+read -p "Entrez le nom du dossier à créer (ex : captive-exemple) : " gem_name
+
+transformed_string="${gem_name//-//}"
+gem_name_transformed="${transformed_string// /\/}"
+
+rails plugin new $gem_name --mountable --skip-test --dummy-path=spec/dummy
+
+rm $gem_name/lib/$gem_name_transformed/version.rb
+
+rm -rf $gem_name/.git/
+cp captive-api/captive-api.gemspec $gem_name/$gem_name.gemspec
+
+cd $gem_name
+bundle install
+cd ../
+gem install bundle-locker
+bundle-locker ./$gem_name/Gemfile
+bundle install
+bundle exec rubocop -A
+
+# todo
+print_warning "TODO: Supprimer la ligne \`require \"$gem_name_transformed/version\"\` into $gem_name/lib/$gem_name_transformed.rb"
+print_warning "TODO: Veuillez compléter le fichier $gem_name.gemspec"
