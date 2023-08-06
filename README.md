@@ -33,6 +33,7 @@ $ bundle
 - [captive-admin](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-admin/README.md), A UI theme for **ActiveAdmin** that follows [Captive](https://captive.fr)'s Design System
 - [captive-api](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-api/README.md), a library to made an API quickly
 - [captive-theme](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-theme/README.md), A UI theme that follows [Captive](https://captive.fr)'s Design System
+- [captive-crash-reporter](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-crash-reporter/README.md), A crash reporter for [Captive](https://captive.fr) who send errros on [Sentry](https://sentry.io/)
 
 
 ## Contributing
