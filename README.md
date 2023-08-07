@@ -43,5 +43,17 @@ You can use a [Rails Engine](https://guides.rubyonrails.org/engines.html) to add
 - remove the `version.rb` file
 - in your `.gemspec`, get the version with the line `version = File.read(File.expand_path("../CAPTIVE_SDK_VERSION", __dir__)).strip`
 
+### Inspiration
+
+The purpose of captive-sdk is to create a SaaS Framework to build products faster with Ruby on Rails.
+
+It was inspired by :
+
+- https://businessclasskit.com/
+- https://bullettrain.co/
+- https://github.com/archonic/limestone/tree/master
+- https://jumpstartrails.com/
+- https://www.getsjabloon.com/
+
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
