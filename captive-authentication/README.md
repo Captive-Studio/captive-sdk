@@ -14,18 +14,9 @@ gem "captive-authentication"
 
 And then execute:
 ```bash
-$ bundle
-```
-
-Copy the migrations with the command into your application :
-
-```bash
-$ rails captive_authentication:install:migrations
-```
-
-run your migrations :
-```bash
-$ rails db:migration
+bundle install
+rails captive_authentication:install:migrations # Copy the migrations into your application
+rails db:migration
 ```
 
 When all is setup, you can construct your user model into your application :
