@@ -41,6 +41,8 @@ You can use a [Rails Engine](https://guides.rubyonrails.org/engines.html) to add
 
 - `./bin/rails_generate_plugin`
 
+if you want to use rspec in your engine, follow [this tutorial](https://www.hocnest.com/blog/testing-an-engine-with-rspec/)
+
 ### Inspiration
 
 The purpose of captive-sdk is to create a SaaS Framework to build products faster with Ruby on Rails.
