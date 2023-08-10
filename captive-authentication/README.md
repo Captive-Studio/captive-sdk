@@ -17,7 +17,7 @@ And then execute:
 $ bundle
 ```
 
-Copy the migrations with the command :
+Copy the migrations with the command into your application :
 
 ```bash
 $ rails captive_authentication:install:migrations
@@ -26,6 +26,28 @@ $ rails captive_authentication:install:migrations
 run your migrations :
 ```bash
 $ rails db:migration
+```
+
+When all is setup, you can construct your user model into your application :
+
+note : `user` is an example, you can use `admin` or all model name specify by your product owner
+
+```ruby
+create_table :users do |t|
+  t.uuid :account_id
+
+  ...
+end
+
+t.index :users, :account_id
+```
+
+```ruby
+# frozen_string_literal: true
+
+class User < ApplicationRecord
+  belongs_to :account, class_name: 'Captive::Authentication::Account', primary_key: :uid
+end
 ```
 
 ## Structure
