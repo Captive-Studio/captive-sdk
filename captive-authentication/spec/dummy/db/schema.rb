@@ -10,8 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_10_135644) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_10_143946) do
   # These are extensions that must be enabled in order to support this database
+  enable_extension "pgcrypto"
   enable_extension "plpgsql"
 
   create_table "captive_authentication_account_providers", force: :cascade do |t|
@@ -49,6 +50,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_10_135644) do
     t.datetime "updated_at", null: false
     t.string "first_name"
     t.string "last_name"
+    t.uuid "uid", default: -> { "gen_random_uuid()" }, null: false
     t.index ["confirmation_token"],
             name: "index_captive_authentication_accounts_on_confirmation_token",
             unique: true
