@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "omniauth", "~> 2.1.1"
 
   spec.add_development_dependency "rspec-rails"
+  spec.add_development_dependency "shoulda-matchers", "~> 5.0"
 end

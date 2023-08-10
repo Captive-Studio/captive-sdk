@@ -10,7 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_10_134306) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_10_135644) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "captive_authentication_account_providers", force: :cascade do |t|
+    t.bigint "account_id"
+    t.string "provider"
+    t.string "uid"
+    t.string "token"
+    t.datetime "token_expires_at"
+    t.text "params"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["account_id"], name: "index_captive_authentication_account_providers_on_account_id"
+    t.index ["uid", "provider"], name: "index_account_providers_on_uid_and_provider", unique: true
+  end
+
   create_table "captive_authentication_accounts", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -44,4 +60,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_10_134306) do
             name: "index_captive_authentication_accounts_on_unlock_token",
             unique: true
   end
+
+  add_foreign_key "captive_authentication_account_providers",
+                  "captive_authentication_accounts",
+                  column: "account_id"
 end
