@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", ">= 7.0.0"
   spec.add_dependency "devise", "~> 4.9.2"
   spec.add_dependency "devise-i18n", "~> 1.11.0"
+  spec.add_dependency "omniauth", "~> 2.1.1"
 end
