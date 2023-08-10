@@ -15,6 +15,10 @@ gem "sprockets-rails", "3.4.2"
 gem "devise", "~> 4.9.2"
 gem "devise-i18n", "~> 1.11.0"
 
+group :development do
+  gem "rails-erd", "~> 1.7.2"
+end
+
 group :test do
   gem "shoulda-matchers", "~> 5.0"
 end

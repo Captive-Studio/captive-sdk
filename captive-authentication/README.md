@@ -28,6 +28,19 @@ run your migrations :
 $ rails db:migration
 ```
 
+## Structure
+
+A graph of the database structure can be generated in order to better understand the interactions between the different models.
+
+![](docs/erd.png)
+
+To produce this graph:
+
+```bash
+$ cd spec/dummy
+$ bundle exec rake erd
+```
+
 ## Contributing
 Contribution directions go here.
 
