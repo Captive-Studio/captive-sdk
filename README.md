@@ -39,7 +39,7 @@ $ bundle
 
 You can use a [Rails Engine](https://guides.rubyonrails.org/engines.html) to add a new gem into the project :
 
-- `./bin/rail_generate_plugin`
+- `./bin/rails_generate_plugin`
 
 ### Inspiration
 
