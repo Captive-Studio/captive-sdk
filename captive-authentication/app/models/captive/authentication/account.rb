@@ -8,5 +8,9 @@ module Captive::Authentication
            :confirmable,
            :trackable,
            :omniauthable
+
+    def full_name
+      "#{first_name.capitalize} #{last_name.upcase}"
+    end
   end
 end
