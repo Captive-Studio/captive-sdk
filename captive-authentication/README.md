@@ -1,5 +1,6 @@
 # Captive::Authentication
-Short description and motivation.
+
+Devise authentication with email confirmations, password resets, and omniauth solutions
 
 ## Usage
 How to use my plugin.
@@ -16,9 +17,15 @@ And then execute:
 $ bundle
 ```
 
-Or install it yourself as:
+Copy the migrations with the command :
+
 ```bash
-$ gem install captive-authentication
+$ rails captive_authentication:install:migrations
+```
+
+run your migrations :
+```bash
+$ rails db:migration
 ```
 
 ## Contributing
