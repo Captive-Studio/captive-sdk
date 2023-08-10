@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: captive-authentication_development
+
+test:
+  <<: *default
+  database: captive-authentication_test
+
+production:
+  <<: *default
+  database: captive-authentication_production
+  username: captive-authentication
+  password: <%= ENV["CAPTIVE_AUTHENTICATION_DATABASE_PASSWORD"] %>
