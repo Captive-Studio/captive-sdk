@@ -39,9 +39,7 @@ $ bundle
 
 You can use a [Rails Engine](https://guides.rubyonrails.org/engines.html) to add a new gem into the project :
 
-- `rails plugin new captive-authentication --mountable --skip-test --dummy-path=spec/dummy`
-- remove the `version.rb` file
-- in your `.gemspec`, get the version with the line `version = File.read(File.expand_path("../CAPTIVE_SDK_VERSION", __dir__)).strip`
+- `./bin/rail_generate_plugin`
 
 ### Inspiration
 
