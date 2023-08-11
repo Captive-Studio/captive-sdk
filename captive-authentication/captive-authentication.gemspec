@@ -25,6 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "devise", "~> 4.9.2"
   spec.add_dependency "devise-i18n", "~> 1.11.0"
   spec.add_dependency "omniauth", "~> 2.1.1"
+  spec.add_dependency "email_validator", "~> 2.2.4"
 
   spec.add_development_dependency "rspec-rails"
   spec.add_development_dependency "shoulda-matchers", "~> 5.0"

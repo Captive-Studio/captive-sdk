@@ -4,6 +4,7 @@ PATH
     captive-authentication (0.1.0.alpha)
       devise (~> 4.9.2)
       devise-i18n (~> 1.11.0)
+      email_validator (~> 2.2.4)
       omniauth (~> 2.1.1)
       rails (>= 7.0.0)
 
@@ -90,6 +91,8 @@ GEM
     devise-i18n (1.11.0)
       devise (>= 4.9.0)
     diff-lcs (1.5.0)
+    email_validator (2.2.4)
+      activemodel
     erubi (1.12.0)
     factory_bot (6.2.1)
       activesupport (>= 5.0.0)
@@ -223,6 +226,7 @@ DEPENDENCIES
   captive-authentication!
   devise (~> 4.9.2)
   devise-i18n (~> 1.11.0)
+  email_validator (~> 2.2.4)
   factory_bot_rails (~> 6.2)
   pg (= 1.5.3)
   puma (= 6.3.0)

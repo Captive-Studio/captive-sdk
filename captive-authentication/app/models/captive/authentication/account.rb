@@ -9,6 +9,8 @@ module Captive::Authentication
            :trackable,
            :omniauthable
 
+    validates :email, email: { mode: :strict, require_fqdn: true }
+
     def full_name
       "#{first_name.capitalize} #{last_name.upcase}"
     end

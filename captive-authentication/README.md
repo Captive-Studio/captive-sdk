@@ -36,7 +36,8 @@ t.index :users, :account_id
 # frozen_string_literal: true
 
 class User < ApplicationRecord
-  belongs_to :account, class_name: 'Captive::Authentication::Account', primary_key: :uid
+  belongs_to :account, class_name: "Captive::Authentication::Account",
+                       primary_key: :uid
 end
 ```
 
