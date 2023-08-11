@@ -2,9 +2,6 @@
 
 Devise authentication with email confirmations, password resets, and omniauth solutions
 
-## Usage
-How to use my plugin.
-
 ## Installation
 Add this line to your application's Gemfile:
 
@@ -18,6 +15,8 @@ bundle install
 rails captive_authentication:install:migrations # Copy the migrations into your application
 rails db:migration
 ```
+
+## Usage
 
 When all is setup, you can construct your user model into your application :
 
