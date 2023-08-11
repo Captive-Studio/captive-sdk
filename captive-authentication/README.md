@@ -1,4 +1,4 @@
-# Captive::Authentication
+# captive-authentication
 
 Devise authentication with email confirmations, password resets, and omniauth solutions
 
