@@ -16,6 +16,7 @@ gem "captive-sdk"
 
 # or include each gem manually
 
+# gem "captive-authentication"
 # gem "captive-admin"
 # gem "captive-api"
 # gem "captive-theme"
@@ -28,6 +29,7 @@ $ bundle
 
 ## Frameworks and libraries
 
+- [captive-authentication](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-authentication/README.md), Devise authentication with email confirmations, password resets, and omniauth solutions
 - [captive-admin](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-admin/README.md), A UI theme for **ActiveAdmin** that follows [Captive](https://captive.fr)'s Design System
 - [captive-api](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-api/README.md), a library to made an API quickly
 - [captive-theme](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-theme/README.md), A UI theme that follows [Captive](https://captive.fr)'s Design System
