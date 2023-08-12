@@ -1,3 +1,7 @@
+require 'devise'
+require 'devise-i18n'
+require 'email_validator'
+
 module Captive
   module Authentication
     class Engine < ::Rails::Engine
