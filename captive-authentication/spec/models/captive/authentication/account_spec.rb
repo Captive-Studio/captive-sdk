@@ -9,6 +9,7 @@ RSpec.describe Captive::Authentication::Account do
 
       it { expect(subject.valid?).to eq true }
     end
+
     context "when the domain name is invalid" do
       subject { build(:account, email: "invalid@domain-invalid") }
 

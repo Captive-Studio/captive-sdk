@@ -9,9 +9,9 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 require "rspec/rails"
 # Add additional requires below this line. Rails is not loaded until this point!
 
-require 'factory_bot_rails'
+require "factory_bot_rails"
 
-FactoryBot.definition_file_paths << File.join(File.dirname(__FILE__), 'factories')
+FactoryBot.definition_file_paths << File.join(File.dirname(__FILE__), "factories")
 FactoryBot.factories.clear
 FactoryBot.find_definitions
 
