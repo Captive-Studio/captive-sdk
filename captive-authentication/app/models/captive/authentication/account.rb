@@ -14,5 +14,9 @@ module Captive::Authentication
     def full_name
       "#{first_name.capitalize} #{last_name.upcase}"
     end
+
+    def self.find_or_create(email:)
+      find_by(email: email).presence || create(email: email)
+    end
   end
 end
