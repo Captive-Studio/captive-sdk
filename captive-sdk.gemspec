@@ -24,5 +24,6 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "rails", ">= 7.1.0.alpha"
   spec.add_dependency "captive-admin", version
   spec.add_dependency "captive-api", version
+  spec.add_dependency "captive-authentication", version
   spec.add_dependency "captive-theme", version
 end
