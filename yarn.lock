@@ -61,6 +61,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@captive/authentication@workspace:captive-authentication":
+  version: 0.0.0-use.local
+  resolution: "@captive/authentication@workspace:captive-authentication"
+  languageName: unknown
+  linkType: soft
+
 "@captive/commitlint-config@npm:1.1.21":
   version: 1.1.21
   resolution: "@captive/commitlint-config@npm:1.1.21"
