@@ -3,6 +3,11 @@ module.exports = {
   // Theses rules should be fixed as soon as possible
   overrides: [
     // { files: ['*.*'], rules: {} },
-    // { files: ['*.ts'], rules: {} },
+    {
+      files: ['*manifest.js'],
+      rules: {
+        'unicorn/no-empty-file': 'off',
+      },
+    },
   ],
 };

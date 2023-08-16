@@ -19,14 +19,17 @@ rm $gem_name/lib/$gem_name_transformed/version.rb
 
 rm -rf $gem_name/.git/
 cp captive-api/captive-api.gemspec $gem_name/$gem_name.gemspec
+cp captive-api/package.json $gem_name/package.json
+# TODO: rename package.json "name" key
 
 cd $gem_name
 bundle install
 cd ../
+yarn install
 gem install bundle-locker
 bundle-locker ./$gem_name/Gemfile
 bundle install
-bundle exec rubocop -A
+yarn format
 
 # todo
 print_warning "TODO: Supprimer la ligne \`require \"$gem_name_transformed/version\"\` into $gem_name/lib/$gem_name_transformed.rb"
