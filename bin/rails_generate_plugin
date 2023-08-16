@@ -12,22 +12,27 @@ read -p "Entrez le nom du dossier à créer (ex : captive-exemple) : " gem_name
 
 transformed_string="${gem_name//-//}"
 gem_name_transformed="${transformed_string// /\/}"
+package_name="${gem_name//captive-/@captive/}"
 
 rails plugin new $gem_name --mountable --skip-test --dummy-path=spec/dummy
 
-rm $gem_name/lib/$gem_name_transformed/version.rb
+rm "$gem_name/lib/$gem_name_transformed/version.rb"
+# Un seul Gemfile à la racine
+rm "$gem_name/Gemfile"
+# Pas de git
+rm -rf "$gem_name/.git/"
 
-rm -rf $gem_name/.git/
-cp captive-api/captive-api.gemspec $gem_name/$gem_name.gemspec
+# Génère un package.json
 cp captive-api/package.json $gem_name/package.json
-# TODO: rename package.json "name" key
-
-cd $gem_name
-bundle install
-cd ../
+package_json=$(cat "$gem_name/package.json" | jq ".name = \"$package_name\"")
+echo $package_json > "$gem_name/package.json"
 yarn install
-gem install bundle-locker
-bundle-locker ./$gem_name/Gemfile
+
+# Génère un gemspec
+cp captive-api/captive-api.gemspec "$gem_name/$gem_name.gemspec"
+sed -i '' "s/\"captive-api\"/\"$gem_name\"/g" "$gem_name/$gem_name.gemspec"
+
+
 bundle install
 yarn format
 
