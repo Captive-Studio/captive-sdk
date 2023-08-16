@@ -8,5 +8,9 @@
     background: $success-subtle;
     color: $success-fg;
   }
-  &.no  { background: $bg-subtle; color: $fg-muted; }
+
+  &.no {
+    background: $bg-subtle;
+    color: $fg-muted;
+  }
 }

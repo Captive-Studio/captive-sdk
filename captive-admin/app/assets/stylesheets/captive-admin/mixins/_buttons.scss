@@ -1,10 +1,12 @@
 @mixin basic-button {
-  //default AA style
+  // default AA style
   @include rounded(200px);
+
   display: inline-block;
   font-weight: bold;
-  font-size: 1.0em;
+  font-size: 1em;
   @include sans-family;
+
   line-height: 12px;
   margin-right: 3px;
   text-decoration: none;
@@ -13,9 +15,10 @@
     opacity: 0.5;
     cursor: default;
   }
-  //End default AA style
+
+  // End default AA style
   padding: $spacer-2 $spacer-4;
-  transition: background-color .3s;
+  transition: background-color 0.3s;
   box-shadow: $shadow-xs;
 }
 @mixin primary-button {
@@ -27,7 +30,7 @@
   box-shadow: $shadow-s;
 
   &:not(.disabled) {
-    &:hover{
+    &:hover {
       background-color: $primary-muted;
       background-image: none;
     }
@@ -42,6 +45,7 @@
 @mixin outline-button {
   // style AA
   @include basic-button;
+
   outline: solid 1px;
   color: $fg-muted;
   background-color: $bg-subtle;
@@ -53,11 +57,10 @@
 
     &:active {
       background-color: $bg-emphasis;
-      color: $fg-onEmphasis
+      color: $fg-onEmphasis;
     }
   }
 }
-
 
 @mixin light-button {
   @include outline-button;

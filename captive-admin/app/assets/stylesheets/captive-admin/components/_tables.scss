@@ -1,17 +1,20 @@
 // --------- Index Tables
 
-
 table.index_table {
   @include shadow-xs;
+
   border-radius: $border-radius-s;
   overflow: hidden;
 
   th {
-    a, a:link, a:visited {
+    a,
+    a:link,
+    a:visited {
       color: $fg-muted;
     }
 
-    &.sorted-asc, &.sorted-desc {
+    &.sorted-asc,
+    &.sorted-desc {
       background: $bg-default;
       border-bottom: 2px solid $border-color-emphasis;
     }
@@ -21,7 +24,9 @@ table.index_table {
     }
   }
 
-  tr.even td { background: $bg-subtle; }
+  tr.even td {
+    background: $bg-subtle;
+  }
 
   td {
     border-bottom: none;

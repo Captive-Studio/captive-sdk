@@ -1,16 +1,16 @@
-@import "active_admin/base";
+@import 'active_admin/base';
 
 /* Active Admin CSS */
 @media screen {
-  @import "./typography";
-  @import "./header";
-  @import "./forms";
-  @import "./components/tables";
-  @import "./components/links";
-  @import "./components/panels";
-  @import "./components/status_tags";
-  @import "./pages/logged_out";
-  @import "./structure/title_bar";
+  @import './typography';
+  @import './header';
+  @import './forms';
+  @import './components/tables';
+  @import './components/links';
+  @import './components/panels';
+  @import './components/status_tags';
+  @import './pages/logged_out';
+  @import './structure/title_bar';
 
   body {
     color: $fg-default;

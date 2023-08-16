@@ -6,9 +6,11 @@ form {
   }
 
   /* Buttons */
-  input[type=submit], form input[type=button], form button {
+  input[type='submit'],
+  form input[type='button'],
+  form button {
     @include primary-button;
+
     cursor: pointer;
   }
 }
-

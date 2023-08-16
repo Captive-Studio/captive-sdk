@@ -7,7 +7,10 @@
     color: $fg-onEmphasis;
   }
 
-  a, a:link { color: $fg-onEmphasis; }
+  a,
+  a:link {
+    color: $fg-onEmphasis;
+  }
 
   ul.tabs {
     & > li {
@@ -24,6 +27,8 @@
   }
 
   #utility_nav {
-    a:hover { color: $accent-fg; }
+    a:hover {
+      color: $accent-fg;
+    }
   }
 }
