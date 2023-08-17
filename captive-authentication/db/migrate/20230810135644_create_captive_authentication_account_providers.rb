@@ -8,7 +8,7 @@ class CreateCaptiveAuthenticationAccountProviders < ActiveRecord::Migration[7.0]
       t.string   :uid
       t.string   :token
       t.datetime :token_expires_at
-      t.text     :params
+      t.text     :token_infos
 
       t.timestamps
     end

@@ -1,3 +1,10 @@
+# {Account} is model responsible for storing account information.
+#
+# @!attribute id
+#   @return [Integer] DO NOT USE THIS ID IN EXTERNE OF THIS GEM
+#
+# @!attribute uid
+#   @return [UUID] ID of the {Patient} in UUID format.
 module Captive::Authentication
   class Account < ApplicationRecord
     devise :database_authenticatable,

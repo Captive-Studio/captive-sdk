@@ -3,7 +3,7 @@
 module Captive::Authentication
   module Login
     class Base
-      attr_reader :email, :uid, :data, :token, :token_expires_at
+      attr_reader :email, :uid, :data, :token, :token_expires_at, :token_infos
 
       def find_or_create
         Captive::Authentication::AccountProvider.find_or_create_from_omniauth(
@@ -11,7 +11,8 @@ module Captive::Authentication
           provider: provider,
           uid: uid,
           token: token,
-          token_expires_at: token_expires_at
+          token_expires_at: token_expires_at,
+          token_infos: token_infos
         )
       end
 

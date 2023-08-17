@@ -32,4 +32,28 @@ RSpec.describe Captive::Authentication::Login::Facebook do
       it { expect(subject.email).to eq "fb_id@facebook.com" }
     end
   end
+
+  describe "#token_infos" do
+    subject { described_class.new(token: "token") }
+
+    let(:reponse) do
+      {
+        id: "fb_id",
+        name: "Charles Dupont",
+        email: "charles.dupont@example.com",
+      }
+    end
+
+    before(:each) do
+      stub_request(:get, "https://graph.facebook.com/me?access_token=token&fields=email,name,id")
+        .to_return(
+          status: 200,
+          body:
+          reponse.to_json,
+          headers: { content_type: "application/json" }
+        )
+    end
+
+    it { expect(subject.token_infos.symbolize_keys).to eq reponse }
+  end
 end

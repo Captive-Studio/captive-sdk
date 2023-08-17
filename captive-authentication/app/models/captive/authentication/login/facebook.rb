@@ -6,9 +6,9 @@ module Captive::Authentication
       def initialize(token:, token_expires_at: nil)
         @token = token
         @token_expires_at = token_expires_at
-        @data = recupere_information_depuis_facebook
-        @uid = data["id"]
-        @email = data["email"].presence || get_fake_email
+        @token_infos = recupere_information_depuis_facebook
+        @uid = @token_infos["id"]
+        @email = @token_infos["email"].presence || get_fake_email
       end
 
       def provider

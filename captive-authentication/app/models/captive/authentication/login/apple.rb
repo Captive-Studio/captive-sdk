@@ -16,6 +16,7 @@ module Captive::Authentication
         donnees_apple = recupere_donnees_depuis_apple
         raise Apple::Erreur if donnees_apple.blank?
 
+        @token_infos = donnees_apple.parsed_response
         @data = decode_donnees(donnees_apple)
         @email = data["email"]
         @uid = data["sub"]
