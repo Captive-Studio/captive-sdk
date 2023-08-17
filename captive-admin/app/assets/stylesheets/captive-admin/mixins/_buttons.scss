@@ -24,7 +24,7 @@
 @mixin primary-button {
   background-color: $primary-emphasis;
   background-image: none;
-  color: $primary-onEmphasis;
+  color: $primary-on-emphasis;
   border: none;
   text-shadow: none;
   box-shadow: $shadow-s;
@@ -57,7 +57,7 @@
 
     &:active {
       background-color: $bg-emphasis;
-      color: $fg-onEmphasis;
+      color: $fg-on-emphasis;
     }
   }
 }
