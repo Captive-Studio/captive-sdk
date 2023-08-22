@@ -8,7 +8,12 @@ module Captive::Authentication
         @token_expires_at = token_expires_at
         @token_infos = recupere_information_depuis_facebook
         @uid = @token_infos["id"]
-        @email = @token_infos["email"].presence || get_fake_email
+        if @token_infos["email"].present?
+          @email = @token_infos["email"]
+          @confirmed_at = Time.current
+        else
+          @email = get_fake_email
+        end
       end
 
       def provider

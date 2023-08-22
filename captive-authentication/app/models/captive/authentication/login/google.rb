@@ -9,6 +9,7 @@ module Captive::Authentication
         @token_infos = recupere_information_depuis_google
         @email = @token_infos["email"]
         @uid = @token_infos["sub"]
+        @confirmed_at = Time.current
       end
 
       def provider

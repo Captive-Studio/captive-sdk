@@ -10,14 +10,14 @@ module Captive::Authentication
     validates :uid, uniqueness: { scope: :provider }
 
     def self.find_or_create_from_omniauth(
-      email:, provider:, uid:, token:, token_expires_at: nil, token_infos: nil
+      email:, provider:, uid:, token:, token_expires_at: nil, token_infos: nil, confirmed_at: nil
     )
       account_provider =
-        where(
-          provider: provider,
-          uid: uid
-        ).first_or_initialize do |ap|
-          account = Account.find_or_create(email: email)
+        where(provider: provider, uid: uid).first_or_initialize do |ap|
+          account =
+            Account.find_or_create_by(email: email) do |ac|
+              ac.confirmed_at = confirmed_at
+            end
           ap.account = account
         end
       account_provider.token = token

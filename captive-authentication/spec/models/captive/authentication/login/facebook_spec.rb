@@ -3,6 +3,16 @@
 require "rails_helper"
 
 RSpec.describe Captive::Authentication::Login::Facebook do
+  let(:stub_facebook) do
+    stub_request(:get, "https://graph.facebook.com/me?access_token=token&fields=email,name,id")
+      .to_return(
+        status: 200,
+        body:
+        reponse.to_json,
+        headers: { content_type: "application/json" }
+      )
+  end
+
   describe "#email" do
     context "when Facebook did not provide email" do
       # Why an user doesn't have email :
@@ -19,17 +29,27 @@ RSpec.describe Captive::Authentication::Login::Facebook do
         }
       end
 
-      before(:each) do
-        stub_request(:get, "https://graph.facebook.com/me?access_token=token&fields=email,name,id")
-          .to_return(
-            status: 200,
-            body:
-            reponse.to_json,
-            headers: { content_type: "application/json" }
-          )
-      end
+      before(:each) { stub_facebook }
 
       it { expect(subject.email).to eq "fb_id@facebook.com" }
+      it { expect(subject.confirmed_at).to eq nil }
+    end
+
+    context "when Facebook provide email" do
+      subject { described_class.new(token: "token") }
+
+      let(:reponse) do
+        {
+          id: "fb_id",
+          name: "Charles Dupont",
+          email: "charles.dupont@example.com",
+        }
+      end
+
+      before(:each) { stub_facebook }
+
+      it { expect(subject.email).to eq "charles.dupont@example.com" }
+      it { expect(subject.confirmed_at).not_to eq nil }
     end
   end
 
@@ -44,15 +64,7 @@ RSpec.describe Captive::Authentication::Login::Facebook do
       }
     end
 
-    before(:each) do
-      stub_request(:get, "https://graph.facebook.com/me?access_token=token&fields=email,name,id")
-        .to_return(
-          status: 200,
-          body:
-          reponse.to_json,
-          headers: { content_type: "application/json" }
-        )
-    end
+    before(:each) { stub_facebook }
 
     it { expect(subject.token_infos.symbolize_keys).to eq reponse }
   end
