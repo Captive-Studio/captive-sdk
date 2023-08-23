@@ -56,5 +56,5 @@
     "stylelint": "15.10.3",
     "turbo": "1.10.13"
   },
-  "packageManager": "yarn@3.6.2"
+  "packageManager": "yarn@3.6.3"
 }
