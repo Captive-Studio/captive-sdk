@@ -252,6 +252,13 @@ GEM
     ruby-graphviz (1.2.5)
       rexml
     ruby-progressbar (1.13.0)
+    sprockets (4.2.0)
+      concurrent-ruby (~> 1.0)
+      rack (>= 2.2.4, < 4)
+    sprockets-rails (3.4.2)
+      actionpack (>= 5.2)
+      activesupport (>= 5.2)
+      sprockets (>= 3.0.0)
     sqlite3 (1.6.3-arm64-darwin)
     sqlite3 (1.6.3-x86_64-linux)
     thor (1.2.2)
@@ -279,6 +286,7 @@ DEPENDENCIES
   rspec (~> 3.12.0)
   rspec-mocks (~> 3.12.6)
   rubocop-config-captive (~> 1.6.0)
+  sprockets-rails (>= 3.4.2)
   sqlite3 (~> 1.6.3)
   yard (~> 0.9.34)
 
