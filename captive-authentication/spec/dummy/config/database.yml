@@ -1,20 +1,21 @@
 default: &default
   adapter: postgresql
+  host: localhost
   encoding: unicode
-  # For details on connection pooling, see Rails configuration guide
-  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  username: <%= ENV["POSTGRES_USER"] %>
+  password: <%= ENV["POSTGRES_PASSWORD"] %>
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
-  database: captive-authentication_development
+  database: captive-sdk_development
 
 test:
   <<: *default
-  database: captive-authentication_test
+  database: captive-sdk_test
 
 production:
   <<: *default
-  database: captive-authentication_production
-  username: captive-authentication
+  database: captive-sdk_production
+  username: captive-sdk
   password: <%= ENV["CAPTIVE_AUTHENTICATION_DATABASE_PASSWORD"] %>
