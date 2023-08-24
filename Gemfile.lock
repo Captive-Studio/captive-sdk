@@ -12,6 +12,7 @@ PATH
       devise (~> 4.9.2)
       devise-i18n (~> 1.11.0)
       email_validator (~> 2.2.4)
+      httparty (~> 0.21.0)
       omniauth (~> 2.1.1)
       rails (>= 7.0.0)
     captive-sdk (0.1.0.alpha)
@@ -122,6 +123,9 @@ GEM
       activesupport (>= 5.0)
     hashdiff (1.0.1)
     hashie (5.0.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     json (2.6.3)
@@ -138,6 +142,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.5)
     minitest (5.19.0)
+    multi_xml (0.6.0)
     net-imap (0.3.7)
       date
       net-protocol

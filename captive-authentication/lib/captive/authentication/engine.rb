@@ -1,6 +1,7 @@
 require "devise"
 require "devise-i18n"
 require "email_validator"
+require "httparty"
 
 module Captive
   module Authentication

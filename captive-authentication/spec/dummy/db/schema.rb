@@ -21,7 +21,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_10_143946) do
     t.string "uid"
     t.string "token"
     t.datetime "token_expires_at"
-    t.text "params"
+    t.text "token_infos"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["account_id"], name: "index_captive_authentication_account_providers_on_account_id"
