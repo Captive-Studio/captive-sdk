@@ -15,6 +15,7 @@ gem "sqlite3", "~> 1.6.3"
 
 group :development do
   gem "yard", "~> 0.9.34"
+  gem "rails-erd", "~> 1.7.2"
 end
 
 group :test do

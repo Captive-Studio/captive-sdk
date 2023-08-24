@@ -93,6 +93,7 @@ GEM
     bcrypt (3.1.19)
     builder (3.2.4)
     cancancan (3.5.0)
+    choice (0.2.0)
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
@@ -176,6 +177,11 @@ GEM
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
+    rails-erd (1.7.2)
+      activerecord (>= 4.2)
+      activesupport (>= 4.2)
+      choice (~> 0.2.0)
+      ruby-graphviz (~> 1.2)
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
@@ -243,6 +249,8 @@ GEM
       rubocop (~> 1.33)
       rubocop-capybara (~> 2.17)
       rubocop-factory_bot (~> 2.22)
+    ruby-graphviz (1.2.5)
+      rexml
     ruby-progressbar (1.13.0)
     sqlite3 (1.6.3-arm64-darwin)
     sqlite3 (1.6.3-x86_64-linux)
@@ -267,6 +275,7 @@ DEPENDENCIES
   captive-sdk!
   puma (~> 6.3.0)
   rails (~> 7.0.6)
+  rails-erd (~> 1.7.2)
   rspec (~> 3.12.0)
   rspec-mocks (~> 3.12.6)
   rubocop-config-captive (~> 1.6.0)
