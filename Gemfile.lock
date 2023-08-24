@@ -295,7 +295,7 @@ DEPENDENCIES
   rspec-mocks (~> 3.12.6)
   rspec-rails (~> 6.0)
   rubocop-config-captive (~> 1.6.0)
-  sprockets-rails (>= 3.4.2)
+  sprockets-rails (~> 3.4.2)
   sqlite3 (~> 1.6.3)
   yard (~> 0.9.34)
 
