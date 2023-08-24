@@ -7,7 +7,7 @@
     "format": "concurrently \"npm:format:*\" \":\"",
     "format:rubocop": "bundle exec rubocop --no-server -a",
     "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml,vue",
-    "format:style": "stylelint '**/*.{scss,css,vue}' --fix",
+    "format:style": "stylelint '**/*.{scss,css,vue}' --allow-empty-input --fix",
     "lint": "concurrently \"npm:lint:*\" \":\"",
     "lint:rubocop": "bundle exec rubocop --no-server",
     "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml,vue",
