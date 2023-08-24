@@ -2,6 +2,7 @@
   "name": "@captive/authentication",
   "private": true,
   "scripts": {
+    "_pretest:rspec-ci": "if [ \"$CI\" ]; then bundle exec rake db:create && bundle exec rake db:migrate; fi",
     "build": "concurrently \"npm:build:*\" \":\"",
     "clean": "concurrently \"npm:clean:*\" \":\"",
     "format": "concurrently \"npm:format:*\" \":\"",
@@ -16,7 +17,7 @@
     "prepublishOnly": "npm run clean; npm run build",
     "spellcheck": "cspell --no-progress '**'",
     "test": "concurrently \"npm:test:*\" \":\"",
-    "test:rspec": "bundle exec rake spec",
+    "test:rspec": "npm run _pretest:rspec-ci && bundle exec rake spec",
     "test:src": ""
   }
 }
