@@ -1,5 +1,4 @@
 # BEGIN ### Typescript ###
-lib/
 *.tsbuildinfo
 typings/
 # END ### Typescript ###
@@ -143,7 +142,6 @@ Temporary Items
 pkg/
 tmp/
 
-!*/lib/
 !*/doc/
 
 ## Documentation cache and generated files:
