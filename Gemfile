@@ -25,6 +25,7 @@ group :test do
   gem "rspec-mocks", "~> 3.12.6"
   gem "rspec-rails", "~> 6.0.3"
   gem "factory_bot_rails", "~> 6.2.0"
+  gem "webmock", "~> 3.18.1"
 end
 
 group :development, :test do
