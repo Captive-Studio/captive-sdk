@@ -55,5 +55,9 @@ trim_trailing_whitespace = false
 indent_size = 4
 indent_style = space
 
-[Makefile]
+[Makefile,*.{mk,make}]
 indent_style = tab
+
+[*.txt]
+trim_trailing_whitespace = false
+insert_final_newline = false
