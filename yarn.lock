@@ -1498,8 +1498,8 @@ __metadata:
   linkType: hard
 
 "cosmiconfig@npm:^8.2.0":
-  version: 8.3.4
-  resolution: "cosmiconfig@npm:8.3.4"
+  version: 8.3.5
+  resolution: "cosmiconfig@npm:8.3.5"
   dependencies:
     import-fresh: ^3.3.0
     js-yaml: ^4.1.0
@@ -1510,7 +1510,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 6e1d46d6f065d4abf6d237cbd60f7a8df2316541e1cd1edc1b742d00c64daf4e225813d14ad8fb8299852ca10ff8f3283978edce660e53906e7c85c5960088cb
+  checksum: c6e44bb3cabf268b70049e7bd4ee8ecf00068854e53cbc32f9104794927ef406817f9e64e1c4949bd10776b604c01f7b50674336fcd2d5b9efc4cf8277fdf025
   languageName: node
   linkType: hard
 
