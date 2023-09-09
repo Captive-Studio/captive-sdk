@@ -2994,9 +2994,9 @@ __metadata:
   linkType: hard
 
 "js-tokens@npm:^8.0.0":
-  version: 8.0.1
-  resolution: "js-tokens@npm:8.0.1"
-  checksum: fb7bcd476c5b902ffb766382ca85aecb86ec66a607e419377026293b5877774e465f6cbe4229c8d85db3776ccc91c3aee518a0e04a005e260e57353f6f9278a8
+  version: 8.0.2
+  resolution: "js-tokens@npm:8.0.2"
+  checksum: 347c75a179b626fe5fd72079f34ea6e311a8cdee20152fcb9d3cfea1ae7082d0101ae0f9cf80ba34160e1b44c1c1c70eb4eb7bc6272b1e327b274a1387b37ab4
   languageName: node
   linkType: hard
 
