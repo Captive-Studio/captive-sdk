@@ -5,7 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Specify your gem's dependencies in captive-sdk.gemspec.
 gemspec
 
-gem "rails", "~> 7.0.6"
+gem "rails", "~> 7.1.0"
 gem "puma", "~> 6.4.0"
 
 gem "sqlite3", "~> 1.6.3"
