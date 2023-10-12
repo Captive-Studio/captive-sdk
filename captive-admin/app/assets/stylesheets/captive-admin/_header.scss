@@ -1,4 +1,11 @@
 // ----------------------------------- Header
+@mixin chevron {
+  background-image: url($menu-arrow-light-icon-url);
+  background-size: 24px;
+  background-position-x: calc(100% - 4px);
+  padding-right: 28px;
+}
+
 #header {
   text-shadow: none;
   background: $bg-emphasis;
@@ -27,7 +34,6 @@
   }
 
   ul.tabs {
-
     li {
       &:hover > ul {
         display: block;
@@ -43,7 +49,7 @@
         background: none;
 
         &:before {
-          content: "";
+          content: '';
           background-color: $primary-emphasis;
           position: absolute;
           bottom: 0;
@@ -54,7 +60,12 @@
         }
       }
 
+      &.has_nested > a {
+        @include chevron;
+      }
+
       &.has_nested.current > a {
+        @include chevron;
         background-color: transparent;
       }
 
@@ -69,16 +80,16 @@
       }
 
       &.has_nested:hover > a {
-        @include rounded-all(20px,20px,20px,20px);
+        @include rounded-all(20px, 20px, 20px, 20px);
+        @include chevron;
         border-bottom: none;
-        background: $blue-grey-700;
+        background-color: $blue-grey-700;
       }
-
 
       /* Drop down menus */
       ul {
         background: $bg-default;
-        @include rounded-all(12px,12px,12px,12px);
+        @include rounded-all(12px, 12px, 12px, 12px);
         text-align: left;
         @include shadow-xs;
 
