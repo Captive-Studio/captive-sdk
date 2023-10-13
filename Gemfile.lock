@@ -103,7 +103,7 @@ GEM
     ast (2.4.2)
     base64 (0.1.1)
     bcrypt (3.1.19)
-    bigdecimal (1.4.4)
+    bigdecimal (3.1.4)
     builder (3.2.4)
     cancancan (3.5.0)
     choice (0.2.0)
