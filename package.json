@@ -6,7 +6,7 @@
   "scripts": {
     "build": "turbo run build",
     "clean": "turbo run clean",
-    "format": "turbo run format",
+    "format": "turbo run format --continue",
     "format:root": "concurrently \"npm:format:root:*\" \":\"",
     "format:root:eslint": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='captive-*/**' --fix",
     "format:root:rubocop": "bundle exec rubocop --no-server Gemfile *.rb -a",
