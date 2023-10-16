@@ -1,0 +1,18 @@
+.breadcrumb {
+  @include body-medium;
+
+  text-transform: none;
+  margin-bottom: 0;
+
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    color: $fg-subtle;
+  }
+
+  .breadcrumb_sep {
+    color: $primary-fg;
+    font-weight: bold;
+  }
+}

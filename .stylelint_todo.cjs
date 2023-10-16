@@ -12,5 +12,11 @@ module.exports = {
         'selector-class-pattern': null,
       },
     },
+    {
+      files: ['captive-theme/**'],
+      rules: {
+        'alpha-value-notation': null,
+      },
+    },
   ],
 };

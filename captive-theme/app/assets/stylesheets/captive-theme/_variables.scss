@@ -7,6 +7,7 @@ $blue-grey-700: #334e68 !default;
 $blue-grey-600: #486581 !default;
 $blue-grey-500: #5e7997 !default;
 $blue-grey-200: #bcccdc !default;
+$blue-grey-100: #d9e2ec !default;
 $blue-grey-050: #f5f7fa !default;
 $pink-vivid-500: #d9127c !default;
 $pink-vivid-400: #e8368f !default;
@@ -106,6 +107,7 @@ $title-font-family:
   helvetica neue !default;
 
 // Fonts sizes
+// Body
 $f1: 24px;
 $f2: 20px;
 $f3: 18px;
@@ -113,20 +115,23 @@ $f4: 16px;
 $f5: 14px;
 $f6: 12px;
 
+// Headers
+$h1: 30px;
+
 // Shadows
 $shadow-xs:
-  0 1px 3px rgba(0, 0, 0, 12%),
-  0 1px 2px rgba(0, 0, 0, 24%);
+  0 1px 3px rgba(0, 0, 0, 0.12),
+  0 1px 2px rgba(0, 0, 0, 0.24);
 $shadow-s:
-  0 3px 6px rgba(0, 0, 0, 15%),
-  0 2px 4px rgba(0, 0, 0, 12%);
+  0 3px 6px rgba(0, 0, 0, 0.15),
+  0 2px 4px rgba(0, 0, 0, 0.12);
 $shadow-m:
-  0 10px 20px rgba(0, 0, 0, 15%),
-  0 3px 6px rgba(0, 0, 0, 10%);
+  0 10px 20px rgba(0, 0, 0, 0.15),
+  0 3px 6px rgba(0, 0, 0, 0.1);
 $shadow-l:
-  0 15px 25px rgba(0, 0, 0, 15%),
-  0 5px 10px rgba(0, 0, 0, 5%);
-$shadow-xl: 0 20px 40px rgba(0, 0, 0, 20%);
+  0 15px 25px rgba(0, 0, 0, 0.15),
+  0 5px 10px rgba(0, 0, 0, 0.5);
+$shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.2);
 
 // radius
 $border-radius-s: 12px !default;
