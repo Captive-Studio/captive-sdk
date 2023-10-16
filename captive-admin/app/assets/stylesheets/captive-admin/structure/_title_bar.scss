@@ -1,4 +1,13 @@
 #title_bar {
+  border-bottom: none;
+  background: none;
+  box-shadow: none;
+  padding: $spacer-3 $spacer-6;
+
+  h2 {
+    @include title-large;
+  }
+
   .action_items {
     span.action_item {
       & > a,

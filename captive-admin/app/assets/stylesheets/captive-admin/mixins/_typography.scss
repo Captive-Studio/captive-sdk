@@ -9,3 +9,13 @@
 @mixin title-family {
   font-family: $title-font-family;
 }
+
+@mixin body-medium {
+  font-size: $f5;
+  line-height: 1.5;
+}
+
+@mixin title-large {
+  font-size: $h1;
+  line-height: 1.125;
+}
