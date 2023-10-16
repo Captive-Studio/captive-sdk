@@ -2,6 +2,8 @@
 // https://www.notion.so/Nuanciers-Captive-pour-le-web-et-mobile-ee189f2db6e543e6bc7cba77c9e8dff5
 $white: #fff !default;
 $blue-grey-900: #102a43 !default;
+$blue-grey-800: #243b53 !default;
+$blue-grey-700: #334e68 !default;
 $blue-grey-600: #486581 !default;
 $blue-grey-500: #5e7997 !default;
 $blue-grey-200: #bcccdc !default;
@@ -103,20 +105,28 @@ $title-font-family:
   cantarell,
   helvetica neue !default;
 
+// Fonts sizes
+$f1: 24px;
+$f2: 20px;
+$f3: 18px;
+$f4: 16px;
+$f5: 14px;
+$f6: 12px;
+
 // Shadows
 $shadow-xs:
-  0 1px 3px rgb(0 0 0 / 12%),
-  0 1px 2px rgb(0 0 0 / 24%) !default;
+  0 1px 3px rgba(0, 0, 0, 12%),
+  0 1px 2px rgba(0, 0, 0, 24%);
 $shadow-s:
-  0 3px 6px rgb(0 0 0 / 15%),
-  0 2px 4px rgb(0 0 0 / 12%) !default;
+  0 3px 6px rgba(0, 0, 0, 15%),
+  0 2px 4px rgba(0, 0, 0, 12%);
 $shadow-m:
-  0 10px 20px rgb(0 0 0 / 15%),
-  0 3px 6px rgb(0 0 0 / 10%) !default;
+  0 10px 20px rgba(0, 0, 0, 15%),
+  0 3px 6px rgba(0, 0, 0, 10%);
 $shadow-l:
-  0 15px 25px rgb(0 0 0 / 15%),
-  0 5px 10px rgb(0 0 0 / 5%) !default;
-$shadow-xl: 0 20px 40px rgb(0 0 0 / 20%) !default;
+  0 15px 25px rgba(0, 0, 0, 15%),
+  0 5px 10px rgba(0, 0, 0, 5%);
+$shadow-xl: 0 20px 40px rgba(0, 0, 0, 20%);
 
 // radius
 $border-radius-s: 12px !default;

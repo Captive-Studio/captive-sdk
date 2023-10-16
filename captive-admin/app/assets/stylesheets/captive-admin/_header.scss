@@ -1,10 +1,27 @@
 // ----------------------------------- Header
+@mixin chevron {
+  background-image: url($menu-arrow-light-icon-url);
+  background-size: 24px;
+  background-position-x: calc(100% - 4px);
+  padding-right: 28px;
+}
+
 #header {
   text-shadow: none;
   background: $bg-emphasis;
+  padding: 0 $spacer-6;
 
   h1 {
     color: $fg-on-emphasis;
+    padding-left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+    img {
+      top: 0;
+      height: 24px;
+    }
   }
 
   a,
@@ -12,23 +29,93 @@
     color: $fg-on-emphasis;
   }
 
+  .header-item {
+    top: 0;
+  }
+
   ul.tabs {
+    li {
+      &:hover > ul {
+        display: block;
+        margin-top: $spacer-2;
+        padding: $spacer-3 0;
+      }
+    }
+
     & > li {
+      font-size: $f5;
+
       &.current > a {
-        background: $accent-subtle;
-        color: $fg-default;
+        background: none;
+
+        &::before {
+          content: '';
+          background-color: $primary-emphasis;
+          position: absolute;
+          bottom: 0;
+          width: 19px;
+          height: 2px;
+          left: 50%;
+          margin-left: -9px;
+        }
+      }
+
+      &.has_nested > a {
+        @include chevron;
+      }
+
+      &.has_nested.current > a {
+        @include chevron;
+
+        background-color: transparent;
+      }
+
+      a {
+        padding: $spacer-2 $spacer-3;
+        font-weight: bold;
+        border-radius: 20px;
       }
 
       &:hover > a {
-        background: $accent-subtle;
-        color: $accent-fg;
+        background: $blue-grey-700;
+      }
+
+      &.has_nested:hover > a {
+        @include rounded-all(20px, 20px, 20px, 20px);
+        @include chevron;
+
+        border-bottom: none;
+        background-color: $blue-grey-700;
+      }
+
+      /* Drop down menus */
+      ul {
+        background: $bg-default;
+        @include rounded-all(12px, 12px, 12px, 12px);
+
+        text-align: left;
+        @include shadow-xs;
+
+        li {
+          a {
+            color: $fg-default;
+
+            &:hover {
+              background: $bg-subtle;
+              color: $fg-default;
+              border-radius: 0;
+            }
+          }
+        }
       }
     }
   }
 
+  #tabs {
+    text-align: center;
+  }
+
   #utility_nav {
-    a:hover {
-      color: $accent-fg;
-    }
+    padding-right: 0;
   }
 }
