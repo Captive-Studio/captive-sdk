@@ -1,5 +1,5 @@
 // ----------------------------------- Header
-@mixin chevron {
+@mixin down-arrow {
   background-image: url($menu-arrow-light-icon-url);
   background-size: 24px;
   background-position-x: calc(100% - 4px);
@@ -61,11 +61,11 @@
       }
 
       &.has_nested > a {
-        @include chevron;
+        @include down-arrow;
       }
 
       &.has_nested.current > a {
-        @include chevron;
+        @include down-arrow;
 
         background-color: transparent;
       }
@@ -82,7 +82,7 @@
 
       &.has_nested:hover > a {
         @include rounded-all(20px, 20px, 20px, 20px);
-        @include chevron;
+        @include down-arrow;
 
         border-bottom: none;
         background-color: $blue-grey-700;
