@@ -15,6 +15,11 @@
   line-height: 1.5;
 }
 
+@mixin body-small {
+  font-size: $f6;
+  line-height: 1.5;
+}
+
 @mixin title-large {
   font-size: $h1;
   line-height: 1.125;

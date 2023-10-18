@@ -43,8 +43,6 @@
     }
 
     & > li {
-      font-size: $f5;
-
       &.current > a {
         background: none;
 
@@ -94,7 +92,7 @@
         @include rounded-all(12px, 12px, 12px, 12px);
 
         text-align: left;
-        @include shadow-xs;
+        box-shadow: $shadow-m;
 
         li {
           a {
