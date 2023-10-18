@@ -64,4 +64,10 @@
 
 @mixin light-button {
   @include outline-button;
+
+  &:not(.disabled) {
+    &:hover {
+      background-color: $bg-subtle;
+    }
+  }
 }
