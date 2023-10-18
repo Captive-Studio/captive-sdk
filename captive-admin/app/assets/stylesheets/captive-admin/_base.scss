@@ -17,5 +17,6 @@
 
   body {
     color: $fg-default;
+    @include body-medium;
   }
 }
