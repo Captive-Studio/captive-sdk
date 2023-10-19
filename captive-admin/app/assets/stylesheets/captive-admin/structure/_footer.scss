@@ -1,0 +1,19 @@
+#footer {
+  background: $bg-subtle;
+  padding: $spacer-4 $spacer-6;
+  @include body-medium;
+
+  clear: both;
+
+  p {
+    padding-top: $spacer-4;
+  }
+}
+
+#index_footer {
+  padding-top: $spacer-1;
+  text-align: right;
+  @include body-small;
+
+  margin-bottom: $spacer-6;
+}
