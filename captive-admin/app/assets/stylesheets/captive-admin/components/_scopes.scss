@@ -1,0 +1,11 @@
+.scopes {
+  li {
+    .count {
+      color: $fg-default;
+    }
+
+    &:first-child a {
+      margin-left: 0;
+    }
+  }
+}
