@@ -50,7 +50,7 @@
     "@captive/eslint-config": "2.0.1",
     "@captive/stylelint-config": "2.0.1",
     "@captive/ts-config": "2.0.0",
-    "concurrently": "8.2.1",
+    "concurrently": "8.2.2",
     "eslint": "8.51.0",
     "prettier": "3.0.3",
     "stylelint": "15.11.0",
