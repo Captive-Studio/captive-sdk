@@ -35,5 +35,13 @@ table.index_table {
     border-bottom: 1px solid $border-color;
     vertical-align: middle;
     padding: $spacer-4;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      text-align: right;
+    }
   }
 }
