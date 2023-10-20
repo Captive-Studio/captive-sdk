@@ -1,8 +1,68 @@
 form {
+  width: $spacer-13;
+  padding: $spacer-5 0;
+
   fieldset {
+    padding: 0;
+    margin: 0;
+
     &.inputs {
       background-color: $bg-subtle;
+      box-shadow: none;
+      border-radius: 0;
     }
+
+    ol > li {
+      padding: 0;
+      margin-bottom: $spacer-5;
+
+      label {
+        @include body-medium;
+
+        float: none;
+        width: auto;
+        margin-bottom: $spacer-1;
+
+        abbr {
+          color: $primary-fg;
+          padding-left: $spacer-1;
+
+          &[title] {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  /* Text Fields */
+  input[type='text'],
+  input[type='password'],
+  input[type='email'],
+  input[type='number'],
+  input[type='url'],
+  input[type='tel'],
+  input[type='date'],
+  input[type='time'],
+  textarea {
+    width: 100%;
+    border-color: $border-color;
+    @include body-large;
+
+    border-radius: $border-radius-xs;
+    padding: $spacer-3;
+
+    &:focus {
+      border: 2px solid $border-color-emphasis;
+      box-shadow: none;
+    }
+  }
+
+  /* Errors */
+  p.inline-errors {
+    font-weight: bold;
+    margin: $spacer-1 0;
+    text-align: right;
   }
 
   /* Buttons */
@@ -12,5 +72,37 @@ form {
     @include primary-button;
 
     cursor: pointer;
+  }
+
+  .buttons,
+  .actions {
+    margin-top: $spacer-5;
+  }
+
+  fieldset.buttons li,
+  fieldset.actions li {
+    float: none;
+    margin-bottom: 0;
+
+    &.cancel a {
+      outline: 0;
+      box-shadow: none;
+      text-decoration: underline;
+      padding-left: 0;
+      color: $fg-muted;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .actions {
+    ol {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }

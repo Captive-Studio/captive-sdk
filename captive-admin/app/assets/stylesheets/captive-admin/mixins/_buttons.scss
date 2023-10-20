@@ -28,6 +28,9 @@
   border: none;
   text-shadow: none;
   box-shadow: $shadow-s;
+  @include body-medium;
+
+  padding: $spacer-3 $spacer-4;
 
   &:not(.disabled) {
     &:hover {

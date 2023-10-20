@@ -10,6 +10,11 @@
   font-family: $title-font-family;
 }
 
+@mixin body-large {
+  font-size: $f4;
+  line-height: 1.5;
+}
+
 @mixin body-medium {
   font-size: $f5;
   line-height: 18px;
