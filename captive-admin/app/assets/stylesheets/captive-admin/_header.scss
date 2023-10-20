@@ -71,7 +71,7 @@
       a {
         padding: $spacer-2 $spacer-4;
         font-weight: bold;
-        border-radius: 20px;
+        border-radius: $border-radius-m;
       }
 
       &:hover > a {
