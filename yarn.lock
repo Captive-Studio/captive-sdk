@@ -133,9 +133,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/stylelint-config@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@captive/stylelint-config@npm:2.0.1"
+"@captive/stylelint-config@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@captive/stylelint-config@npm:2.0.2"
   dependencies:
     "@captive/prettier-config": ^2.0.0
     postcss: ^8.4.14
@@ -153,7 +153,7 @@ __metadata:
   peerDependenciesMeta:
     stylelint:
       optional: true
-  checksum: 7d0cac968b3ededb4b84f429efab66f56e6e273e1ab032ad172fe385011b08daa34b1ce4f56cbdff79234ed3a1fd67af54c227287935e6e629d73ac0179396b5
+  checksum: c2be753fc10196206c7c0f5d17d460a0cd55c1bc4c9760a21c58e3b11ab80a7884bae1cbeffd1f3505429ad2a7231bae7db91066a60346ab9551033c2c046394
   languageName: node
   linkType: hard
 
@@ -3997,7 +3997,7 @@ __metadata:
     "@captive/commitlint-config": 2.0.0
     "@captive/cspell-config": 2.1.0
     "@captive/eslint-config": 2.0.1
-    "@captive/stylelint-config": 2.0.1
+    "@captive/stylelint-config": 2.0.2
     "@captive/ts-config": 2.0.0
     concurrently: 8.2.2
     eslint: 8.51.0
