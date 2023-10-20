@@ -35,16 +35,16 @@ a.table_tools_button,
   li {
     a {
       border: 1px solid $border-color;
-      border-radius: 20px;
+      border-radius: $border-radius-m;
       margin-right: $spacer-2;
     }
 
     &:first-child a {
-      border-radius: 20px;
+      border-radius: $border-radius-m;
     }
 
     &:last-child a {
-      border-radius: 20px;
+      border-radius: $border-radius-m;
     }
 
     &.selected a {
