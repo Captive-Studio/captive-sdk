@@ -20,6 +20,9 @@
   @import './structure/main_structure';
   @import './structure/title_bar';
 
+  // Addons
+  @import 'inputs/date-time-picker';
+
   body {
     color: $fg-default;
     @include body-medium;
