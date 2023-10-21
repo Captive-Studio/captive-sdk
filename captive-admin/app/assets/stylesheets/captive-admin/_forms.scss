@@ -12,6 +12,25 @@ form {
       border-radius: 0;
     }
 
+    &.grouped-inputs {
+      ol {
+        display: flex;
+
+        li {
+          margin-left: $spacer-3;
+          margin-right: $spacer-3;
+
+          &:first-child {
+            margin-left: 0;
+          }
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
     ol > li {
       padding: 0;
       margin-bottom: $spacer-5;
