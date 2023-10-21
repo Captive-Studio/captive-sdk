@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    captive-crash-reporter (0.1.0.alpha)
+    captive-crash-reporter (0.2.5)
       sentry-rails (>= 5.10.0)
       sentry-ruby (>= 5.10.0)
       sentry-sidekiq (>= 5.10.0)
@@ -59,7 +59,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
-    psych (5.1.1)
+    psych (5.1.1.1)
       stringio
     puma (6.4.0)
       nio4r (~> 2.0)
@@ -118,7 +118,7 @@ GEM
     sqlite3 (1.6.7-arm64-darwin)
     sqlite3 (1.6.7-x86_64-linux)
     stringio (3.0.8)
-    thor (1.2.2)
+    thor (1.3.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     webrick (1.8.1)
