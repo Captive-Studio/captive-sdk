@@ -81,18 +81,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/cspell-config@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@captive/cspell-config@npm:2.1.0"
+"@captive/cspell-config@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@captive/cspell-config@npm:2.1.1"
   dependencies:
     "@cspell/dict-fr-fr": ^2.2.0
-    "@w5s/cspell-config": ^1.0.0-alpha.12
+    "@w5s/cspell-config": ^2.0.0
   peerDependencies:
     cspell: ^6.0.0 || ^7.0.0
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: ce9498fe779de2a0f258e5d6441dcf2d946b9d716cf5a670103e76da6d4c11f83d4e64c086c51d60ba145c1c88f6fb547099555b0fbc5b85a2e0a61592a5a184
+  checksum: 8e18b8e3821475119333ee3eda3d4d1ff3ce7856696214483cdfe394d595f0cc4bec578b65a56f8c5d543ca54ebb84718e6360728708b89cb1dd96bcb11b899e
   languageName: node
   linkType: hard
 
@@ -1015,9 +1015,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/cspell-config@npm:^1.0.0-alpha.12":
-  version: 1.2.1
-  resolution: "@w5s/cspell-config@npm:1.2.1"
+"@w5s/cspell-config@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "@w5s/cspell-config@npm:2.0.1"
   dependencies:
     "@cspell/cspell-bundled-dicts": ^7.0.0
   peerDependencies:
@@ -1025,7 +1025,7 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 1cb6b57bd16323fcc723571ed0da572938220fb98f9b8319d5f76f3b427b672e558d23f040801bfcbe2037d10cae1bd4c363d14aedfa758e742466361e30b21e
+  checksum: 1c199fdace19d5b0aecbfcd3d3d7bae44d314b594f70065430da3a1b8d50e7c09b6bbb823c868acb6a09451182b242e57150783c4faee06ed90ae94fe24ce05c
   languageName: node
   linkType: hard
 
@@ -4013,7 +4013,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@captive/commitlint-config": 2.0.0
-    "@captive/cspell-config": 2.1.0
+    "@captive/cspell-config": 2.1.1
     "@captive/eslint-config": 2.0.2
     "@captive/stylelint-config": 2.0.2
     "@captive/ts-config": 2.0.0
