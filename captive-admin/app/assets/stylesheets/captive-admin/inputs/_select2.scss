@@ -1,0 +1,17 @@
+.select2-container {
+  width: 100% !important;
+}
+
+.select2-container--default .select2-selection--single {
+  padding: $spacer-3;
+  box-sizing: content-box;
+  border-color: $border-color;
+  border-radius: $border-radius-s;
+  height: $spacer-5;
+
+  @include body-large;
+
+  .select2-selection__rendered {
+    padding: 0;
+  }
+}
