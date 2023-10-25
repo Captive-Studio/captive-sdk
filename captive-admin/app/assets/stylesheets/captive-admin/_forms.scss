@@ -79,6 +79,16 @@ form {
     }
   }
 
+  fieldset > ol > li {
+    /* Boolean Field */
+    &.boolean {
+      label {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
   /* Errors */
   p.inline-errors {
     font-weight: bold;
