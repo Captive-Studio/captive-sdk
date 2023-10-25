@@ -1,26 +1,26 @@
 PATH
   remote: .
   specs:
-    captive-admin (0.2.6)
-      captive-theme (= 0.2.6)
+    captive-admin (0.2.7)
+      captive-theme (= 0.2.7)
       rails (>= 7.0.0)
-    captive-api (0.2.6)
+    captive-api (0.2.7)
       cancancan (>= 3.5.0)
       oj (>= 3.15.0)
       rails (>= 7.0.0)
-    captive-authentication (0.2.6)
+    captive-authentication (0.2.7)
       devise (~> 4.9.2)
       devise-i18n (~> 1.11.0)
       email_validator (~> 2.2.4)
       httparty (~> 0.21.0)
       omniauth (~> 2.1.1)
       rails (>= 7.0.0)
-    captive-sdk (0.2.6)
-      captive-admin (= 0.2.6)
-      captive-api (= 0.2.6)
-      captive-authentication (= 0.2.6)
-      captive-theme (= 0.2.6)
-    captive-theme (0.2.6)
+    captive-sdk (0.2.7)
+      captive-admin (= 0.2.7)
+      captive-api (= 0.2.7)
+      captive-authentication (= 0.2.7)
+      captive-theme (= 0.2.7)
+    captive-theme (0.2.7)
 
 GEM
   remote: https://rubygems.org/
