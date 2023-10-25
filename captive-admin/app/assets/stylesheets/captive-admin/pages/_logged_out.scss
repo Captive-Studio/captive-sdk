@@ -1,9 +1,69 @@
 body.logged_out {
   background: $bg-subtle;
 
+  #content_wrapper {
+    width: 450px;
+    margin: $spacer-10 auto;
+
+    #active_admin_content {
+      background: $bg-default;
+      box-shadow: $shadow-m;
+      border-radius: $border-radius-s;
+      padding: $spacer-6;
+    }
+  }
+
   h2 {
-    background-color: $bg-emphasis;
+    background-color: transparent;
     background-image: none;
     text-shadow: none;
+    text-align: center;
+    box-shadow: none;
+    color: $fg-default;
+    @include title-large;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  #login {
+    /* Login Form */
+    form {
+      border-bottom: 1px solid $border-color;
+      margin-bottom: $spacer-6;
+      padding: $spacer-6 0;
+
+      fieldset {
+        li {
+          padding: 0;
+          margin-bottom: $spacer-6;
+
+          &:last-child {
+            margin: 0;
+          }
+        }
+
+        &.actions {
+          ol {
+            display: block;
+          }
+
+          input {
+            width: 100%;
+          }
+        }
+
+        input[type='text'],
+        input[type='email'],
+        input[type='password'] {
+          width: 100%;
+        }
+      }
+    }
+
+    a {
+      float: none;
+      margin-top: 0;
+    }
   }
 }
