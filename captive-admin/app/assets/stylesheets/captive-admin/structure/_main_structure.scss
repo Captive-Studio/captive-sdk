@@ -2,13 +2,23 @@
   padding: 0;
 
   &.with_sidebar {
-    padding-right: $spacer-6;
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   #main_content_wrapper {
     #main_content {
       padding: $spacer-4 $spacer-6;
       background: $bg-subtle;
+      margin-right: 0;
     }
+  }
+
+  #sidebar {
+    float: none;
+    width: 350px;
+    margin-left: 0;
+    flex-shrink: 0;
+    padding: $spacer-4 $spacer-6;
   }
 }

@@ -25,7 +25,28 @@
   line-height: 1.5;
 }
 
+@mixin title {
+  font-family: $title-font-family;
+  font-weight: bold;
+}
+
 @mixin title-large {
+  @include title;
+
   font-size: $h1;
   line-height: 1.125;
+}
+
+@mixin title-medium {
+  @include title;
+
+  font-size: $h2;
+  line-height: 1.5;
+}
+
+@mixin title-small {
+  @include title;
+
+  font-size: $f4;
+  line-height: 1.5;
 }

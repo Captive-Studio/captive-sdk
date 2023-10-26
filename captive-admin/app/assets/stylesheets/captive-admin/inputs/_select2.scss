@@ -1,17 +1,101 @@
-.select2-container {
-  width: 100% !important;
+.filter_form_field {
+  .select2-container {
+    margin-bottom: $spacer-4;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &--default {
+      .select2-selection {
+        &--single,
+        &--multiple {
+          @include body-medium;
+
+          min-height: $spacer-4;
+        }
+      }
+    }
+  }
 }
 
-.select2-container--default .select2-selection--single {
-  padding: $spacer-3;
-  box-sizing: content-box;
-  border-color: $border-color;
-  border-radius: $border-radius-s;
-  height: $spacer-5;
+.select2-container {
+  width: 100% !important;
 
-  @include body-large;
+  &--default {
+    .select2-selection {
+      &--single,
+      &--multiple {
+        padding: $spacer-3;
+        box-sizing: content-box;
+        border-color: $border-color;
+        border-radius: $border-radius-s;
+        height: auto;
 
-  .select2-selection__rendered {
-    padding: 0;
+        @include body-large;
+
+        .select2-selection {
+          &__rendered {
+            padding: 0;
+            line-height: inherit;
+
+            li {
+              margin-top: 0;
+            }
+          }
+
+          &__clear {
+            margin-top: 0;
+            margin-right: $spacer-4;
+          }
+
+          &__arrow {
+            top: 50%;
+            margin-top: -$spacer-3;
+            right: $spacer-2;
+          }
+        }
+      }
+
+      &--multiple {
+        padding-right: $spacer-5;
+
+        .select2-selection {
+          &__rendered {
+            display: flex;
+            flex-wrap: wrap;
+          }
+
+          &__clear {
+            position: absolute;
+            right: $spacer-3;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    &.select2-container--focus {
+      .select2-selection {
+        &--single,
+        &--multiple {
+          border: 2px solid $border-color-emphasis;
+        }
+      }
+    }
+
+    .select2-search {
+      &--inline {
+        .select2-search {
+          &__field {
+            margin-top: 0;
+          }
+        }
+      }
+    }
   }
+}
+
+.select2-search__field {
+  @include body-medium;
 }
