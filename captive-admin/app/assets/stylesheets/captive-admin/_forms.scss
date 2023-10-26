@@ -107,7 +107,14 @@ form {
 
   .buttons,
   .actions {
-    margin-top: $spacer-5;
+    padding: $spacer-5 0;
+    margin-top: 0;
+
+    input[type='submit'],
+    input[type='button'],
+    button {
+      margin-right: 0;
+    }
   }
 
   fieldset.buttons li,
@@ -116,15 +123,7 @@ form {
     margin-bottom: 0;
 
     &.cancel a {
-      outline: 0;
-      box-shadow: none;
-      text-decoration: underline;
-      padding-left: 0;
-      color: $fg-muted;
-
-      &:hover {
-        text-decoration: none;
-      }
+      @include cancel-link;
     }
   }
 
@@ -135,5 +134,73 @@ form {
       justify-content: space-between;
       align-items: center;
     }
+  }
+}
+
+// -------------------------------------- Sidebar Forms
+
+.sidebar_section {
+  label {
+    text-transform: none;
+    color: $form-label-color;
+    @include body-medium;
+
+    margin-bottom: $spacer-4;
+    width: 100%;
+    font-weight: normal;
+  }
+
+  input[type='text'],
+  input[type='password'],
+  input[type='email'],
+  input[type='url'],
+  input[type='tel'],
+  textarea {
+    @include body-medium;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+// -------------------------------------- Filter Forms
+
+form.filter_form {
+  .filter_form_field {
+    padding: $spacer-5 0;
+    margin: 0;
+    border-bottom: 1px solid $border-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &:first-child {
+      border-top: 1px solid $border-color;
+    }
+
+    &.select_and_search {
+      input[type='text'] {
+        flex: 1;
+        margin-left: 0;
+      }
+    }
+
+    &.filter_date_range {
+      input[type='text'] {
+        flex: 1;
+
+        + input {
+          margin-left: $spacer-4;
+        }
+      }
+    }
+  }
+
+  a.clear_filters_btn {
+    @include cancel-link;
   }
 }

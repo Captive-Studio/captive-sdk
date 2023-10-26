@@ -74,3 +74,17 @@
     }
   }
 }
+
+@mixin cancel-link {
+  outline: 0;
+  box-shadow: none;
+  text-decoration: underline;
+  padding-left: 0;
+  color: $fg-muted;
+  background: transparent;
+
+  &:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+  }
+}
