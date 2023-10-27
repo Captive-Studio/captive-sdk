@@ -23,6 +23,6 @@
   ],
   "ignoreWords": ["recupere", "reponse"],
   "flagWords": [],
-  "ignorePaths": [ "**/dummy/**"],
+  "ignorePaths": ["**/dummy/**"],
   "import": ["@captive/cspell-config"]
 }
