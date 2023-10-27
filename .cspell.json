@@ -1,9 +1,28 @@
 {
   "version": "0.2",
   "language": "en,fr",
-  "words": [],
-  "ignoreWords": [],
+  "words": [
+    "omniauth",
+    "omniauthable",
+    "validatable",
+    "reconfirmable",
+    "uuid",
+    "datetime",
+    "bson",
+    "mongoid",
+    "timeoutable",
+    "encryptable",
+    "csrf",
+    "Railtie",
+    "behaviours",
+    "behaviour",
+    "pgcrypto",
+    "authlogic",
+    "encryptor",
+    "srand"
+  ],
+  "ignoreWords": ["recupere", "reponse"],
   "flagWords": [],
-  "ignorePaths": ["**/package.json", "Gemfile"],
+  "ignorePaths": [ "**/dummy/**"],
   "import": ["@captive/cspell-config"]
 }
