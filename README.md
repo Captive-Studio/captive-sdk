@@ -6,9 +6,11 @@
 Captive SDK is a tool that includes everything needed to create an web application quickly
 
 ## Usage
+
 How to use my plugin.
 
 ## Installation
+
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -23,8 +25,9 @@ gem "captive-sdk"
 ```
 
 And then execute:
+
 ```bash
-$ bundle
+bundle
 ```
 
 ## Frameworks and libraries
@@ -33,8 +36,7 @@ $ bundle
 - [captive-admin](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-admin/README.md), A UI theme for **ActiveAdmin** that follows [Captive](https://captive.fr)'s Design System
 - [captive-api](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-api/README.md), a library to made an API quickly
 - [captive-theme](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-theme/README.md), A UI theme that follows [Captive](https://captive.fr)'s Design System
-- [captive-crash-reporter](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-crash-reporter/README.md), A crash reporter for [Captive](https://captive.fr) who send errros on [Sentry](https://sentry.io/)
-
+- [captive-crash-reporter](https://github.com/Captive-Studio/captive-sdk/blob/main/captive-crash-reporter/README.md), A crash reporter for [Captive](https://captive.fr) who send errors on [Sentry](https://sentry.io/)
 
 ## Contributing
 
@@ -52,11 +54,12 @@ The purpose of captive-sdk is to create a SaaS Framework to build products faste
 
 It was inspired by :
 
-- https://businessclasskit.com/
-- https://bullettrain.co/
-- https://github.com/archonic/limestone/tree/master
-- https://jumpstartrails.com/
-- https://www.getsjabloon.com/
+- <https://businessclasskit.com/>
+- <https://bullettrain.co/>
+- <https://github.com/archonic/limestone/tree/master>
+- <https://jumpstartrails.com/>
+- <https://www.getsjabloon.com/>
 
 ## License
+
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

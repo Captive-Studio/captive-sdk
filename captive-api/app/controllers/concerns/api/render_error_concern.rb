@@ -22,7 +22,7 @@ module API
         message: "Erreur de validation"
       )
         errors = object.errors.messages
-        Rails.logger.error("Impossible de sauvagarder l'objet #{object.class} : #{errors}")
+        Rails.logger.error("Impossible de sauvegarder l'objet #{object.class} : #{errors}")
         render_error(
           message: message, errors: errors, status: status
         )

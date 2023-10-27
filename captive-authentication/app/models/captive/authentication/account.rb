@@ -1,7 +1,7 @@
 # {Account} is model responsible for storing account information.
 #
 # @!attribute id
-#   @return [Integer] DO NOT USE THIS ID IN EXTERNE OF THIS GEM
+#   @return [Integer] DO NOT USE THIS ID EXTERIOR TO THIS GEM
 #
 # @!attribute uid
 #   @return [UUID] ID of the {Patient} in UUID format.
