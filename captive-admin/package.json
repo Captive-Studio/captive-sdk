@@ -14,7 +14,7 @@
     "lint:style": "stylelint '**/*.{scss,css,vue}' --allow-empty-input",
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepublishOnly": "npm run clean; npm run build",
-    "spellcheck": "cspell --no-progress '**'",
+    "spellcheck": "npx cspell --no-progress '**'",
     "test": "concurrently \"npm:test:*\" \":\"",
     "test:rspec": "bundle exec rake spec",
     "test:src": ""
