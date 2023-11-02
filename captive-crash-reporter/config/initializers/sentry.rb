@@ -1,4 +1,4 @@
-sentry_dsn =  ENV.fetch("SENTRY_DSN", nil)
+sentry_dsn = ENV.fetch("SENTRY_DSN", nil)
 
 if sentry_dsn
   Sentry.init do |config|
