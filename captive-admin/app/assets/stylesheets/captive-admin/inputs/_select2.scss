@@ -24,6 +24,8 @@
 
   &--default {
     .select2-selection {
+      min-height: 24px;
+
       &--single,
       &--multiple {
         padding: $spacer-3;
