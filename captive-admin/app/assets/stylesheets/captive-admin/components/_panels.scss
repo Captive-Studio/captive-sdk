@@ -4,6 +4,10 @@
   @include section;
 }
 
+.panel {
+  background: $bg-subtle;
+}
+
 // ----------------------------------- Sidebar Sections
 
 .sidebar_section {
