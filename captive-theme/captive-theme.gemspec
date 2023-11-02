@@ -21,5 +21,9 @@ Gem::Specification.new do |spec|
       Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
     end
 
-  # spec.add_dependency "rails", ">= 7.1.0.alpha"
+  spec.add_dependency "formtastic", "~> 3.1", ">= 3.1.4"
+
+  spec.add_development_dependency "rspec-rails"
+  spec.add_development_dependency "rspec-mocks"
+  spec.add_development_dependency "rails-dummy"
 end
