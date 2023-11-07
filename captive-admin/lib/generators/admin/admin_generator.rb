@@ -52,7 +52,7 @@ end
 active_admin_form_for [:admin, resource] do |f|
   f.semantic_errors
   f.inputs do
-    #{permit_params.map { |p| "f.input :#{p}" }.join("\n    ")}
+    #{form_inputs.map { |p| "f.input :#{p}" }.join("\n    ")}
   end
   f.actions
 end
@@ -64,6 +64,20 @@ end
       class_name.constantize
         .columns
         .map(&:name)
+  end
+
+  def columns_with_associations
+    @columns_with_associations ||=
+      columns.map do |c|
+        association =
+          class_name.constantize.reflect_on_all_associations.find do |a|
+            a.association_foreign_key == c
+          end
+
+        next c if association.blank?
+
+        association.name.to_s
+      end
   end
 
   PERMIT_PARAMS_EXCLUDED = [
@@ -86,11 +100,16 @@ end
 
   INDEX_EXCLUDED = PERMIT_PARAMS_EXCLUDED
   def index_columns
-    columns.excluding(INDEX_EXCLUDED)
+    columns_with_associations.excluding(INDEX_EXCLUDED)
   end
 
   SHOW_EXCLUDED = ["encrypted_password"].freeze
   def show_rows
-    columns.excluding(INDEX_EXCLUDED)
+    columns_with_associations.excluding(SHOW_EXCLUDED)
+  end
+
+  INPUT_EXCLUDED = INDEX_EXCLUDED
+  def form_inputs
+    columns_with_associations.excluding(INPUT_EXCLUDED)
   end
 end
