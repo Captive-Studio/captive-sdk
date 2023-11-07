@@ -27,7 +27,7 @@ module SentryContextConcern
       return if params.blank?
 
       # utilisation de `#to_unsafe_hash` car il faut transformer l'objet unpermitted params en hash
-      Sentry.set_context('params', params.to_unsafe_hash)
+      Sentry.set_context("params", params.to_unsafe_hash)
     end
   end
 end
