@@ -29,6 +29,14 @@ gem 'captive-admin'
   @import "captive-admin/base";
   ```
 
+## Usage
+
+You can use the admin generator. [See the usage doc to read more information](./lib/generators/admin/USAGE) :
+
+```console
+bin/rails generate admin Thing
+```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/Captive-Studio/captive-sdk.
