@@ -18,7 +18,7 @@ class AdminGenerator < Rails::Generators::NamedBase
       config.sort_order = "created_at_desc"
 
       permit_params #{permit_params.map { |p| ":#{p}" }.join(", ")}
-
+    #{includes}
       index do
         #{index_columns.map { |attr| "column :#{attr}" }.join("\n    ")}
         actions dropdown: true
@@ -78,6 +78,22 @@ end
 
         association.name.to_s
       end
+  end
+
+  def associations
+    @associations ||=
+      columns.map do |c|
+        association =
+          class_name.constantize.reflect_on_all_associations.find do |a|
+            a.association_foreign_key == c
+          end&.name
+      end.compact
+  end
+
+  def includes
+    return if associations.blank?
+
+    "\n  includes :#{associations.join(', ')}\n"
   end
 
   PERMIT_PARAMS_EXCLUDED = [
