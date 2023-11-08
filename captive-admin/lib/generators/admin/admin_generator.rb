@@ -3,14 +3,14 @@ class AdminGenerator < Rails::Generators::NamedBase
   def create_resource_file
     say "Voir le Standard : https://captive.notion.site/ActiveAdmin-Personnaliser-l-index-e7869c1bd6064e94a623eb7950d1ca8c?pvs=4",
         :blue
-    cree_resource
-    cree_show
-    cree_form
+    create_resource
+    create_show
+    create_form
   end
 
   private
 
-  def cree_resource
+  def create_resource
     create_file "app/admin/#{plural_name}.rb", <<~RUBY
     # frozen_string_literal: true
 
@@ -33,7 +33,7 @@ class AdminGenerator < Rails::Generators::NamedBase
     RUBY
   end
 
-  def cree_show
+  def create_show
     create_file "app/views/admin/#{plural_name}/_show.html.arb", <<~RUBY
 # frozen_string_literal: true
 
@@ -45,7 +45,7 @@ end
     RUBY
   end
 
-  def cree_form
+  def create_form
     create_file "app/views/admin/#{plural_name}/_form.html.arb", <<~RUBY
 # frozen_string_literal: true
 
