@@ -1,0 +1,10 @@
+Description:
+    Créé une resource ActiveAdmin au standard
+
+Example:
+    bin/rails generate admin Thing
+
+    This will create:
+        app/admin/things.rb
+        app/views/admin/things/_form.html.arb
+        app/views/admin/things/_show.html.arb
