@@ -83,17 +83,16 @@ end
   def associations
     @associations ||=
       columns.map do |c|
-        association =
-          class_name.constantize.reflect_on_all_associations.find do |a|
-            a.association_foreign_key == c
-          end&.name
+        class_name.constantize.reflect_on_all_associations.find do |a|
+          a.association_foreign_key == c
+        end&.name
       end.compact
   end
 
   def includes
     return if associations.blank?
 
-    "\n  includes :#{associations.join(', ')}\n"
+    "\n  includes :#{associations.join(", ")}\n"
   end
 
   PERMIT_PARAMS_EXCLUDED = [
