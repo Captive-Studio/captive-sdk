@@ -48,15 +48,18 @@ module Captive::Authentication
             ),
           }
         )
-        if reponse_apple_id_serveur.code == 200 &&
+        if reponse_apple_id_serveur.ok? &&
             reponse_apple_id_serveur.parsed_response["id_token"].present?
           reponse_apple_id_serveur
         end
       end
 
+      # rubocop:disable MagicNumbers/NoArgument
+      DUREE_EXPIRATION = (24.hours.to_i * 180)
+      # rubocop:enable MagicNumbers/NoArgument
       def configure_payload
         iat = Time.now.to_i
-        exp = iat + (24.hours.to_i * 180)
+        exp = iat + DUREE_EXPIRATION
         {
           iss: ENV.fetch("APPLE_TEAM_ID", nil),
           iat: iat,

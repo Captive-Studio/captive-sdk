@@ -6,6 +6,8 @@ AllCops:
   Exclude:
     - '**/bin/**/*'
     - '**/db/schema.rb'
+    - node_modules/**/*
+    - '**/config/puma.rb'
 
 Layout/LineLength:
   Exclude:
