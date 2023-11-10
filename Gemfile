@@ -31,7 +31,7 @@ group :test do
 end
 
 group :development, :test do
-  gem "rubocop-config-captive", "~> 1.9.0"
+  gem "rubocop-config-captive", "~> 1.9.1"
 end
 
 # rubocop:enable Captive/Translation/RailsI18nPresence
