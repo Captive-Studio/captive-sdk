@@ -53,7 +53,7 @@ fi
 echo "Creating version ${new_version} ..."
 
 # Update the version in CAPTIVE_SDK_VERSION
-sed -i '' "s/\"${version}\"/\"${new_version}\"/" CAPTIVE_SDK_VERSION
+sed -i '' "s/${version}/${new_version}/" CAPTIVE_SDK_VERSION
 
 # Add the modified file and create a commit
 git add CAPTIVE_SDK_VERSION
