@@ -48,6 +48,16 @@ You can use a [Rails Engine](https://guides.rubyonrails.org/engines.html) to add
 
 if you want to use rspec in your engine, follow [this tutorial](https://www.hocnest.com/blog/testing-an-engine-with-rspec/)
 
+### Deployment
+
+use the command line below to deploy a new version
+
+```
+# Usage : script/release (major|minor|patch)
+
+script/release patch
+```
+
 ### Inspiration
 
 The purpose of captive-sdk is to create a SaaS Framework to build products faster with Ruby on Rails.

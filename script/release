@@ -64,5 +64,4 @@ git tag ${new_version}
 git push origin ${new_version}
 git push origin main
 
-
 echo "Version ${new_version} created."
