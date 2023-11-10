@@ -55,11 +55,11 @@ module Captive::Authentication
       end
 
       # rubocop:disable MagicNumbers/NoArgument
-      EXPIRATION_TIME = (24.hours.to_i * 180)
+      DUREE_EXPIRATION = (24.hours.to_i * 180)
       # rubocop:enable MagicNumbers/NoArgument
       def configure_payload
         iat = Time.now.to_i
-        exp = iat + EXPIRATION_TIME
+        exp = iat + DUREE_EXPIRATION
         {
           iss: ENV.fetch("APPLE_TEAM_ID", nil),
           iat: iat,

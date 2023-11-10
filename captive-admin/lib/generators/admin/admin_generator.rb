@@ -1,13 +1,11 @@
 class AdminGenerator < Rails::Generators::NamedBase
   desc "Créé une resource ActiveAdmin au standard"
-  source_root File.expand_path("templates", __dir__)
-
   def create_resource_file
     say "Voir le Standard : https://captive.notion.site/ActiveAdmin-Personnaliser-l-index-e7869c1bd6064e94a623eb7950d1ca8c?pvs=4",
         :blue
-    template "admin.rb.erb", "app/admin/#{plural_name}.rb"
-    template "show.rb.erb", "app/views/admin/#{plural_name}/_show.html.arb"
-    template "form.rb.erb", "app/views/admin/#{plural_name}/_form.html.arb"
+    create_resource
+    create_show
+    create_form
   end
 
   private
