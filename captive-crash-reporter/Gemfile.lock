@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    captive-crash-reporter (0.2.9)
+    captive-crash-reporter (0.2.11)
       sentry-rails (>= 5.10.0)
       sentry-ruby (>= 5.10.0)
       sentry-sidekiq (>= 5.10.0)
