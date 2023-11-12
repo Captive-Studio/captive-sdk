@@ -19,7 +19,8 @@
     "pgcrypto",
     "authlogic",
     "encryptor",
-    "srand"
+    "srand",
+    "elif"
   ],
   "ignoreWords": ["recupere", "reponse"],
   "flagWords": [],
