@@ -31,6 +31,8 @@ Gem::Specification.new do |spec|
   # spec.add_dependency "example-gem", "~> 1.0"
   spec.add_dependency "rails", ">= 7.0.0"
   spec.add_dependency "captive-theme", version
+  spec.add_dependency "activeadmin", ">= 2.0.0", "< 4.0"
+  spec.add_dependency "kaminari-i18n", ">= 0.5.0"
 
   spec.add_development_dependency "rspec-rails"
 

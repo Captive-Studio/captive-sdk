@@ -2,6 +2,7 @@
 
 require "captive/admin/engine"
 require "captive/theme"
+require "kaminari-i18n"
 
 module Captive
   module Admin
