@@ -50,10 +50,12 @@ The pagination method return an hash like this :
 ⚠️ The first page is `1` and not `0` !
 
 - The default number of item per page is `20`
-You can change with setting this constant into your controller : `DEFAULT_NB_ITEMS_PAR_PAGE = 50`
+You can change with setting this constant into your controller :
+`DEFAULT_NB_ITEMS_PAR_PAGE = 50`
 
 - The default max number of item per page is `100`
-You can change with setting this constant into your controller : `MAX_ITEMS_PAR_PAGE = 200`
+You can change with setting this constant into your controller :
+`MAX_ITEMS_PAR_PAGE = 200`
 
 ### RenderErrorConcern
 
