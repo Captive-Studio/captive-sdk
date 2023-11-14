@@ -3,10 +3,10 @@
 module API
   ##
   # Défini le nombre max d'items par page à 100
-  # `MAX_ITEMS_PAR_PAGE = 100`
+  #   MAX_ITEMS_PAR_PAGE = 100
   #
   # Défini le nombre par défaut d'items par page à 20
-  # DEFAULT_NB_ITEMS_PAR_PAGE = 20
+  #   DEFAULT_NB_ITEMS_PAR_PAGE = 20
   module PaginationConcern
     extend ActiveSupport::Concern
 
