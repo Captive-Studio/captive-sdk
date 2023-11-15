@@ -20,7 +20,8 @@
     "authlogic",
     "encryptor",
     "srand",
-    "elif"
+    "elif",
+    "kaminari"
   ],
   "ignoreWords": ["recupere", "reponse"],
   "flagWords": [],
