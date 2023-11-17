@@ -142,10 +142,10 @@ GEM
     email_validator (2.2.4)
       activemodel
     erubi (1.12.0)
-    factory_bot (6.2.1)
+    factory_bot (6.4.0)
       activesupport (>= 5.0.0)
-    factory_bot_rails (6.2.0)
-      factory_bot (~> 6.2.0)
+    factory_bot_rails (6.4.0)
+      factory_bot (~> 6.4)
       railties (>= 5.0.0)
     formtastic (5.0.0)
       actionpack (>= 6.0.0)
@@ -398,7 +398,7 @@ PLATFORMS
 
 DEPENDENCIES
   captive-sdk!
-  factory_bot_rails (~> 6.2.0)
+  factory_bot_rails (~> 6.4.0)
   jwt (~> 2.7.1)
   pg (~> 1.5.3)
   puma (~> 6.4.0)
