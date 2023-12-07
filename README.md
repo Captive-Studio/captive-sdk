@@ -73,3 +73,18 @@ It was inspired by :
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+About Captive
+----------------
+
+![captive](./docs/logo_captive.webp)
+
+captive-sdk is maintained and funded by Captive.
+The names and logos for captive are trademarks of captive-studio.
+
+We love open source software!
+See [our other projects][community] or
+[hire us][hire] to design, develop, and grow your product.
+
+[community]: https://github.com/Captive-Studio
+[hire]: https://www.captive.fr/contact?utm_source=github
