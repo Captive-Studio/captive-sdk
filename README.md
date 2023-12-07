@@ -77,7 +77,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 About Captive
 ----------------
 
-![captive](./docs/logo_captive.webp)
+![captive](https://raw.githubusercontent.com/Captive-Studio/assets/main/logo_captive_blue_avec_fond.webp)
 
 captive-sdk is maintained and funded by Captive.
 The names and logos for captive are trademarks of captive-studio.
