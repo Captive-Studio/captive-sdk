@@ -75,7 +75,7 @@ It was inspired by :
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
 About Captive
-----------------
+-------------
 
 ![captive](https://raw.githubusercontent.com/Captive-Studio/assets/main/logo_captive_blue_avec_fond.webp)
 
