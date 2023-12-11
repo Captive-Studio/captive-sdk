@@ -3841,7 +3841,7 @@ __metadata:
     concurrently: "npm:8.2.2"
     eslint: "npm:8.55.0"
     prettier: "npm:3.1.1"
-    stylelint: "npm:16.0.1"
+    stylelint: "npm:16.0.2"
     turbo: "npm:1.11.1"
   languageName: unknown
   linkType: soft
@@ -4323,9 +4323,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint@npm:16.0.1":
-  version: 16.0.1
-  resolution: "stylelint@npm:16.0.1"
+"stylelint@npm:16.0.2":
+  version: 16.0.2
+  resolution: "stylelint@npm:16.0.2"
   dependencies:
     "@csstools/css-parser-algorithms": "npm:^2.3.2"
     "@csstools/css-tokenizer": "npm:^2.2.1"
@@ -4367,7 +4367,7 @@ __metadata:
     write-file-atomic: "npm:^5.0.1"
   bin:
     stylelint: bin/stylelint.mjs
-  checksum: aefe99cf8517b0c45ee5e77355aa84c4fb88fb3e8edac9dd016cff4c0d6dad8897e3549cdad86535d7ab48290e3a8cd5a0a444443063a4ebc83691d7d45f7813
+  checksum: c13c584ac204cdcbd6870908c72fb03ddf564b62b043f50cd2c1c88fab7ae9386af28f017bd160193aaa5b27059f7b479524fec7248b073caa00b62c65505b2c
   languageName: node
   linkType: hard
 
