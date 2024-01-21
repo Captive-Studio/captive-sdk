@@ -4198,17 +4198,17 @@ __metadata:
   linkType: hard
 
 "stylelint-scss@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "stylelint-scss@npm:6.0.0"
+  version: 6.1.0
+  resolution: "stylelint-scss@npm:6.1.0"
   dependencies:
     known-css-properties: "npm:^0.29.0"
     postcss-media-query-parser: "npm:^0.2.3"
     postcss-resolve-nested-selector: "npm:^0.1.1"
-    postcss-selector-parser: "npm:^6.0.13"
+    postcss-selector-parser: "npm:^6.0.15"
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     stylelint: ^16.0.2
-  checksum: 8a0c19ab7f7cd342635bc6199940e9a33a5e09ace4ba032ac3b66d55fe63c3072658e76432680b91301bed41b33fcb8c8b26787a291ee5ea95928b0625063a8d
+  checksum: d1a37af38e6793f60ad3d836741ed624a7a07a56bea094750e72ed6e549243f966efcbe247940c6f1337328db700b1004f49e2119ff421235c979b2574995426
   languageName: node
   linkType: hard
 
