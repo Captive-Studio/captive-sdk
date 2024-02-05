@@ -22,7 +22,7 @@ group :development do
 end
 
 group :test do
-  gem "rspec", "~> 3.12.0"
+  gem "rspec", "~> 3.13.0"
   gem "rspec-mocks", "~> 3.12.6"
   gem "rspec-rails", "~> 6.1.0"
   gem "factory_bot_rails", "~> 6.4.0"
