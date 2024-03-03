@@ -4128,8 +4128,8 @@ __metadata:
   linkType: hard
 
 "stylelint-scss@npm:^6.0.0":
-  version: 6.1.0
-  resolution: "stylelint-scss@npm:6.1.0"
+  version: 6.2.0
+  resolution: "stylelint-scss@npm:6.2.0"
   dependencies:
     known-css-properties: "npm:^0.29.0"
     postcss-media-query-parser: "npm:^0.2.3"
@@ -4138,7 +4138,7 @@ __metadata:
     postcss-value-parser: "npm:^4.2.0"
   peerDependencies:
     stylelint: ^16.0.2
-  checksum: 10/d1a37af38e6793f60ad3d836741ed624a7a07a56bea094750e72ed6e549243f966efcbe247940c6f1337328db700b1004f49e2119ff421235c979b2574995426
+  checksum: 10/64401068e6a106f8b6a9be35d077a818a0b8bd9a0d611d76f68be1ab75ca62ef9ee790b7c334c4a35c4099cfe0a90ecc48358f8729deaf85d4bc70ce81a89eab
   languageName: node
   linkType: hard
 
