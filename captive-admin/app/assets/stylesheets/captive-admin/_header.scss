@@ -8,11 +8,11 @@
 
 #header {
   text-shadow: none;
-  background: $bg-emphasis;
-  padding: 0 $spacer-6;
+  background: var(--bg-emphasis);
+  padding: 0 var(--space-6);
 
   h1 {
-    color: $fg-on-emphasis;
+    color: var(--fg-on-emphasis);
     padding-left: 0;
     height: 60px;
     display: flex;
@@ -37,8 +37,8 @@
     li {
       &:hover > ul {
         display: block;
-        margin-top: $spacer-2;
-        padding: $spacer-3 0;
+        margin-top: var(--space-2);
+        padding: var(--space-3) 0;
       }
     }
 
@@ -48,7 +48,7 @@
 
         &::before {
           content: '';
-          background-color: $primary-emphasis;
+          background-color: var(--primary-emphasis);
           position: absolute;
           bottom: 0;
           width: 19px;
@@ -69,9 +69,9 @@
       }
 
       a {
-        padding: $spacer-2 $spacer-4;
+        padding: var(--space-2) var(--space-4);
         font-weight: bold;
-        border-radius: $border-radius-m;
+        border-radius: var(--rounded-2xl);
       }
 
       &:hover > a {
@@ -90,20 +90,20 @@
       ul {
         @include rounded-all(12px, 12px, 12px, 12px);
 
-        background: $bg-default;
+        background: var(--bg-default);
         text-align: left;
         box-shadow: $shadow-m;
-        min-width: $spacer-11;
+        min-width: var(--space-11);
 
         li {
           a {
-            color: $fg-default;
-            padding-top: $spacer-3;
-            padding-bottom: $spacer-3;
+            color: var(--fg-default);
+            padding-top: var(--space-3);
+            padding-bottom: var(--space-3);
 
             &:hover {
-              background: $bg-subtle;
-              color: $fg-default;
+              background: var(--bg-subtle);
+              color: var(--fg-default);
               border-radius: 0;
             }
           }

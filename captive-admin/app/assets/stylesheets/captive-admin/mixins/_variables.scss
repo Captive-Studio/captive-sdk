@@ -2,4 +2,4 @@
 
 $menu-arrow-light-icon-url: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgY2xhc3M9InctOCBtci00IGljb24tY2hldmVyb24tZG93biI+PHBhdGggY2xhc3M9InNlY29uZGFyeSIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTUuMyAxMC4zYTEgMSAwIDAgMSAxLjQgMS40bC00IDRhMSAxIDAgMCAxLTEuNCAwbC00LTRhMSAxIDAgMCAxIDEuNC0xLjRsMy4zIDMuMjkgMy4zLTMuM3oiPjwvcGF0aD48L3N2Zz4=';
 $error-color: $danger-fg;
-$form-label-color: $fg-muted;
+$form-label-color: var(--fg-muted);

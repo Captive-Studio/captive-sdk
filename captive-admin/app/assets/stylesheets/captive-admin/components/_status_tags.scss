@@ -1,16 +1,16 @@
 .status_tag {
   border: 1px solid;
-  border-radius: $border-radius-m;
+  border-radius: var(--rounded-2xl);
   letter-spacing: 0.5px;
-  padding: $spacer-2 $spacer-3;
+  padding: var(--space-2) var(--space-3);
 
   &.yes {
-    background: $success-subtle;
-    color: $success-fg;
+    background: var(--success-subtle);
+    color: var(--success-fg);
   }
 
   &.no {
-    background: $bg-subtle;
-    color: $fg-muted;
+    background: var(--bg-subtle);
+    color: var(--fg-muted);
   }
 }

@@ -1,7 +1,7 @@
 .table_tools {
   display: flex;
   align-items: center;
-  margin-bottom: $spacer-2;
+  margin-bottom: var(--space-2);
 }
 
 a.table_tools_button,
@@ -10,7 +10,7 @@ a.table_tools_button,
 
   font-weight: normal;
   outline: none;
-  padding: $spacer-2 $spacer-4;
+  padding: var(--space-2) var(--space-4);
   box-shadow: none;
   background: none;
   @include transition;
@@ -26,7 +26,7 @@ a.table_tools_button,
       box-shadow: none;
       background: none;
       border-color: $border-color-emphasis;
-      color: $fg-default;
+      color: var(--fg-default);
     }
   }
 }
@@ -35,25 +35,25 @@ a.table_tools_button,
   li {
     a {
       border: 1px solid $border-color;
-      border-radius: $border-radius-m;
-      margin-right: $spacer-2;
+      border-radius: var(--rounded-2xl);
+      margin-right: var(--space-2);
     }
 
     &:first-child a {
-      border-radius: $border-radius-m;
+      border-radius: var(--rounded-2xl);
     }
 
     &:last-child a {
-      border-radius: $border-radius-m;
+      border-radius: var(--rounded-2xl);
     }
 
     &.selected a {
-      background: $bg-subtle;
+      background: var(--bg-subtle);
       box-shadow: none;
       border: 2px solid $border-color-emphasis;
 
       &:hover {
-        background: $bg-subtle;
+        background: var(--bg-subtle);
       }
     }
   }

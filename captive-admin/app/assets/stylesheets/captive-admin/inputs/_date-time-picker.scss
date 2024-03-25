@@ -1,6 +1,6 @@
 input[type='text'] {
   &.date-time-picker-input {
-    width: $spacer-12;
+    width: var(--space-12);
     max-width: 100%;
   }
 }

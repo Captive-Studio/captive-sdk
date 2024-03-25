@@ -8,8 +8,8 @@
 
   #main_content_wrapper {
     #main_content {
-      padding: $spacer-4 $spacer-6;
-      background: $bg-subtle;
+      padding: var(--space-4) var(--space-6);
+      background: var(--bg-subtle);
       margin-right: 0;
     }
   }
@@ -19,6 +19,6 @@
     width: 350px;
     margin-left: 0;
     flex-shrink: 0;
-    padding: $spacer-4 $spacer-6;
+    padding: var(--space-4) var(--space-6);
   }
 }

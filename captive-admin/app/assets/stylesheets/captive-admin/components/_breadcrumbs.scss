@@ -2,17 +2,17 @@
   @include body-medium;
 
   text-transform: none;
-  margin-bottom: $spacer-1;
+  margin-bottom: var(--space-1);
 
   a,
   a:link,
   a:visited,
   a:active {
-    color: $fg-subtle;
+    color: var(--fg-subtle);
   }
 
   .breadcrumb_sep {
-    color: $primary-fg;
+    color: var(--primary-fg);
     font-weight: bold;
   }
 }
