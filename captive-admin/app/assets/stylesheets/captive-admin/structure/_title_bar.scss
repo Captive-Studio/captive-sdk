@@ -2,7 +2,7 @@
   border-bottom: none;
   background: none;
   box-shadow: none;
-  padding: $spacer-4 $spacer-6;
+  padding: var(--space-4) var(--space-6);
 
   h2 {
     @include title-large;
@@ -14,7 +14,7 @@
       & > .dropdown_menu > a {
         @include primary-button;
 
-        padding: $spacer-3 $spacer-4;
+        padding: var(--space-3) var(--space-4);
       }
     }
   }

@@ -1,19 +1,19 @@
 #footer {
-  background: $bg-default;
-  padding: $spacer-4 $spacer-6;
+  background: var(--bg-default);
+  padding: var(--space-4) var(--space-6);
   @include body-medium;
 
   clear: both;
 
   p {
-    padding-top: $spacer-4;
+    padding-top: var(--space-4);
   }
 }
 
 #index_footer {
-  padding-top: $spacer-1;
+  padding-top: var(--space-1);
   text-align: right;
   @include body-small;
 
-  margin-bottom: $spacer-6;
+  margin-bottom: var(--space-6);
 }

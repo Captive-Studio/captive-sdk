@@ -3,11 +3,11 @@
 }
 
 @mixin body-family {
-  font-family: $default-font-family;
+  font-family: var(--font-family-text);
 }
 
 @mixin title-family {
-  font-family: $title-font-family;
+  font-family: var(--font-family-title);
 }
 
 @mixin body-large {
@@ -26,7 +26,7 @@
 }
 
 @mixin title {
-  font-family: $title-font-family;
+  font-family: var(--font-family-title);
   font-weight: bold;
 }
 

@@ -1,6 +1,6 @@
 #main_content form {
-  width: $spacer-13;
-  padding: $spacer-5 0;
+  width: var(--space-13);
+  padding: var(--space-5) 0;
 }
 
 form {
@@ -9,7 +9,7 @@ form {
     margin: 0;
 
     &.inputs {
-      background-color: $bg-subtle;
+      background-color: var(--bg-subtle);
       box-shadow: none;
       border-radius: 0;
     }
@@ -19,8 +19,8 @@ form {
         display: flex;
 
         li {
-          margin-left: $spacer-3;
-          margin-right: $spacer-3;
+          margin-left: var(--space-3);
+          margin-right: var(--space-3);
 
           &:first-child {
             margin-left: 0;
@@ -35,18 +35,18 @@ form {
 
     ol > li {
       padding: 0;
-      margin-bottom: $spacer-5;
+      margin-bottom: var(--space-5);
 
       label {
         @include body-medium;
 
         float: none;
         width: auto;
-        margin-bottom: $spacer-1;
+        margin-bottom: var(--space-1);
 
         abbr {
-          color: $primary-fg;
-          padding-left: $spacer-1;
+          color: var(--primary-fg);
+          padding-left: var(--space-1);
 
           &[title] {
             text-decoration: none;
@@ -70,8 +70,8 @@ form {
     border-color: $border-color;
     @include body-large;
 
-    border-radius: $border-radius-xs;
-    padding: $spacer-3;
+    border-radius: var(--rounded-lg);
+    padding: var(--space-3);
 
     &:focus {
       border: 2px solid $border-color-emphasis;
@@ -92,7 +92,7 @@ form {
   /* Errors */
   p.inline-errors {
     font-weight: bold;
-    margin: $spacer-1 0;
+    margin: var(--space-1) 0;
     text-align: right;
   }
 
@@ -107,7 +107,7 @@ form {
 
   .buttons,
   .actions {
-    padding: $spacer-5 0;
+    padding: var(--space-5) 0;
     margin-top: 0;
 
     input[type='submit'],
@@ -145,7 +145,7 @@ form {
     color: $form-label-color;
     @include body-medium;
 
-    margin-bottom: $spacer-4;
+    margin-bottom: var(--space-4);
     width: 100%;
     font-weight: normal;
   }
@@ -171,7 +171,7 @@ form {
 
 form.filter_form {
   .filter_form_field {
-    padding: $spacer-5 0;
+    padding: var(--space-5) 0;
     margin: 0;
     border-bottom: 1px solid $border-color;
     display: flex;
@@ -194,7 +194,7 @@ form.filter_form {
         flex: 1;
 
         + input {
-          margin-left: $spacer-4;
+          margin-left: var(--space-4);
         }
       }
     }

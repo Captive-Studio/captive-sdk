@@ -11,11 +11,11 @@ h5,
 h6 {
   @include title-family;
 
-  color: $fg-default;
+  color: var(--fg-default);
   letter-spacing: 0.5px;
   margin-top: 0;
 }
 
 p {
-  margin-bottom: $spacer-4;
+  margin-bottom: var(--space-4);
 }

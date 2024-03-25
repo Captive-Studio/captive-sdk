@@ -25,36 +25,36 @@
   @import 'inputs/select2';
 
   body {
-    color: $fg-default;
+    color: var(--fg-default);
     @include body-medium;
   }
 }
 
 .details {
-  margin-top: $spacer-1;
+  margin-top: var(--space-1);
   @include body-small;
 
-  color: $fg-subtle;
+  color: var(--fg-subtle);
 }
 
 .col-actions {
   .dropdown_menu_button {
     font-size: 0;
     margin: 0;
-    width: $spacer-6;
-    height: $spacer-6;
+    width: var(--space-6);
+    height: var(--space-6);
     padding: 0;
 
     &::before {
       font-size: $f2;
       content: '···';
       border: 0;
-      width: $spacer-6;
-      height: $spacer-6;
+      width: var(--space-6);
+      height: var(--space-6);
       left: 0;
       top: 0;
       text-align: center;
-      line-height: $spacer-6;
+      line-height: var(--space-6);
     }
 
     &::after {

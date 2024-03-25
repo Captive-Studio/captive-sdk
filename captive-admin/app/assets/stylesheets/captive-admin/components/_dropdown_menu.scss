@@ -13,29 +13,29 @@
     background: none;
     border: none;
     box-shadow: $shadow-m;
-    border-radius: $border-radius-s;
+    border-radius: var(--rounded-xl);
     padding: 0;
     overflow: hidden;
 
     .dropdown_menu_list {
       border: none;
       box-shadow: none;
-      padding: $spacer-3 0;
-      min-width: $spacer-11;
+      padding: var(--space-3) 0;
+      min-width: var(--space-11);
 
       li {
         border: none;
 
         a {
-          padding: $spacer-3 $spacer-4;
+          padding: var(--space-3) var(--space-4);
           text-align: left;
           @include body-medium;
 
           &:hover {
             background-image: none;
             text-shadow: none;
-            background-color: $bg-subtle;
-            color: $fg-default;
+            background-color: var(--bg-subtle);
+            color: var(--fg-default);
           }
         }
       }

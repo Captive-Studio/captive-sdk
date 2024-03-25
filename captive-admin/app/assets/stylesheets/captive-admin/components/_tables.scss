@@ -4,14 +4,14 @@ table.index_table {
   overflow: hidden;
 
   th {
-    padding: $spacer-4;
-    color: $fg-subtle;
+    padding: var(--space-4);
+    color: var(--fg-subtle);
     background: transparent;
 
     a,
     a:link,
     a:visited {
-      color: $fg-subtle;
+      color: var(--fg-subtle);
     }
 
     &.sorted-asc,
@@ -19,7 +19,7 @@ table.index_table {
       background: transparent;
 
       a {
-        color: $fg-default;
+        color: var(--fg-default);
       }
     }
 
@@ -35,7 +35,7 @@ table.index_table {
   td {
     border-bottom: 1px solid $border-color;
     vertical-align: middle;
-    padding: $spacer-4;
+    padding: var(--space-4);
 
     &:first-child {
       padding-left: 0;

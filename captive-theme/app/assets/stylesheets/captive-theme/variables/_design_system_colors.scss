@@ -1,0 +1,48 @@
+:root {
+  // foreground
+  --fg-default: var(--blue-grey-900);
+  --fg-muted: var(--blue-grey-600);
+  --fg-subtle: var(--blue-grey-500);
+  --fg-on-emphasis: var(--white);
+
+  // background
+  --bg-default: var(--white);
+  --bg-subtle: var(--blue-grey-050);
+  --bg-emphasis: var(--blue-grey-900);
+
+  // primary
+  --primary-fg: var(--pink-vivid-500);
+  --primary-emphasis: var(--pink-vivid-500);
+  --primary-muted: var(--pink-vivid-400);
+  --primary-subtle: var(--pink-vivid-050);
+
+  // accent
+  --accent-fg: var(--light-blue-vivid-700);
+  --accent-emphasis: var(--light-blue-vivid-700);
+  --accent-muted: var(--light-blue-vivid-600);
+  --accent-subtle: var(--light-blue-vivid-050);
+
+  // success
+  --success-fg: var(--lime-green-700);
+  --success-emphasis: var(--lime-green-700);
+  --success-muted: var(--lime-green-600);
+  --success-subtle: var(--lime-green-050);
+
+  // attention
+  --attention-fg: var(--yellow-vivid-800);
+  --attention-emphasis: var(--yellow-vivid-800);
+  --attention-muted: var(--yellow-vivid-700);
+  --attention-subtle: var(--yellow-vivid-050);
+
+  // danger
+  --danger-fg: var(--red-vivid-600);
+  --danger-emphasis: var(--red-vivid-600);
+  --danger-muted: var(--red-vivid-500);
+  --danger-subtle: var(--red-vivid-050);
+
+  // support
+  --support-fg: var(--purple-700);
+  --support-emphasis: var(--purple-700);
+  --support-muted: var(--purple-500);
+  --support-subtle: var(--purple-050);
+}

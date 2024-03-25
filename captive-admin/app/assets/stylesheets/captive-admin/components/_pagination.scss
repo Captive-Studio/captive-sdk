@@ -1,7 +1,7 @@
 .pagination_information {
-  color: $fg-subtle;
+  color: var(--fg-subtle);
 
   b {
-    color: $fg-default;
+    color: var(--fg-default);
   }
 }
