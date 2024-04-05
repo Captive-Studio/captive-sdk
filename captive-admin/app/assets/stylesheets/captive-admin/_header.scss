@@ -26,7 +26,7 @@
 
   a,
   a:link {
-    color: $blue-grey-100;
+    color: var(--blue-grey-100);
   }
 
   .header-item {
@@ -75,7 +75,7 @@
       }
 
       &:hover > a {
-        background: $blue-grey-700;
+        background: var(--blue-grey-700);
       }
 
       &.has_nested:hover > a {
@@ -83,7 +83,7 @@
         @include down-arrow;
 
         border-bottom: none;
-        background-color: $blue-grey-700;
+        background-color: var(--blue-grey-700);
       }
 
       /* Drop down menus */
