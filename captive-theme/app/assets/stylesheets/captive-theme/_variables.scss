@@ -28,41 +28,8 @@ $purple-700: #421987 !default;
 $purple-500: #653cad !default;
 $purple-050: #eae2f8 !default;
 
-// Couleurs du Design System Captive
-// https://www.notion.so/captive/UI-Les-couleurs-du-design-system-Captive-eed4bbb0295f4d949c47e183033e5180
+@import './design_system_colors';
 
-$fg-default: $blue-grey-900 !default;
-$fg-muted: $blue-grey-600 !default;
-$fg-subtle: $blue-grey-500 !default;
-$fg-on-emphasis: $white !default;
-$bg-default: $white !default;
-$bg-subtle: $blue-grey-050 !default;
-$bg-emphasis: $blue-grey-900 !default;
-$primary-fg: $pink-vivid-500 !default;
-$primary-emphasis: $pink-vivid-500 !default;
-$primary-muted: $pink-vivid-400 !default;
-$primary-subtle: $pink-vivid-050 !default;
-$primary-on-emphasis: $white !default;
-$accent-fg: $light-blue-vivid-700 !default;
-$accent-emphasis: $light-blue-vivid-700 !default;
-$accent-muted: $light-blue-vivid-600 !default;
-$accent-subtle: $light-blue-vivid-050 !default;
-$success-fg: $lime-green-700 !default;
-$success-emphasis: $lime-green-700 !default;
-$success-muted: $lime-green-600 !default;
-$success-subtle: $lime-green-050 !default;
-$attention-fg: $yellow-vivid-800 !default;
-$attention-emphasis: $yellow-vivid-800 !default;
-$attention-muted: $yellow-vivid-700 !default;
-$attention-subtle: $yellow-vivid-050 !default;
-$danger-fg: $red-vivid-600 !default;
-$danger-emphasis: $red-vivid-600 !default;
-$danger-muted: $red-vivid-500 !default;
-$danger-subtle: $red-vivid-050 !default;
-$support-fg: $purple-700 !default;
-$support-emphasis: $purple-700 !default;
-$support-muted: $purple-500 !default;
-$support-subtle: $purple-050 !default;
 $border-color: $blue-grey-100 !default;
 $border-color-emphasis: $blue-grey-900 !default;
 

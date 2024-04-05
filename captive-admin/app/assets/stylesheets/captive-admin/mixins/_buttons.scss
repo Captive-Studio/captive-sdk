@@ -22,9 +22,9 @@
   box-shadow: $shadow-xs;
 }
 @mixin primary-button {
-  background-color: $primary-emphasis;
+  background-color: var(--primary-emphasis);
   background-image: none;
-  color: $primary-on-emphasis;
+  color: var(--primary-on-emphasis);
   border: none;
   text-shadow: none;
   box-shadow: $shadow-s;
@@ -34,7 +34,7 @@
 
   &:not(.disabled) {
     &:hover {
-      background-color: $primary-muted;
+      background-color: var(--primary-muted);
       background-image: none;
     }
 
@@ -50,17 +50,17 @@
   @include basic-button;
 
   outline: solid 1px;
-  color: $fg-muted;
-  background-color: $bg-subtle;
+  color: var(--fg-muted);
+  background-color: var(--bg-subtle);
 
   &:not(.disabled) {
     &:hover {
-      background-color: $bg-default;
+      background-color: var(--bg-default);
     }
 
     &:active {
-      background-color: $bg-emphasis;
-      color: $fg-on-emphasis;
+      background-color: var(--bg-emphasis);
+      color: var(--fg-on-emphasis);
     }
   }
 }
@@ -70,7 +70,7 @@
 
   &:not(.disabled) {
     &:hover {
-      background-color: $bg-subtle;
+      background-color: var(--bg-subtle);
     }
   }
 }
@@ -80,7 +80,7 @@
   box-shadow: none;
   text-decoration: underline;
   padding-left: 0;
-  color: $fg-muted;
+  color: var(--fg-muted);
   background: transparent;
 
   &:hover {
