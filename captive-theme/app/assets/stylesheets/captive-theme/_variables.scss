@@ -1,37 +1,9 @@
-// Couleurs du nuancier Captive
-// https://www.notion.so/Nuanciers-Captive-pour-le-web-et-mobile-ee189f2db6e543e6bc7cba77c9e8dff5
-$white: #fff !default;
-$blue-grey-900: #102a43 !default;
-$blue-grey-800: #243b53 !default;
-$blue-grey-700: #334e68 !default;
-$blue-grey-600: #486581 !default;
-$blue-grey-500: #5e7997 !default;
-$blue-grey-200: #bcccdc !default;
-$blue-grey-100: #d9e2ec !default;
-$blue-grey-050: #f5f7fa !default;
-$pink-vivid-500: #d9127c !default;
-$pink-vivid-400: #e8368f !default;
-$pink-vivid-050: #fff5f8 !default;
-$light-blue-vivid-700: #1177b6 !default;
-$light-blue-vivid-600: #188dcd !default;
-$light-blue-vivid-050: #f0fbff !default;
-$lime-green-700: #507712 !default;
-$lime-green-600: #63921a !default;
-$lime-green-050: #f2fde0 !default;
-$red-vivid-600: #cf1124 !default;
-$red-vivid-500: #e12d39 !default;
-$red-vivid-050: #fff0f0 !default;
-$yellow-vivid-800: #b44d12 !default;
-$yellow-vivid-700: #cb6e17 !default;
-$yellow-vivid-050: #fffbea !default;
-$purple-700: #421987 !default;
-$purple-500: #653cad !default;
-$purple-050: #eae2f8 !default;
+@import './colors';
 
 @import './design_system_colors';
 
-$border-color: $blue-grey-100 !default;
-$border-color-emphasis: $blue-grey-900 !default;
+$border-color: var(--blue-grey-100) !default;
+$border-color-emphasis: var(--blue-grey-900) !default;
 
 // Espacements
 // Cf https://www.notion.so/captive/UI-Espacement-du-Design-System-Captive-cc192b02b57d453fa0da9fdc6d1234c2
@@ -50,29 +22,7 @@ $spacer-11: 192px !default;
 $spacer-12: 256px !default;
 $spacer-13: 512px !default;
 
-// Fonts
-// https://www.notion.so/captive/Typographie-Captive-85c60f5a849f4adaacaf18cc4aff2cea
-/* stylelint-disable-next-line import-notation */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Barlow:wght@400;600&display=swap');
-
-$default-font-family:
-  'Open Sans',
-  -apple-system,
-  segoe ui,
-  roboto,
-  noto sans,
-  ubuntu,
-  cantarell,
-  helvetica neue !default;
-$title-font-family:
-  'Barlow',
-  -apple-system,
-  segoe ui,
-  roboto,
-  noto sans,
-  ubuntu,
-  cantarell,
-  helvetica neue !default;
+@import './fonts';
 
 // Fonts sizes
 // Body
