@@ -83,29 +83,7 @@ $spacer-11: 192px !default;
 $spacer-12: 256px !default;
 $spacer-13: 512px !default;
 
-// Fonts
-// https://www.notion.so/captive/Typographie-Captive-85c60f5a849f4adaacaf18cc4aff2cea
-/* stylelint-disable-next-line import-notation */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Barlow:wght@400;600&display=swap');
-
-$default-font-family:
-  'Open Sans',
-  -apple-system,
-  segoe ui,
-  roboto,
-  noto sans,
-  ubuntu,
-  cantarell,
-  helvetica neue !default;
-$title-font-family:
-  'Barlow',
-  -apple-system,
-  segoe ui,
-  roboto,
-  noto sans,
-  ubuntu,
-  cantarell,
-  helvetica neue !default;
+@import './fonts';
 
 // Fonts sizes
 // Body

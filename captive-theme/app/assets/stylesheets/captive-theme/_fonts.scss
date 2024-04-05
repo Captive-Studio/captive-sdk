@@ -1,0 +1,10 @@
+// https://www.notion.so/captive/Typographie-Captive-85c60f5a849f4adaacaf18cc4aff2cea
+/* stylelint-disable-next-line import-notation */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Barlow:wght@400;600&display=swap');
+
+:root {
+  // font-family
+  --font-family-fallback: -apple-system, 'Segoe UI', roboto, 'noto sans', ubuntu, cantarell, 'helvetica neue';
+  --font-family-text: 'Open Sans', var(--font-family-fallback);
+  --font-family-title: 'Barlow', var(--font-family-fallback);
+}
