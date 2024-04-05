@@ -1,3 +1,5 @@
+/* eslint-disable no-await-in-loop */
+/* eslint-disable no-console */
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -62,4 +64,4 @@ async function traverseDirectory(dirPath, variables) {
 }
 
 // Appel de la fonction traverseDirectory avec le chemin racine du projet et les variables à changer en argument
-traverseDirectory(directoryPath, variablesToChange);
+await traverseDirectory(directoryPath, variablesToChange);
