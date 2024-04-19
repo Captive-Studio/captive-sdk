@@ -90,9 +90,9 @@ GEM
     rake (13.2.1)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
-    redis-client (0.22.0)
+    redis-client (0.22.1)
       connection_pool
-    reline (0.5.1)
+    reline (0.5.2)
       io-console (~> 0.5)
     sentry-rails (5.17.3)
       railties (>= 5.0)
