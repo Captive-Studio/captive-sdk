@@ -612,28 +612,28 @@ __metadata:
   linkType: hard
 
 "@csstools/css-parser-algorithms@npm:^2.6.1":
-  version: 2.6.1
-  resolution: "@csstools/css-parser-algorithms@npm:2.6.1"
+  version: 2.6.2
+  resolution: "@csstools/css-parser-algorithms@npm:2.6.2"
   peerDependencies:
-    "@csstools/css-tokenizer": ^2.2.4
-  checksum: 10/4ad4778525a92240c87ba063f3415216b36b81c45bbfcf69a4c82aab140e8943c269ef353ad6ac31de0950b776d972feb622df76b66180b402cba50951d0d58c
+    "@csstools/css-tokenizer": ^2.3.0
+  checksum: 10/4266f54d0a8a4cbb16c47c8e38ab0f89ce52af6a94f85f03ef89a99223177527a675b20d8849dd315670ec61b6da1677891c254b907341f6070533dee2b48aad
   languageName: node
   linkType: hard
 
 "@csstools/css-tokenizer@npm:^2.2.4":
-  version: 2.2.4
-  resolution: "@csstools/css-tokenizer@npm:2.2.4"
-  checksum: 10/13cc71a8ebc3ff81c49a459e57e1a94031969b70ce0e582bc949fa4f2d97900c07319866b080c57020896e4f5bee0968cc14f7bf41e7f105eb1c04a6c7bc33c4
+  version: 2.3.0
+  resolution: "@csstools/css-tokenizer@npm:2.3.0"
+  checksum: 10/d0c906439292a34af635134ec1d9393a6c4bbf4d02f9d3d69de308d08c5d8b7845a96cc58bd0a4cc595e2c78b627fe692ed506008e4a273d57af6a4d5d0efd93
   languageName: node
   linkType: hard
 
 "@csstools/media-query-list-parser@npm:^2.1.9":
-  version: 2.1.9
-  resolution: "@csstools/media-query-list-parser@npm:2.1.9"
+  version: 2.1.10
+  resolution: "@csstools/media-query-list-parser@npm:2.1.10"
   peerDependencies:
-    "@csstools/css-parser-algorithms": ^2.6.1
-    "@csstools/css-tokenizer": ^2.2.4
-  checksum: 10/320b5916189b4899ec1186e4802483bcd28943d06af88d158f0f8289b04f57914fc6ff6a3fa9cd5b6a612b955a10f43e31d8de7ba74a7f9092c0a5dfced57102
+    "@csstools/css-parser-algorithms": ^2.6.2
+    "@csstools/css-tokenizer": ^2.3.0
+  checksum: 10/cea8d02c7a0de57d8d974223ab5ac9f123b2a44d0f4eff4737ab92e8df84c6714100c5bad86a5d2f4452b4d345d7e429089291207b818c52af0b22108f8ba692
   languageName: node
   linkType: hard
 
