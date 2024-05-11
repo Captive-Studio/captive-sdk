@@ -638,11 +638,11 @@ __metadata:
   linkType: hard
 
 "@csstools/selector-specificity@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "@csstools/selector-specificity@npm:3.0.3"
+  version: 3.1.0
+  resolution: "@csstools/selector-specificity@npm:3.1.0"
   peerDependencies:
     postcss-selector-parser: ^6.0.13
-  checksum: 10/287f17aefe2f22a39cb1c01d45d9e2c4c8c7cf11d9af67c44fe14fa2ed2e11178406661d1b6b023c8a447cdb08933ac134352a0c1452d409af4e7db2570684f3
+  checksum: 10/e7ec1d54d390c51240a275ad80221a64cfabee288091eab62d7573c5a8d91b15c420cb641b176f1339e530f80d46259aee53e851f1be58f6daa57adf2173c2a7
   languageName: node
   linkType: hard
 
