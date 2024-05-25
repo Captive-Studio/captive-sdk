@@ -6,40 +6,40 @@ __metadata:
   cacheKey: 10
 
 "@babel/code-frame@npm:^7.0.0":
-  version: 7.24.2
-  resolution: "@babel/code-frame@npm:7.24.2"
+  version: 7.24.6
+  resolution: "@babel/code-frame@npm:7.24.6"
   dependencies:
-    "@babel/highlight": "npm:^7.24.2"
+    "@babel/highlight": "npm:^7.24.6"
     picocolors: "npm:^1.0.0"
-  checksum: 10/7db8f5b36ffa3f47a37f58f61e3d130b9ecad21961f3eede7e2a4ac2c7e4a5efb6e9d03a810c669bc986096831b6c0dfc2c3082673d93351b82359c1b03e0590
+  checksum: 10/e9b70af2a9c7c734ac36c2e6e1da640a6e0a483bfba7cf620226a1226a2e6d64961324b02d786e06ce72f0aa329e190dfc49128367a2368b69e2219ffddcdcc5
   languageName: node
   linkType: hard
 
-"@babel/helper-validator-identifier@npm:^7.22.20, @babel/helper-validator-identifier@npm:^7.24.5":
-  version: 7.24.5
-  resolution: "@babel/helper-validator-identifier@npm:7.24.5"
-  checksum: 10/38aaf6a64a0ea2e84766165b461deda3c24fd2173dff18419a2cc9e1ea1d3e709039aee94db29433a07011492717c80900a5eb564cdca7d137757c3c69e26898
+"@babel/helper-validator-identifier@npm:^7.22.20, @babel/helper-validator-identifier@npm:^7.24.6":
+  version: 7.24.6
+  resolution: "@babel/helper-validator-identifier@npm:7.24.6"
+  checksum: 10/7e725ef0684291ca3306d5174a5d1cd9072ad58ba444cfa50aaf92a5c59dd723fa15031733ac598bb6b066cb62c2472e14cd82325522348977a72e99aa21b97a
   languageName: node
   linkType: hard
 
-"@babel/highlight@npm:^7.24.2":
-  version: 7.24.5
-  resolution: "@babel/highlight@npm:7.24.5"
+"@babel/highlight@npm:^7.24.6":
+  version: 7.24.6
+  resolution: "@babel/highlight@npm:7.24.6"
   dependencies:
-    "@babel/helper-validator-identifier": "npm:^7.24.5"
+    "@babel/helper-validator-identifier": "npm:^7.24.6"
     chalk: "npm:^2.4.2"
     js-tokens: "npm:^4.0.0"
     picocolors: "npm:^1.0.0"
-  checksum: 10/afde0403154ad69ecd58a98903058e776760444bf4d0363fb740a8596bc6278b72c5226637c4f6b3674d70acb1665207fe2fcecfe93a74f2f4ab033e89fd7e8c
+  checksum: 10/e11cd39ceb01c9b5e4f2684a45caefe7b2d7bb74997c30922e6b4063a6f16aff88356091350f0af01f044e1a198579a6b5c4161a84d0a6090e63a41167569daf
   languageName: node
   linkType: hard
 
 "@babel/runtime@npm:^7.21.0":
-  version: 7.24.5
-  resolution: "@babel/runtime@npm:7.24.5"
+  version: 7.24.6
+  resolution: "@babel/runtime@npm:7.24.6"
   dependencies:
     regenerator-runtime: "npm:^0.14.0"
-  checksum: 10/e0f4f4d4503f7338749d1dd92361ad132d683bde64e6b61d6c855e100dcd01592295fcfdcc960c946b85ef7908dc2f501080da58447c05812cf3cd80c599bb62
+  checksum: 10/6c4e12731cd9206a883c19d48fa04f6aaaf7ee83f049b22631e6521b866edc20832b4d5db30aa86d8ae799c4dcf57761fe8a4af2bf7e233245c079c1dafb5668
   languageName: node
   linkType: hard
 
@@ -180,61 +180,62 @@ __metadata:
   linkType: hard
 
 "@cspell/cspell-bundled-dicts@npm:^8.0.0":
-  version: 8.8.1
-  resolution: "@cspell/cspell-bundled-dicts@npm:8.8.1"
+  version: 8.8.3
+  resolution: "@cspell/cspell-bundled-dicts@npm:8.8.3"
   dependencies:
     "@cspell/dict-ada": "npm:^4.0.2"
-    "@cspell/dict-aws": "npm:^4.0.1"
+    "@cspell/dict-aws": "npm:^4.0.2"
     "@cspell/dict-bash": "npm:^4.1.3"
-    "@cspell/dict-companies": "npm:^3.0.31"
-    "@cspell/dict-cpp": "npm:^5.1.3"
+    "@cspell/dict-companies": "npm:^3.1.0"
+    "@cspell/dict-cpp": "npm:^5.1.6"
     "@cspell/dict-cryptocurrencies": "npm:^5.0.0"
     "@cspell/dict-csharp": "npm:^4.0.2"
     "@cspell/dict-css": "npm:^4.0.12"
     "@cspell/dict-dart": "npm:^2.0.3"
     "@cspell/dict-django": "npm:^4.1.0"
     "@cspell/dict-docker": "npm:^1.1.7"
-    "@cspell/dict-dotnet": "npm:^5.0.0"
+    "@cspell/dict-dotnet": "npm:^5.0.2"
     "@cspell/dict-elixir": "npm:^4.0.3"
-    "@cspell/dict-en-common-misspellings": "npm:^2.0.0"
+    "@cspell/dict-en-common-misspellings": "npm:^2.0.1"
     "@cspell/dict-en-gb": "npm:1.1.33"
-    "@cspell/dict-en_us": "npm:^4.3.19"
-    "@cspell/dict-filetypes": "npm:^3.0.3"
+    "@cspell/dict-en_us": "npm:^4.3.20"
+    "@cspell/dict-filetypes": "npm:^3.0.4"
     "@cspell/dict-fonts": "npm:^4.0.0"
     "@cspell/dict-fsharp": "npm:^1.0.1"
-    "@cspell/dict-fullstack": "npm:^3.1.5"
+    "@cspell/dict-fullstack": "npm:^3.1.8"
     "@cspell/dict-gaming-terms": "npm:^1.0.5"
     "@cspell/dict-git": "npm:^3.0.0"
-    "@cspell/dict-golang": "npm:^6.0.5"
+    "@cspell/dict-golang": "npm:^6.0.9"
+    "@cspell/dict-google": "npm:^1.0.0"
     "@cspell/dict-haskell": "npm:^4.0.1"
     "@cspell/dict-html": "npm:^4.0.5"
     "@cspell/dict-html-symbol-entities": "npm:^4.0.0"
     "@cspell/dict-java": "npm:^5.0.6"
     "@cspell/dict-julia": "npm:^1.0.1"
-    "@cspell/dict-k8s": "npm:^1.0.2"
+    "@cspell/dict-k8s": "npm:^1.0.3"
     "@cspell/dict-latex": "npm:^4.0.0"
     "@cspell/dict-lorem-ipsum": "npm:^4.0.0"
     "@cspell/dict-lua": "npm:^4.0.3"
     "@cspell/dict-makefile": "npm:^1.0.0"
     "@cspell/dict-monkeyc": "npm:^1.0.6"
     "@cspell/dict-node": "npm:^5.0.1"
-    "@cspell/dict-npm": "npm:^5.0.15"
-    "@cspell/dict-php": "npm:^4.0.6"
-    "@cspell/dict-powershell": "npm:^5.0.3"
+    "@cspell/dict-npm": "npm:^5.0.16"
+    "@cspell/dict-php": "npm:^4.0.7"
+    "@cspell/dict-powershell": "npm:^5.0.4"
     "@cspell/dict-public-licenses": "npm:^2.0.6"
     "@cspell/dict-python": "npm:^4.1.11"
     "@cspell/dict-r": "npm:^2.0.1"
     "@cspell/dict-ruby": "npm:^5.0.2"
     "@cspell/dict-rust": "npm:^4.0.3"
-    "@cspell/dict-scala": "npm:^5.0.0"
-    "@cspell/dict-software-terms": "npm:^3.3.20"
+    "@cspell/dict-scala": "npm:^5.0.2"
+    "@cspell/dict-software-terms": "npm:^3.3.23"
     "@cspell/dict-sql": "npm:^2.1.3"
     "@cspell/dict-svelte": "npm:^1.0.2"
     "@cspell/dict-swift": "npm:^2.0.1"
     "@cspell/dict-terraform": "npm:^1.0.0"
-    "@cspell/dict-typescript": "npm:^3.1.4"
+    "@cspell/dict-typescript": "npm:^3.1.5"
     "@cspell/dict-vue": "npm:^3.0.0"
-  checksum: 10/a9a8facf54d2380c71e5beb2966eca98fcdac18b27846087514d9c4fab452d8ab570aa33dfc9db168cc7116f865fcb9bebde2bc238e0f606a7e490eacf029c3d
+  checksum: 10/d699ad40aa456f2d7114049efdc633cc2ed630230f7c1f738c2d5f635a1d07cb51d8c4374ceac0f78911621953c8e5b71ea7010184d169d7f0ea07ff557b4106
   languageName: node
   linkType: hard
 
@@ -245,10 +246,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-aws@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "@cspell/dict-aws@npm:4.0.1"
-  checksum: 10/513b7822d03a6995aab3397f39d38d836c20544ca2ccb3f380248da8b69ccc3b9c8698453340e647c739e875e6c90b06ccf05813a448655258769d9f56f43ac8
+"@cspell/dict-aws@npm:^4.0.2":
+  version: 4.0.2
+  resolution: "@cspell/dict-aws@npm:4.0.2"
+  checksum: 10/7f784f0a054f4d142a22e94d411d6383b5bbba8b1d77952d45664a3bf35626926a0b8057293663287e6c53655c7dd32c6348905ecceb2970056e1cc5cf962e11
   languageName: node
   linkType: hard
 
@@ -259,17 +260,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-companies@npm:^3.0.31":
-  version: 3.0.31
-  resolution: "@cspell/dict-companies@npm:3.0.31"
-  checksum: 10/1bed24f9ba5f607d913b54911542a7c8f0c70425d7afadff326e999d1dcf982112d792761a1c422622500a4da8694f01b1c12d114c6424004bb4b9b94f923d2c
+"@cspell/dict-companies@npm:^3.1.0":
+  version: 3.1.1
+  resolution: "@cspell/dict-companies@npm:3.1.1"
+  checksum: 10/3ba8237e2a7d805fbad5214078c47783c4ad9d7e07e936b6e6c6db6f2266d30f75d16d991bade3f8df304131fc7ffc724a7d34f5b9ec8107ba71383d079f98d8
   languageName: node
   linkType: hard
 
-"@cspell/dict-cpp@npm:^5.1.3":
-  version: 5.1.5
-  resolution: "@cspell/dict-cpp@npm:5.1.5"
-  checksum: 10/6c0ab4d55f5d58d7cd6aac84698f081d8582c17f1c19bbb7ef95b01d8d53c1789827140ed727e9a24d066ea5ba95473cdb9ed2712af386fcdbf8b9a8182bec45
+"@cspell/dict-cpp@npm:^5.1.6":
+  version: 5.1.7
+  resolution: "@cspell/dict-cpp@npm:5.1.7"
+  checksum: 10/68362d872b387b242c79716178719ffa64dea7523f4bb6f97204570747291bdb4a2ab8b81bff8ae84ec457a396caa4b098e96ef4aac644c12664e58501998f7f
   languageName: node
   linkType: hard
 
@@ -322,7 +323,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-dotnet@npm:^5.0.0":
+"@cspell/dict-dotnet@npm:^5.0.2":
   version: 5.0.2
   resolution: "@cspell/dict-dotnet@npm:5.0.2"
   checksum: 10/319c6ed2793ad9f5ab01b2a7a3fa7280edd762714ff109dfafc24b397bc7ba7e8917cf8c68dd2d124eb11a7b7f60e677b1fd36d3610733b3f32668f966902ebd
@@ -336,10 +337,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-en-common-misspellings@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.0"
-  checksum: 10/487dc7a1c74793fd9c8362e44313c27f69b6617c9287f171fdaf9e7b94c6a73a61cde88eadd120bf4bec85647c81e949332a6816b88e3a430e32aa59414ef509
+"@cspell/dict-en-common-misspellings@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.1"
+  checksum: 10/3f4fd553fcb9dc563acd4ee3eefa4edb8e6038ce9a30fb0bcb823fe7b88d2ce39a7cf140df55ef8a7ec495ac6f99d9d0e42ddb914562cb0ef1e6b30c23cbce70
   languageName: node
   linkType: hard
 
@@ -350,14 +351,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-en_us@npm:^4.3.19":
-  version: 4.3.19
-  resolution: "@cspell/dict-en_us@npm:4.3.19"
-  checksum: 10/55f3c4f14e078742ef29a0a3d851fc50ae1758d7af4f85c19d65a35ee68f1ba74037229ad5de70b60567db8978bedf3eb5ace93c55f524058fcbd7479d441516
+"@cspell/dict-en_us@npm:^4.3.20":
+  version: 4.3.20
+  resolution: "@cspell/dict-en_us@npm:4.3.20"
+  checksum: 10/77a235d396357e61fde47cc4332464fc63916126dabe1a52a218bc379753622e4cb284a78031cd5aed450932b6670c83066ce646203e78cf62d469dd24f72301
   languageName: node
   linkType: hard
 
-"@cspell/dict-filetypes@npm:^3.0.3":
+"@cspell/dict-filetypes@npm:^3.0.4":
   version: 3.0.4
   resolution: "@cspell/dict-filetypes@npm:3.0.4"
   checksum: 10/d5e8e46f9caf40c895326c7557f42c0648458717f79d9f41f145170dbe36ec9e21dea322117a92a6a904385dfb3efd0dd63a349edf705c6cc4255861f8b97cce
@@ -385,10 +386,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-fullstack@npm:^3.1.5":
-  version: 3.1.5
-  resolution: "@cspell/dict-fullstack@npm:3.1.5"
-  checksum: 10/01c98a3408d4bf4832f1f110252399e663ce869bb097d681558828bb0e22725c7fe7b43077aa57afc2c3158515eaa744074826c020825af5856a0950219785a6
+"@cspell/dict-fullstack@npm:^3.1.8":
+  version: 3.1.8
+  resolution: "@cspell/dict-fullstack@npm:3.1.8"
+  checksum: 10/c0f178e751f0e4779600749d5f77e313e33362ba6d4737d3969f64ca272200bb8cc94dd10cccc18de58e60223b46a39247c5e4ca1d5eda768a1d08c1725fb9e7
   languageName: node
   linkType: hard
 
@@ -406,10 +407,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-golang@npm:^6.0.5":
-  version: 6.0.8
-  resolution: "@cspell/dict-golang@npm:6.0.8"
-  checksum: 10/0bf60d80db86397e7deebdf0f0aebcc5369b5e910d91862a77fd929b6bdbd15e59b7b7941729f65c2273820641fccb228b0c4a66bb567de11bb92bfd8d3db7e2
+"@cspell/dict-golang@npm:^6.0.9":
+  version: 6.0.9
+  resolution: "@cspell/dict-golang@npm:6.0.9"
+  checksum: 10/4ce7fc8f1a925eb3c4a2a2a2ae4d75be79e698d2f6cd90ff549892705687011a190b9aabc8bb5c2c7616d24f42a3264121ad8ae056a844937984d301fa7cd90f
+  languageName: node
+  linkType: hard
+
+"@cspell/dict-google@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "@cspell/dict-google@npm:1.0.1"
+  checksum: 10/4e2975c76e661884defdce928847f6babd3e0e296867540cf37ca56623854f97f74e225d668116b904d572574915c8c723f17171f1d00847bb877e1eae375e7d
   languageName: node
   linkType: hard
 
@@ -448,10 +456,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-k8s@npm:^1.0.2":
-  version: 1.0.3
-  resolution: "@cspell/dict-k8s@npm:1.0.3"
-  checksum: 10/ae752f6986587af077358673ed270301a0fe1212f2580b348d40d948fa66e4463b69591d8bb05265fbd4292e62f035a2b7ad7971cfbb3fefdfa6465858b84f8e
+"@cspell/dict-k8s@npm:^1.0.3":
+  version: 1.0.4
+  resolution: "@cspell/dict-k8s@npm:1.0.4"
+  checksum: 10/c1e2f24ba0de612c980a7f26b11eb79b6a351035e9a277d6a608c6e4f13c51354dbc4bbb25dcf2f4b8f1e569e25689068584eed730f334d8e9f87dc55214d1a5
   languageName: node
   linkType: hard
 
@@ -497,31 +505,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-npm@npm:^5.0.15":
+"@cspell/dict-npm@npm:^5.0.16":
   version: 5.0.16
   resolution: "@cspell/dict-npm@npm:5.0.16"
   checksum: 10/ec77d0e297e6a50b1889a15332771c6605997bb1c4a8d9f0528ded69ea993fae449f303f4bca04c4cd56c24ad4151feb67b64cfade58aa21c81d80e1b0474b32
   languageName: node
   linkType: hard
 
-"@cspell/dict-php@npm:^4.0.6":
+"@cspell/dict-php@npm:^4.0.7":
   version: 4.0.7
   resolution: "@cspell/dict-php@npm:4.0.7"
   checksum: 10/df91a2f9864bcdc091a9784d89ce91fcca9f79a65c570ed22635f6fb665a7fd2a040ab747066a2ea4b9efb550a7d2300b907d11cc6bfb8734580acacf30661ba
   languageName: node
   linkType: hard
 
-"@cspell/dict-powershell@npm:^5.0.3":
-  version: 5.0.3
-  resolution: "@cspell/dict-powershell@npm:5.0.3"
-  checksum: 10/18eac3be8545b3df110bf867bd6285b11d7e67da037e00c9bc1376c5e322092bc1d925375a09df8b7420a6a35847aa20558610ffb491763eb82949f3af764e1d
+"@cspell/dict-powershell@npm:^5.0.4":
+  version: 5.0.4
+  resolution: "@cspell/dict-powershell@npm:5.0.4"
+  checksum: 10/13aa687130db6330a86f7b9cd1f7be9046ac3102aa96be9c71e130639fc3eff9b0a1ad45914bcaa497af2d628e2d3bc8babf02d6b657fd18d88fddc412ec4fec
   languageName: node
   linkType: hard
 
 "@cspell/dict-public-licenses@npm:^2.0.6":
-  version: 2.0.6
-  resolution: "@cspell/dict-public-licenses@npm:2.0.6"
-  checksum: 10/a07adccccf7ad92eb48cc0b6cc9ac0239a870902a579e072e563af4b65c434ff2da656b233e5765dec330ee5c919ef911cc61e9f63869d2bfa9a96493188a3d9
+  version: 2.0.7
+  resolution: "@cspell/dict-public-licenses@npm:2.0.7"
+  checksum: 10/7bbd067668499c45bad9eb8e3dae598bc5635e6035160bff7343b87cd31e419387e704fa290d0e23903fff6c80b65838ebe5638e2951dc5d9214df9b98b60ce2
   languageName: node
   linkType: hard
 
@@ -555,17 +563,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-scala@npm:^5.0.0":
+"@cspell/dict-scala@npm:^5.0.2":
   version: 5.0.2
   resolution: "@cspell/dict-scala@npm:5.0.2"
   checksum: 10/c07bda723929f8b01ae0575af3d05ffffee9ed7523e0658a22d533cf287dd564d11bf16062a1692fb06c3aff2d519d07c7c2c3e5662ced8af1194b31b352af51
   languageName: node
   linkType: hard
 
-"@cspell/dict-software-terms@npm:^3.3.20":
-  version: 3.3.22
-  resolution: "@cspell/dict-software-terms@npm:3.3.22"
-  checksum: 10/dc9834a5321af730fa7375676cd16a3e9c055143f6a5cfe39dae83e11964776d7c24193ca819ee3eb776ddc517ed99f0a863deed23581d4f178994ead95dae78
+"@cspell/dict-software-terms@npm:^3.3.23":
+  version: 3.3.24
+  resolution: "@cspell/dict-software-terms@npm:3.3.24"
+  checksum: 10/c61582d8ef93ecc4612e730e35853f36b8bd07f210a2bc45fd0eb9acbe1b0be6af76e5a5747639241335f9695a4adcc2ee9c387bc36e61cd7d78bf74e717a005
   languageName: node
   linkType: hard
 
@@ -597,10 +605,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-typescript@npm:^3.1.4":
-  version: 3.1.4
-  resolution: "@cspell/dict-typescript@npm:3.1.4"
-  checksum: 10/07d73ffe0ec3dafaaf111439d85180603cf0ffe5f8d714a01129b7c309224674f4e00f11a246b5ab30325295b89c6c51272be2688127a574743f8bc15564b602
+"@cspell/dict-typescript@npm:^3.1.5":
+  version: 3.1.5
+  resolution: "@cspell/dict-typescript@npm:3.1.5"
+  checksum: 10/9e99aa7c849133fcab6d16864045b512be3f0b89c76caf31234fcc6edf818e06e2af4087f576e5837e209dc0bdc1d1379d6752bac48aab517e0661c0e4eeff58
   languageName: node
   linkType: hard
 
@@ -828,14 +836,14 @@ __metadata:
   linkType: hard
 
 "@typescript-eslint/eslint-plugin@npm:^7.0.0":
-  version: 7.9.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:7.9.0"
+  version: 7.10.0
+  resolution: "@typescript-eslint/eslint-plugin@npm:7.10.0"
   dependencies:
     "@eslint-community/regexpp": "npm:^4.10.0"
-    "@typescript-eslint/scope-manager": "npm:7.9.0"
-    "@typescript-eslint/type-utils": "npm:7.9.0"
-    "@typescript-eslint/utils": "npm:7.9.0"
-    "@typescript-eslint/visitor-keys": "npm:7.9.0"
+    "@typescript-eslint/scope-manager": "npm:7.10.0"
+    "@typescript-eslint/type-utils": "npm:7.10.0"
+    "@typescript-eslint/utils": "npm:7.10.0"
+    "@typescript-eslint/visitor-keys": "npm:7.10.0"
     graphemer: "npm:^1.4.0"
     ignore: "npm:^5.3.1"
     natural-compare: "npm:^1.4.0"
@@ -846,25 +854,25 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/91ab53a68695d326bc1b9cb9b0f1ad8e1941597051522cd7b4461b47cd2ef11b8fb16f5c10c590673e2ac80b3094bec5022a41eaf0b443fc129421b857eefab6
+  checksum: 10/dfe505cdf718dd29e8637b902e4c544c6b7d246d2051fd1936090423eb3dadfe2bd757de51e565e6fd80e74cf1918e191c26fee6df515100484ec3efd9b8d111
   languageName: node
   linkType: hard
 
 "@typescript-eslint/parser@npm:^7.0.0":
-  version: 7.9.0
-  resolution: "@typescript-eslint/parser@npm:7.9.0"
+  version: 7.10.0
+  resolution: "@typescript-eslint/parser@npm:7.10.0"
   dependencies:
-    "@typescript-eslint/scope-manager": "npm:7.9.0"
-    "@typescript-eslint/types": "npm:7.9.0"
-    "@typescript-eslint/typescript-estree": "npm:7.9.0"
-    "@typescript-eslint/visitor-keys": "npm:7.9.0"
+    "@typescript-eslint/scope-manager": "npm:7.10.0"
+    "@typescript-eslint/types": "npm:7.10.0"
+    "@typescript-eslint/typescript-estree": "npm:7.10.0"
+    "@typescript-eslint/visitor-keys": "npm:7.10.0"
     debug: "npm:^4.3.4"
   peerDependencies:
     eslint: ^8.56.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/6c10ceae8a9199b07ca91e75e59d5cc789a6931ed2284a698e482f2653f832c6c89201fc4399334189fd76e4d30c0d1885caca96ff3af4bf9f7cf2777d9fb91f
+  checksum: 10/1fa71049b2debf2f7f5366fb433e3d4c8e1591c2061a15fa8797d14623a2b6984340a59e7717acc013ce8c6a2ed32c5c0e811fe948b5936d41c2a5a09b61d130
   languageName: node
   linkType: hard
 
@@ -878,22 +886,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/scope-manager@npm:7.9.0":
-  version: 7.9.0
-  resolution: "@typescript-eslint/scope-manager@npm:7.9.0"
+"@typescript-eslint/scope-manager@npm:7.10.0":
+  version: 7.10.0
+  resolution: "@typescript-eslint/scope-manager@npm:7.10.0"
   dependencies:
-    "@typescript-eslint/types": "npm:7.9.0"
-    "@typescript-eslint/visitor-keys": "npm:7.9.0"
-  checksum: 10/5344c37f696f1d95039631b79285f4e336099b2a35caf334f90cb2bf8f93a3257a9d5091df3f58d3af9272fe00a18ab3ad4c1cce6a7dd2b8e76b08fa7e606233
+    "@typescript-eslint/types": "npm:7.10.0"
+    "@typescript-eslint/visitor-keys": "npm:7.10.0"
+  checksum: 10/838a7a9573577d830b2f65801ce045abe6fad08ac7e04bac4cc9b2e5b7cbac07e645de9c79b9485f4cc361fe25da5319025aa0336fad618023fff62e4e980638
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:7.9.0":
-  version: 7.9.0
-  resolution: "@typescript-eslint/type-utils@npm:7.9.0"
+"@typescript-eslint/type-utils@npm:7.10.0":
+  version: 7.10.0
+  resolution: "@typescript-eslint/type-utils@npm:7.10.0"
   dependencies:
-    "@typescript-eslint/typescript-estree": "npm:7.9.0"
-    "@typescript-eslint/utils": "npm:7.9.0"
+    "@typescript-eslint/typescript-estree": "npm:7.10.0"
+    "@typescript-eslint/utils": "npm:7.10.0"
     debug: "npm:^4.3.4"
     ts-api-utils: "npm:^1.3.0"
   peerDependencies:
@@ -901,7 +909,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/b756a7655fc9f55700759919068721ce025bd062485f88811269993615f64b0bfd146549f6e74c740ce85e81dc9bc7e7f6b7a87dea307a25e2eaa07a07b16d15
+  checksum: 10/e62db9ffbfbccce60258108f7ed025005e04df18da897ff1b30049e3c10a47150e94c2fb5ac0ab9711ebb60517521213dcccbea6d08125107a87a67088a79042
   languageName: node
   linkType: hard
 
@@ -912,10 +920,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/types@npm:7.9.0, @typescript-eslint/types@npm:^7.2.0":
-  version: 7.9.0
-  resolution: "@typescript-eslint/types@npm:7.9.0"
-  checksum: 10/59cbd1b272132a7e1937a2bff20e2db67d566ad96d02f40541533ad1cce22b760cce3034f29a9087af423384212b8da1030660519d861c43de85e0cd56ae5f08
+"@typescript-eslint/types@npm:7.10.0, @typescript-eslint/types@npm:^7.2.0":
+  version: 7.10.0
+  resolution: "@typescript-eslint/types@npm:7.10.0"
+  checksum: 10/76075a7b87ddfff8e7e4aebf3d225e67bf79ead12a7709999d4d5c31611d9c0813ca69a9298f320efb018fe493ce3763c964a0e670a4c953d8eff000f10672c0
   languageName: node
   linkType: hard
 
@@ -937,12 +945,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:7.9.0":
-  version: 7.9.0
-  resolution: "@typescript-eslint/typescript-estree@npm:7.9.0"
+"@typescript-eslint/typescript-estree@npm:7.10.0":
+  version: 7.10.0
+  resolution: "@typescript-eslint/typescript-estree@npm:7.10.0"
   dependencies:
-    "@typescript-eslint/types": "npm:7.9.0"
-    "@typescript-eslint/visitor-keys": "npm:7.9.0"
+    "@typescript-eslint/types": "npm:7.10.0"
+    "@typescript-eslint/visitor-keys": "npm:7.10.0"
     debug: "npm:^4.3.4"
     globby: "npm:^11.1.0"
     is-glob: "npm:^4.0.3"
@@ -952,21 +960,21 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/fae2e54124308f6e9f640605119510729a401de3dc5c821cfeffd692dcdd2f5efb5ac9ac6cc18aec4895826b771d0ee2e13e8aa247d58541459677e4cb43cb0d
+  checksum: 10/d11d0c45749c9bd4a187b6dfdf5600e36ba8c87667cd2020d9158667c47c32ec0bcb1ef3b7eee5577b667def5f7f33d8131092a0f221b3d3e8105078800f923f
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:7.9.0":
-  version: 7.9.0
-  resolution: "@typescript-eslint/utils@npm:7.9.0"
+"@typescript-eslint/utils@npm:7.10.0":
+  version: 7.10.0
+  resolution: "@typescript-eslint/utils@npm:7.10.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
-    "@typescript-eslint/scope-manager": "npm:7.9.0"
-    "@typescript-eslint/types": "npm:7.9.0"
-    "@typescript-eslint/typescript-estree": "npm:7.9.0"
+    "@typescript-eslint/scope-manager": "npm:7.10.0"
+    "@typescript-eslint/types": "npm:7.10.0"
+    "@typescript-eslint/typescript-estree": "npm:7.10.0"
   peerDependencies:
     eslint: ^8.56.0
-  checksum: 10/3895739854c48d4b8a1b33a9ab62ef44c074c007d556655908d1853e982810a04cc90217742caadf52c33be6453933aa5b23786b779ccb2bda557c762526da99
+  checksum: 10/62327b585295f9c3aa2508aefac639d562b6f7f270a229aa3a2af8dbd055f4a4d230a8facae75a8a53bb8222b0041162072d259add56b541f8bdfda8da36ea5f
   languageName: node
   linkType: hard
 
@@ -998,13 +1006,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/visitor-keys@npm:7.9.0":
-  version: 7.9.0
-  resolution: "@typescript-eslint/visitor-keys@npm:7.9.0"
+"@typescript-eslint/visitor-keys@npm:7.10.0":
+  version: 7.10.0
+  resolution: "@typescript-eslint/visitor-keys@npm:7.10.0"
   dependencies:
-    "@typescript-eslint/types": "npm:7.9.0"
+    "@typescript-eslint/types": "npm:7.10.0"
     eslint-visitor-keys: "npm:^3.4.3"
-  checksum: 10/63cceb4c6aebc230e588c1a7b93db609cb7f3ecf4244cce49623f793f73a0f5a97d866a50758c9923162352f5dc8aa161a37be7eec5ab8aa54ca3c6642a6bd4f
+  checksum: 10/44b555a075bdff38e3e13c454ceaac50aa2546635e81f907d1ea84822c8887487d1d6bb4ff690f627da9585dc19ad07e228847c162c30bb06c46fb119899d8cc
   languageName: node
   linkType: hard
 
@@ -1035,8 +1043,8 @@ __metadata:
   linkType: hard
 
 "@w5s/cspell-config@npm:^2.2.2":
-  version: 2.2.16
-  resolution: "@w5s/cspell-config@npm:2.2.16"
+  version: 2.3.0
+  resolution: "@w5s/cspell-config@npm:2.3.0"
   dependencies:
     "@cspell/cspell-bundled-dicts": "npm:^8.0.0"
   peerDependencies:
@@ -1044,16 +1052,16 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 10/643e1fdded42ac57e565b7d0621a62727d1eb20a68b90a7efd8262f6f35e244716c2945a497de6a47d5d68d2669a29fe2abccc68970e59f6582f6d0c1f78ccfb
+  checksum: 10/95f7879aff81bac69ebfa74a1a019e5a9150f0089d84e8639823fe7476ffe0eff6bff0e6564f8d043dbbbf0de5a5ef799fd0b31db8bdd2fd773dca1ecb4de721
   languageName: node
   linkType: hard
 
 "@w5s/dev@npm:^2.0.0, @w5s/dev@npm:^2.1.6":
-  version: 2.1.7
-  resolution: "@w5s/dev@npm:2.1.7"
+  version: 2.2.0
+  resolution: "@w5s/dev@npm:2.2.0"
   dependencies:
     "@types/eslint": "npm:^8.44.0"
-  checksum: 10/bafc529feab0c028d06891e79a1499a7d37ea74096f268a103b38de880c41cabf77bb6aa44dce68cebe2ad8058293a35ae1b902e1e91dc80ddb952c57aa4df91
+  checksum: 10/ff4bc4cbea9655c2045b3123c9198b6cb8a68310f26a5481275e06b7cc42834b69e94b474bd016ae55855424efab1f582f99b5b267cd42ac3be9891db6b4d5ae
   languageName: node
   linkType: hard
 
@@ -1332,12 +1340,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"braces@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "braces@npm:3.0.2"
+"braces@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "braces@npm:3.0.3"
   dependencies:
-    fill-range: "npm:^7.0.1"
-  checksum: 10/966b1fb48d193b9d155f810e5efd1790962f2c4e0829f8440b8ad236ba009222c501f70185ef732fef17a4c490bb33a03b90dab0631feafbdf447da91e8165b1
+    fill-range: "npm:^7.1.1"
+  checksum: 10/fad11a0d4697a27162840b02b1fad249c1683cbc510cd5bf1a471f2f8085c046d41094308c577a50a03a579dd99d5a6b3724c4b5e8b14df2c4443844cfcda2c6
   languageName: node
   linkType: hard
 
@@ -1983,8 +1991,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jsdoc@npm:^48.0.0":
-  version: 48.2.5
-  resolution: "eslint-plugin-jsdoc@npm:48.2.5"
+  version: 48.2.6
+  resolution: "eslint-plugin-jsdoc@npm:48.2.6"
   dependencies:
     "@es-joy/jsdoccomment": "npm:~0.43.0"
     are-docs-informative: "npm:^0.0.2"
@@ -1992,12 +2000,11 @@ __metadata:
     debug: "npm:^4.3.4"
     escape-string-regexp: "npm:^4.0.0"
     esquery: "npm:^1.5.0"
-    is-builtin-module: "npm:^3.2.1"
     semver: "npm:^7.6.1"
     spdx-expression-parse: "npm:^4.0.0"
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10/d2ae657b73468bc08ba17c8d10b68512db1efcae7b25fe725387546dd155487e263e434ea6eae55aaf71fe1ebbb39e9f7de791119784d725d36f18fe418e697d
+  checksum: 10/629a3f5cb77f52194da7d2ab2ee037d8bebcc0e4305e4819648ae76bb95a3c1e97aefcfaf210d29b67ffa36fccede6cbfa043f43916a2240fc259f97664d939f
   languageName: node
   linkType: hard
 
@@ -2319,12 +2326,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fill-range@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "fill-range@npm:7.0.1"
+"fill-range@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "fill-range@npm:7.1.1"
   dependencies:
     to-regex-range: "npm:^5.0.1"
-  checksum: 10/e260f7592fd196b4421504d3597cc76f4a1ca7a9488260d533b611fc3cefd61e9a9be1417cb82d3b01ad9f9c0ff2dbf258e1026d2445e26b0cf5148ff4250429
+  checksum: 10/a7095cb39e5bc32fada2aa7c7249d3f6b01bd1ce461a61b0adabacccabd9198500c6fb1f68a7c851a657e273fce2233ba869638897f3d7ed2e87a2d89b4436ea
   languageName: node
   linkType: hard
 
@@ -3107,12 +3114,12 @@ __metadata:
   linkType: hard
 
 "micromatch@npm:^4.0.4, micromatch@npm:^4.0.5":
-  version: 4.0.5
-  resolution: "micromatch@npm:4.0.5"
+  version: 4.0.7
+  resolution: "micromatch@npm:4.0.7"
   dependencies:
-    braces: "npm:^3.0.2"
+    braces: "npm:^3.0.3"
     picomatch: "npm:^2.3.1"
-  checksum: 10/a749888789fc15cac0e03273844dbd749f9f8e8d64e70c564bcf06a033129554c789bb9e30d7566d7ff6596611a08e58ac12cf2a05f6e3c9c47c50c4c7e12fa2
+  checksum: 10/a11ed1cb67dcbbe9a5fc02c4062cf8bb0157d73bf86956003af8dcfdf9b287f9e15ec0f6d6925ff6b8b5b496202335e497b01de4d95ef6cf06411bc5e5c474a0
   languageName: node
   linkType: hard
 
@@ -3471,17 +3478,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-selector-parser@npm:^6.0.15":
-  version: 6.0.16
-  resolution: "postcss-selector-parser@npm:6.0.16"
-  dependencies:
-    cssesc: "npm:^3.0.0"
-    util-deprecate: "npm:^1.0.2"
-  checksum: 10/9324f63992c6564d392f9f6b16c56c05f157256e3be2d55d1234f7728252257dfd6b870a65a5d04ee3ceb9d9e7b78c043f630a58c9869b4b0481d6e064edc2cf
-  languageName: node
-  linkType: hard
-
-"postcss-selector-parser@npm:^6.1.0":
+"postcss-selector-parser@npm:^6.0.15, postcss-selector-parser@npm:^6.1.0":
   version: 6.1.0
   resolution: "postcss-selector-parser@npm:6.1.0"
   dependencies:
@@ -3903,9 +3900,9 @@ __metadata:
   linkType: hard
 
 "spdx-license-ids@npm:^3.0.0":
-  version: 3.0.17
-  resolution: "spdx-license-ids@npm:3.0.17"
-  checksum: 10/8f6c6ae02ebb25b4ca658b8990d9e8a8f8d8a95e1d8b9fd84d87eed80a7dc8f8073d6a8d50b8a0295c0e8399e1f8814f5c00e2985e6bf3731540a16f7241cbf1
+  version: 3.0.18
+  resolution: "spdx-license-ids@npm:3.0.18"
+  checksum: 10/45fdbb50c4bbe364720ef0acd19f4fc1914d73ba1e2b1ce9db21ee12d7f9e8bf14336289f6ad3d5acac3dc5b91aafe61e9c652d5806b31cbb8518a14979a16ff
   languageName: node
   linkType: hard
 
@@ -4639,13 +4636,13 @@ __metadata:
   linkType: hard
 
 "yaml-eslint-parser@npm:^1.2.1":
-  version: 1.2.2
-  resolution: "yaml-eslint-parser@npm:1.2.2"
+  version: 1.2.3
+  resolution: "yaml-eslint-parser@npm:1.2.3"
   dependencies:
     eslint-visitor-keys: "npm:^3.0.0"
     lodash: "npm:^4.17.21"
     yaml: "npm:^2.0.0"
-  checksum: 10/286de5b26011ff828d726189a38b8cd942a97f3ea5f777a6c87294906c580c438079ce393566d4f490201c5cfd274aef0f878d30f83c8e929d768aa1c47fde66
+  checksum: 10/b936470882a38457333591cbecae5ace8e3cdb92cf0754a51429230e5a1fc56f90a8433341474ed8961125fd81047ee57fa3eb053dcd94cde76c8ae35cb58add
   languageName: node
   linkType: hard
 
