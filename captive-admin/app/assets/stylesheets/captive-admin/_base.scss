@@ -25,7 +25,7 @@
   @import 'inputs/select2';
 
   body {
-    color: $fg-default;
+    color: var(--fg-default);
     @include body-medium;
   }
 }
@@ -34,7 +34,7 @@
   margin-top: $spacer-1;
   @include body-small;
 
-  color: $fg-subtle;
+  color: var(--fg-subtle);
 }
 
 .col-actions {
