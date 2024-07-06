@@ -620,11 +620,11 @@ __metadata:
   linkType: hard
 
 "@csstools/css-parser-algorithms@npm:^2.6.3":
-  version: 2.7.0
-  resolution: "@csstools/css-parser-algorithms@npm:2.7.0"
+  version: 2.7.1
+  resolution: "@csstools/css-parser-algorithms@npm:2.7.1"
   peerDependencies:
-    "@csstools/css-tokenizer": ^2.3.2
-  checksum: 10/b9c01c0d0b360434debc20e2767bf4fb2a469e479a41bdaf908b0b626ae58a265deda07825a4cb3ddb8aab63c4bfdd6f594ad368fef43471ee2f9aa364f09077
+    "@csstools/css-tokenizer": ^2.4.1
+  checksum: 10/939b23652c970dc4af8c20776e5da9e592cae4a590025f07ddb3263799076d4b6cf1bf8c4de97b29780bfa169177a31945effe94d2a11e0972138b5ff7d93654
   languageName: node
   linkType: hard
 
@@ -636,12 +636,12 @@ __metadata:
   linkType: hard
 
 "@csstools/media-query-list-parser@npm:^2.1.11":
-  version: 2.1.12
-  resolution: "@csstools/media-query-list-parser@npm:2.1.12"
+  version: 2.1.13
+  resolution: "@csstools/media-query-list-parser@npm:2.1.13"
   peerDependencies:
-    "@csstools/css-parser-algorithms": ^2.7.0
-    "@csstools/css-tokenizer": ^2.3.2
-  checksum: 10/ee22ee6ffd0a8922fc5e1d985b338fb13dead051cdadc9835b94e1183db5aeb33e184f25caeb2f05935fb61dd96e11601c6ef4001fb625195e51c4ec7a82cbb3
+    "@csstools/css-parser-algorithms": ^2.7.1
+    "@csstools/css-tokenizer": ^2.4.1
+  checksum: 10/4a771d94eb01a23279d493cd668c71ae230b660c1e6ebcff1bec6e959eae6987ece7ce01b094b44afbae8695dc98d8617580d488db16de9ec4a7378ed5adf57f
   languageName: node
   linkType: hard
 
