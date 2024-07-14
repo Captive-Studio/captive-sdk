@@ -4063,14 +4063,14 @@ __metadata:
   linkType: hard
 
 "stylelint-prettier@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "stylelint-prettier@npm:5.0.0"
+  version: 5.0.1
+  resolution: "stylelint-prettier@npm:5.0.1"
   dependencies:
     prettier-linter-helpers: "npm:^1.0.0"
   peerDependencies:
     prettier: ">=3.0.0"
     stylelint: ">=16.0.0"
-  checksum: 10/1d55f03bbc66c769643672789ebc6f48d6af573e8ef867ea919c7fd0fa70b9750183405641808c16a9a024f895092b23d0732d7ddda4c05ba6a21cceceee9205
+  checksum: 10/32ef41d1f709eadb92bb98c25a3003cab6139bc246a12aa6b9ef9ff20e241957a12e0d8b2b0736d621a4d8ab24e2f0ff6dca0f29f398fddad703f777491d6313
   languageName: node
   linkType: hard
 
