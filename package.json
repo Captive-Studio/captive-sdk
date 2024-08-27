@@ -54,7 +54,7 @@
     "eslint": "9.9.1",
     "prettier": "3.3.3",
     "stylelint": "16.8.2",
-    "turbo": "1.13.4"
+    "turbo": "2.1.0"
   },
   "packageManager": "yarn@4.4.1"
 }
