@@ -51,7 +51,7 @@ GEM
     irb (1.14.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    logger (1.6.0)
+    logger (1.6.1)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -94,7 +94,7 @@ GEM
       psych (>= 4.0.0)
     redis-client (0.22.2)
       connection_pool
-    reline (0.5.9)
+    reline (0.5.10)
       io-console (~> 0.5)
     securerandom (0.3.1)
     sentry-rails (5.19.0)
@@ -106,7 +106,7 @@ GEM
     sentry-sidekiq (5.19.0)
       sentry-ruby (~> 5.19.0)
       sidekiq (>= 3.0)
-    sidekiq (7.3.1)
+    sidekiq (7.3.2)
       concurrent-ruby (< 2)
       connection_pool (>= 2.3.0)
       logger
@@ -127,7 +127,7 @@ GEM
       concurrent-ruby (~> 1.0)
     useragent (0.16.10)
     webrick (1.8.1)
-    zeitwerk (2.6.17)
+    zeitwerk (2.6.18)
 
 PLATFORMS
   arm64-darwin-22
