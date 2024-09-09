@@ -114,20 +114,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/prettier-config@npm:^2.0.6":
-  version: 2.0.6
-  resolution: "@captive/prettier-config@npm:2.0.6"
-  dependencies:
-    "@w5s/prettier-config": "npm:^2.0.0"
-  peerDependencies:
-    prettier: 2.x || 3.x
-  peerDependenciesMeta:
-    prettier:
-      optional: true
-  checksum: 10/46e1ee9f0ca0b341da804c8b63e553001089dd63c55ddf3e335d5bc10b268acba169c9b9e22817e2adb6c77d787bedb93e49cbf8276dd5d01efd8ba33da1a6e2
-  languageName: node
-  linkType: hard
-
 "@captive/prettier-config@npm:^2.0.8":
   version: 2.0.8
   resolution: "@captive/prettier-config@npm:2.0.8"
@@ -142,11 +128,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/stylelint-config@npm:3.0.9":
-  version: 3.0.9
-  resolution: "@captive/stylelint-config@npm:3.0.9"
+"@captive/stylelint-config@npm:3.0.11":
+  version: 3.0.11
+  resolution: "@captive/stylelint-config@npm:3.0.11"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.6"
+    "@captive/prettier-config": "npm:^2.0.8"
     postcss: "npm:^8.4.14"
     postcss-html: "npm:*"
     stylelint-config-prettier-scss: "npm:^1.0.0"
@@ -162,7 +148,7 @@ __metadata:
   peerDependenciesMeta:
     stylelint:
       optional: true
-  checksum: 10/dc6768eac29a3634a4d41c4296ab88d16e6aae155c251efe4a8cf53c60f093007da0a967deef7a53e5560b597e71a31d2d84bf34d63262e58092e5679ea45c80
+  checksum: 10/cb3fc906f756fa0035e6b7c8af1284a99299de4a4bb82ed1e643e72368f6a03ea961812510ab609aa44d8fc9e3e1eabad34872a27f609f5b3d12e7a0094e52ef
   languageName: node
   linkType: hard
 
@@ -1114,7 +1100,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/prettier-config@npm:^2.0.0, @w5s/prettier-config@npm:^2.0.23":
+"@w5s/prettier-config@npm:^2.0.23":
   version: 2.0.23
   resolution: "@w5s/prettier-config@npm:2.0.23"
   peerDependencies:
@@ -3720,7 +3706,7 @@ __metadata:
     "@captive/commitlint-config": "npm:2.1.8"
     "@captive/cspell-config": "npm:2.4.14"
     "@captive/eslint-config": "npm:2.0.22"
-    "@captive/stylelint-config": "npm:3.0.9"
+    "@captive/stylelint-config": "npm:3.0.11"
     "@captive/ts-config": "npm:2.2.0"
     concurrently: "npm:8.2.2"
     eslint: "npm:9.10.0"
