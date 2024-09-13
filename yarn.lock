@@ -114,20 +114,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/prettier-config@npm:^2.0.8":
-  version: 2.0.8
-  resolution: "@captive/prettier-config@npm:2.0.8"
-  dependencies:
-    "@w5s/prettier-config": "npm:^2.0.23"
-  peerDependencies:
-    prettier: 2.x || 3.x
-  peerDependenciesMeta:
-    prettier:
-      optional: true
-  checksum: 10/e4cca7cd1526cef82909efc0fe2a53ea8412be285dc3fc754eab25489fbb5307fbef033eb7332e56dd5a759403dec10c24a8b73512e44f76868b058530b667f7
-  languageName: node
-  linkType: hard
-
 "@captive/prettier-config@npm:^2.0.9":
   version: 2.0.9
   resolution: "@captive/prettier-config@npm:2.0.9"
@@ -142,11 +128,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/stylelint-config@npm:3.0.11":
-  version: 3.0.11
-  resolution: "@captive/stylelint-config@npm:3.0.11"
+"@captive/stylelint-config@npm:3.0.12":
+  version: 3.0.12
+  resolution: "@captive/stylelint-config@npm:3.0.12"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.8"
+    "@captive/prettier-config": "npm:^2.0.9"
     postcss: "npm:^8.4.14"
     postcss-html: "npm:*"
     stylelint-config-prettier-scss: "npm:^1.0.0"
@@ -162,7 +148,7 @@ __metadata:
   peerDependenciesMeta:
     stylelint:
       optional: true
-  checksum: 10/cb3fc906f756fa0035e6b7c8af1284a99299de4a4bb82ed1e643e72368f6a03ea961812510ab609aa44d8fc9e3e1eabad34872a27f609f5b3d12e7a0094e52ef
+  checksum: 10/fd777f4ad2b369658d728ca809de11398c0bf5f6c9895dcc03f71184143d10d3879051114cdb4c4f91fe984b040e18fb44c970d698559e9dba385b0d8e0f58a5
   languageName: node
   linkType: hard
 
@@ -3741,7 +3727,7 @@ __metadata:
     "@captive/commitlint-config": "npm:2.1.9"
     "@captive/cspell-config": "npm:2.4.14"
     "@captive/eslint-config": "npm:2.0.23"
-    "@captive/stylelint-config": "npm:3.0.11"
+    "@captive/stylelint-config": "npm:3.0.12"
     "@captive/ts-config": "npm:2.2.1"
     concurrently: "npm:8.2.2"
     eslint: "npm:9.10.0"
