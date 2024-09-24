@@ -61,9 +61,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/commitlint-config@npm:2.1.9":
-  version: 2.1.9
-  resolution: "@captive/commitlint-config@npm:2.1.9"
+"@captive/commitlint-config@npm:2.1.10":
+  version: 2.1.10
+  resolution: "@captive/commitlint-config@npm:2.1.10"
   dependencies:
     "@w5s/commitlint-config": "npm:^2.0.0"
   peerDependencies:
@@ -71,7 +71,7 @@ __metadata:
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 10/af2aeb159453a2e758fee7a0bc642713e0a5178ea27460568fa1942733fa63b80a336c12f3ada50e561ca8f9a5d9012eede614a1a5aee5dfd7023db34c16d0d7
+  checksum: 10/56a9da325512294173c028162c8db404d6fe2eb4d6d1c81797be837b4f06be60f7627e90d458e5fd574fce89ba82e7db0462c68abc84af0e47c8fc2c05878045
   languageName: node
   linkType: hard
 
@@ -3661,7 +3661,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@captive/commitlint-config": "npm:2.1.9"
+    "@captive/commitlint-config": "npm:2.1.10"
     "@captive/cspell-config": "npm:2.4.14"
     "@captive/eslint-config": "npm:2.0.23"
     "@captive/stylelint-config": "npm:3.0.12"
