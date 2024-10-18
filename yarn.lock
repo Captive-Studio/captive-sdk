@@ -158,15 +158,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/ts-config@npm:2.2.1":
-  version: 2.2.1
-  resolution: "@captive/ts-config@npm:2.2.1"
+"@captive/ts-config@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@captive/ts-config@npm:2.3.0"
   peerDependencies:
     typescript: ">=5.x"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10/9f52bd0f98de34b0fc0afffcfac74135c652d55b78e710380059af13b6b55fd8799a309771bad70c09bdceaf2563a5cd41f35121d444609571579fec1f86da90
+  checksum: 10/44453abf8f1e2e0eb9cee16f3117513f390b777081f1747b98c6b96f481c60629ae3bae294e70f8301c1d2475da4b36a6827e79ffb57a2117130771baed465d1
   languageName: node
   linkType: hard
 
@@ -3770,7 +3770,7 @@ __metadata:
     "@captive/cspell-config": "npm:2.4.15"
     "@captive/eslint-config": "npm:2.0.25"
     "@captive/stylelint-config": "npm:3.0.14"
-    "@captive/ts-config": "npm:2.2.1"
+    "@captive/ts-config": "npm:2.3.0"
     concurrently: "npm:8.2.2"
     eslint: "npm:9.12.0"
     prettier: "npm:3.3.3"

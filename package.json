@@ -49,7 +49,7 @@
     "@captive/cspell-config": "2.4.15",
     "@captive/eslint-config": "2.0.25",
     "@captive/stylelint-config": "3.0.14",
-    "@captive/ts-config": "2.2.1",
+    "@captive/ts-config": "2.3.0",
     "concurrently": "8.2.2",
     "eslint": "9.12.0",
     "prettier": "3.3.3",
