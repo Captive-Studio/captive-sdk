@@ -161,15 +161,15 @@ __metadata:
   linkType: hard
 
 "@cspell/cspell-bundled-dicts@npm:^8.0.0":
-  version: 8.15.5
-  resolution: "@cspell/cspell-bundled-dicts@npm:8.15.5"
+  version: 8.15.6
+  resolution: "@cspell/cspell-bundled-dicts@npm:8.15.6"
   dependencies:
     "@cspell/dict-ada": "npm:^4.0.5"
     "@cspell/dict-al": "npm:^1.0.3"
     "@cspell/dict-aws": "npm:^4.0.7"
     "@cspell/dict-bash": "npm:^4.1.8"
     "@cspell/dict-companies": "npm:^3.1.7"
-    "@cspell/dict-cpp": "npm:^5.1.23"
+    "@cspell/dict-cpp": "npm:^6.0.0"
     "@cspell/dict-cryptocurrencies": "npm:^5.0.3"
     "@cspell/dict-csharp": "npm:^4.0.5"
     "@cspell/dict-css": "npm:^4.0.16"
@@ -203,7 +203,7 @@ __metadata:
     "@cspell/dict-markdown": "npm:^2.0.7"
     "@cspell/dict-monkeyc": "npm:^1.0.9"
     "@cspell/dict-node": "npm:^5.0.4"
-    "@cspell/dict-npm": "npm:^5.1.8"
+    "@cspell/dict-npm": "npm:^5.1.9"
     "@cspell/dict-php": "npm:^4.0.13"
     "@cspell/dict-powershell": "npm:^5.0.13"
     "@cspell/dict-public-licenses": "npm:^2.0.11"
@@ -216,10 +216,10 @@ __metadata:
     "@cspell/dict-sql": "npm:^2.1.8"
     "@cspell/dict-svelte": "npm:^1.0.5"
     "@cspell/dict-swift": "npm:^2.0.4"
-    "@cspell/dict-terraform": "npm:^1.0.5"
+    "@cspell/dict-terraform": "npm:^1.0.6"
     "@cspell/dict-typescript": "npm:^3.1.11"
     "@cspell/dict-vue": "npm:^3.0.3"
-  checksum: 10/faf0f4933c26c99632c8a0de4e70ff5f1bf9674ed3d74505484e2f1b804dc00d92f0b642f00a4fd9092108df7b0d8364bdf505a278516cd97eac554edef16ba5
+  checksum: 10/414c1a3be747c43c6a6094aa0ae4ed7469705ba5545abce2c4cb227ffa3d1876df78015f9f75ac17e2fb18f4decd10174f7a472845552b7e1e31be7690da245f
   languageName: node
   linkType: hard
 
@@ -258,10 +258,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-cpp@npm:^5.1.23":
-  version: 5.1.23
-  resolution: "@cspell/dict-cpp@npm:5.1.23"
-  checksum: 10/21098127234c51e8348e26b2e5beb56aade798138c14c42598167bc0c727aef9f44c46adbd85fe8bef54f8233623e7458dd34324ee111efd99fa95589a520df5
+"@cspell/dict-cpp@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@cspell/dict-cpp@npm:6.0.0"
+  checksum: 10/8c21e9647da1e1233ebff988b98bb411683e3440afb3791d01acb732a8ce84b2b7b64e296ccce7e2c65697927d989d5ef1ac74a009ddad90360105899d7fefad
   languageName: node
   linkType: hard
 
@@ -515,7 +515,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-npm@npm:^5.1.8":
+"@cspell/dict-npm@npm:^5.1.9":
   version: 5.1.9
   resolution: "@cspell/dict-npm@npm:5.1.9"
   checksum: 10/cba01a09df138833b83b953c7d43e442ebb4e844744168694c656b9568c088be729effec6a4a0d17030fd13e5e08dba75dbfb37a27ba5e73c5be03069cc47c67
@@ -608,7 +608,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-terraform@npm:^1.0.5":
+"@cspell/dict-terraform@npm:^1.0.6":
   version: 1.0.6
   resolution: "@cspell/dict-terraform@npm:1.0.6"
   checksum: 10/713cf31e9e9ec1d1f6d2b834365b770200c718f02b19494b3482e03d3c84c9a5d185072e148d6fa3a72f21e326545587563e603f4eb821f7b07e11a1d91a88bb
@@ -1375,9 +1375,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001669":
-  version: 1.0.30001676
-  resolution: "caniuse-lite@npm:1.0.30001676"
-  checksum: 10/73d5ff987c4075fe3885282361626956d50124c01c6811cca071efd94c2a26ff5045cd3b902a418b505840eb4b3fc8e0252a65392effd7061749e9c9e6c16d35
+  version: 1.0.30001677
+  resolution: "caniuse-lite@npm:1.0.30001677"
+  checksum: 10/e07439bdeade5ffdd974691f44f8549ae0730fcf510acaa32d0b657c10370cd5aad09eeca37248966205fb37fce5f464dbce73ce177b4a1fdc3a34adbcfd7192
   languageName: node
   linkType: hard
 
