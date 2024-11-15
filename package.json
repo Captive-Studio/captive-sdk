@@ -51,7 +51,7 @@
     "@captive/stylelint-config": "3.0.15",
     "@captive/ts-config": "2.3.0",
     "concurrently": "9.1.0",
-    "eslint": "9.14.0",
+    "eslint": "9.15.0",
     "prettier": "3.3.3",
     "stylelint": "16.10.0",
     "turbo": "1.13.4"
