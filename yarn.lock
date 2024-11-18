@@ -55,9 +55,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/cspell-config@npm:2.4.16":
-  version: 2.4.16
-  resolution: "@captive/cspell-config@npm:2.4.16"
+"@captive/cspell-config@npm:2.4.17":
+  version: 2.4.17
+  resolution: "@captive/cspell-config@npm:2.4.17"
   dependencies:
     "@cspell/dict-bash": "npm:^4.1.2"
     "@cspell/dict-fr-fr": "npm:^2.2.0"
@@ -67,7 +67,7 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 10/96f99c19c211f1acb199ddef44a99248ad1fee47eb27d054f526399507fde6f7aa804a869679a82f3def364c5083e0b6131f83fb1d7793624f22e5446dfc4329
+  checksum: 10/15a9bc7c2d1ffbe28eba2fba9b2cae17d025e06dfa189d2ace8be75b65dcd4c7a6764113f5e46a91bc4eddc7f622758f0a8c14fa5257abc47cf4f9eb49bff33e
   languageName: node
   linkType: hard
 
@@ -3737,7 +3737,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@captive/commitlint-config": "npm:2.1.12"
-    "@captive/cspell-config": "npm:2.4.16"
+    "@captive/cspell-config": "npm:2.4.17"
     "@captive/eslint-config": "npm:2.0.27"
     "@captive/stylelint-config": "npm:3.0.16"
     "@captive/ts-config": "npm:2.3.0"
