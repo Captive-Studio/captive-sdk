@@ -1,7 +1,7 @@
 .scopes {
   li {
     .count {
-      color: $fg-default;
+      color: var(--fg-default);
     }
 
     &:first-child a {
