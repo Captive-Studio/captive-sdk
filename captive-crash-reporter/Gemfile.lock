@@ -65,7 +65,7 @@ GEM
       racc (~> 1.4)
     psych (5.2.0)
       stringio
-    puma (6.4.3)
+    puma (6.5.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.8)
@@ -135,7 +135,7 @@ PLATFORMS
 
 DEPENDENCIES
   captive-crash-reporter!
-  puma (= 6.4.3)
+  puma (= 6.5.0)
   sprockets-rails (= 3.5.2)
   sqlite3 (= 1.7.3)
 
