@@ -24,7 +24,7 @@ end
 group :test do
   gem "rspec", "~> 3.13.0"
   gem "rspec-mocks", "~> 3.13.0"
-  gem "rspec-rails", "~> 6.1.0"
+  gem "rspec-rails", "~> 7.1.0"
   gem "factory_bot_rails", "~> 6.4.0"
   gem "webmock", "~> 3.24.0"
   gem "shoulda-matchers", "~> 6.4.0"
