@@ -14,7 +14,7 @@ gem "pg", "~> 1.5.3"
 # Start debugger with binding.b [https://github.com/ruby/debug]
 # gem "debug", ">= 1.0.0"
 gem "sprockets-rails", "~> 3.5.0"
-gem "jwt", "~> 2.8.0"
+gem "jwt", "~> 2.10.0"
 
 group :development do
   gem "yard", "~> 0.9.34"
