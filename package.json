@@ -53,7 +53,7 @@
     "concurrently": "9.1.2",
     "eslint": "9.18.0",
     "prettier": "3.4.2",
-    "stylelint": "16.13.0",
+    "stylelint": "16.13.1",
     "turbo": "1.13.4"
   },
   "packageManager": "yarn@4.6.0"
