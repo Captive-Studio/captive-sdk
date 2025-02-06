@@ -48,7 +48,7 @@
     "@captive/commitlint-config": "2.1.14",
     "@captive/cspell-config": "2.4.20",
     "@captive/eslint-config": "2.0.31",
-    "@captive/stylelint-config": "3.0.19",
+    "@captive/stylelint-config": "3.1.0",
     "@captive/ts-config": "2.4.1",
     "concurrently": "9.1.2",
     "eslint": "9.19.0",
