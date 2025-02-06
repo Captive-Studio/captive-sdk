@@ -71,11 +71,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:2.0.31":
-  version: 2.0.31
-  resolution: "@captive/eslint-config@npm:2.0.31"
+"@captive/eslint-config@npm:2.0.32":
+  version: 2.0.32
+  resolution: "@captive/eslint-config@npm:2.0.32"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.16"
+    "@captive/prettier-config": "npm:^2.0.17"
     "@w5s/dev": "npm:^2.0.0"
     "@w5s/eslint-config": "npm:2.4.0"
     eslint-plugin-cypress: "npm:^3.0.0"
@@ -90,21 +90,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/51b98701c150934c9833f9a93d36da57dee93d45c63f71abd0b9bfd05d050809a4da2a32ae93954fd5f15c517a1962bfbf501cafd949f0a83f1f688fb7a26eb2
-  languageName: node
-  linkType: hard
-
-"@captive/prettier-config@npm:^2.0.16":
-  version: 2.0.16
-  resolution: "@captive/prettier-config@npm:2.0.16"
-  dependencies:
-    "@w5s/prettier-config": "npm:^2.2.1"
-  peerDependencies:
-    prettier: 2.x || 3.x
-  peerDependenciesMeta:
-    prettier:
-      optional: true
-  checksum: 10/c66d594064a1418ce20cd7ae7b020196e1ad3af3944e259d3f311fc7910025dae313fb5b0aec0ff8da2c1e5cd09b7487a9567317b091ca6c180a521bd378fa75
+  checksum: 10/ad7a610a47162e729f7a17768f59efff1d553b495b9d567aec23c7520fedf6989b57499dc7f7f3f01b5379444aa0f45be95d744940527c4f34a3031ae7ab0383
   languageName: node
   linkType: hard
 
@@ -4064,7 +4050,7 @@ __metadata:
   dependencies:
     "@captive/commitlint-config": "npm:2.1.15"
     "@captive/cspell-config": "npm:2.4.21"
-    "@captive/eslint-config": "npm:2.0.31"
+    "@captive/eslint-config": "npm:2.0.32"
     "@captive/stylelint-config": "npm:3.1.0"
     "@captive/ts-config": "npm:2.4.1"
     concurrently: "npm:9.1.2"
