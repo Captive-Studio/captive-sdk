@@ -9,7 +9,7 @@ form {
     margin: 0;
 
     &.inputs {
-      background-color: $bg-subtle;
+      background-color: var(--bg-subtle);
       box-shadow: none;
       border-radius: 0;
     }
@@ -45,7 +45,7 @@ form {
         margin-bottom: $spacer-1;
 
         abbr {
-          color: $primary-fg;
+          color: var(--primary-fg);
           padding-left: $spacer-1;
 
           &[title] {
