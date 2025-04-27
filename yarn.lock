@@ -161,8 +161,8 @@ __metadata:
   linkType: hard
 
 "@cspell/cspell-bundled-dicts@npm:^8.0.0":
-  version: 8.19.2
-  resolution: "@cspell/cspell-bundled-dicts@npm:8.19.2"
+  version: 8.19.3
+  resolution: "@cspell/cspell-bundled-dicts@npm:8.19.3"
   dependencies:
     "@cspell/dict-ada": "npm:^4.1.0"
     "@cspell/dict-al": "npm:^1.1.0"
@@ -181,7 +181,7 @@ __metadata:
     "@cspell/dict-elixir": "npm:^4.0.7"
     "@cspell/dict-en-common-misspellings": "npm:^2.0.10"
     "@cspell/dict-en-gb": "npm:1.1.33"
-    "@cspell/dict-en_us": "npm:^4.4.2"
+    "@cspell/dict-en_us": "npm:^4.4.3"
     "@cspell/dict-filetypes": "npm:^3.0.11"
     "@cspell/dict-flutter": "npm:^1.1.0"
     "@cspell/dict-fonts": "npm:^4.0.4"
@@ -205,7 +205,7 @@ __metadata:
     "@cspell/dict-markdown": "npm:^2.0.10"
     "@cspell/dict-monkeyc": "npm:^1.0.10"
     "@cspell/dict-node": "npm:^5.0.7"
-    "@cspell/dict-npm": "npm:^5.2.0"
+    "@cspell/dict-npm": "npm:^5.2.1"
     "@cspell/dict-php": "npm:^4.0.14"
     "@cspell/dict-powershell": "npm:^5.0.14"
     "@cspell/dict-public-licenses": "npm:^2.0.13"
@@ -222,7 +222,7 @@ __metadata:
     "@cspell/dict-terraform": "npm:^1.1.1"
     "@cspell/dict-typescript": "npm:^3.2.1"
     "@cspell/dict-vue": "npm:^3.0.4"
-  checksum: 10/fbe9083f186e73a514b78ce4de8542b5da38106a6d093ea914f1898c739fe91bbebf2f1319f459aecdea8cd1036e127b6cc0be9f475e10c068f08ca22d29a671
+  checksum: 10/80e12dc862c16074f2bee262d9e987dcadef530c2292e308043258cb968e1da4d253710f40aebf7bcff6e9919b2b7c1bf92de439bb54b5dee01d84df3e38af6e
   languageName: node
   linkType: hard
 
@@ -347,7 +347,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-en_us@npm:^4.4.2":
+"@cspell/dict-en_us@npm:^4.4.3":
   version: 4.4.3
   resolution: "@cspell/dict-en_us@npm:4.4.3"
   checksum: 10/43e8dc756aae32918f43a93ac519645e03192e6046ef1593f25524017550f0741b456b4583d66b0deee87189485e745e292a35cde01f9baea7691c12d01cdb82
@@ -527,7 +527,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cspell/dict-npm@npm:^5.2.0":
+"@cspell/dict-npm@npm:^5.2.1":
   version: 5.2.1
   resolution: "@cspell/dict-npm@npm:5.2.1"
   checksum: 10/c027aee18b82212846f4920c72210915f2346064a65224937ce057c1f7a850345f1f3fe5de096caaaee3d3870cdac2692f22d69e5aa90b7b9cc69602c641548b
