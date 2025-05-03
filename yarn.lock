@@ -161,8 +161,8 @@ __metadata:
   linkType: hard
 
 "@cspell/cspell-bundled-dicts@npm:^8.0.0":
-  version: 8.19.3
-  resolution: "@cspell/cspell-bundled-dicts@npm:8.19.3"
+  version: 8.19.4
+  resolution: "@cspell/cspell-bundled-dicts@npm:8.19.4"
   dependencies:
     "@cspell/dict-ada": "npm:^4.1.0"
     "@cspell/dict-al": "npm:^1.1.0"
@@ -222,7 +222,7 @@ __metadata:
     "@cspell/dict-terraform": "npm:^1.1.1"
     "@cspell/dict-typescript": "npm:^3.2.1"
     "@cspell/dict-vue": "npm:^3.0.4"
-  checksum: 10/80e12dc862c16074f2bee262d9e987dcadef530c2292e308043258cb968e1da4d253710f40aebf7bcff6e9919b2b7c1bf92de439bb54b5dee01d84df3e38af6e
+  checksum: 10/84a4a8cede9e87add51f12847b9c78652da0e7f27ac908dc425423d83b15da57946105e08f3aed01b23eab397c98bffbb38edec3b75a61eb5bc2f02164891114
   languageName: node
   linkType: hard
 
