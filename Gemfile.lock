@@ -149,11 +149,11 @@ GEM
       activemodel
     erb (5.0.1)
     erubi (1.13.1)
-    factory_bot (6.5.3)
+    factory_bot (6.5.4)
       activesupport (>= 6.1.0)
-    factory_bot_rails (6.4.4)
+    factory_bot_rails (6.5.0)
       factory_bot (~> 6.5)
-      railties (>= 5.0.0)
+      railties (>= 6.1.0)
     formtastic (5.0.0)
       actionpack (>= 6.0.0)
     formtastic_i18n (0.7.0)
@@ -425,7 +425,7 @@ PLATFORMS
 
 DEPENDENCIES
   captive-sdk!
-  factory_bot_rails (~> 6.4.0)
+  factory_bot_rails (~> 6.5.0)
   jwt (~> 2.10.0)
   pg (~> 1.5.3)
   puma (~> 6.6.0)
