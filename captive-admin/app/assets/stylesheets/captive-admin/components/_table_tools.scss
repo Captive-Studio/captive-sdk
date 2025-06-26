@@ -26,7 +26,7 @@ a.table_tools_button,
       box-shadow: none;
       background: none;
       border-color: $border-color-emphasis;
-      color: $fg-default;
+      color: var(--fg-default);
     }
   }
 }
@@ -48,12 +48,12 @@ a.table_tools_button,
     }
 
     &.selected a {
-      background: $bg-subtle;
+      background: var(--bg-subtle);
       box-shadow: none;
       border: 2px solid $border-color-emphasis;
 
       &:hover {
-        background: $bg-subtle;
+        background: var(--bg-subtle);
       }
     }
   }

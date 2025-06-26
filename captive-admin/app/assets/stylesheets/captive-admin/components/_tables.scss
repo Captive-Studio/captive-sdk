@@ -5,13 +5,13 @@ table.index_table {
 
   th {
     padding: $spacer-4;
-    color: $fg-subtle;
+    color: var(--fg-subtle);
     background: transparent;
 
     a,
     a:link,
     a:visited {
-      color: $fg-subtle;
+      color: var(--fg-subtle);
     }
 
     &.sorted-asc,
@@ -19,7 +19,7 @@ table.index_table {
       background: transparent;
 
       a {
-        color: $fg-default;
+        color: var(--fg-default);
       }
     }
 
