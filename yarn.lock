@@ -863,10 +863,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkgr/core@npm:^0.3.0":
-  version: 0.3.4
-  resolution: "@pkgr/core@npm:0.3.4"
-  checksum: 10/c7830b8579629f71f8f576f3a65983b8c7bb87909aa789e52d9862518dfc8467b7df778131d7908ccc09a388ca963a3c21456d891b0ebb71c39c70b0aa9b9ca6
+"@pkgr/core@npm:^0.2.9":
+  version: 0.2.9
+  resolution: "@pkgr/core@npm:0.2.9"
+  checksum: 10/bb2fb86977d63f836f8f5b09015d74e6af6488f7a411dcd2bfdca79d76b5a681a9112f41c45bdf88a9069f049718efc6f3900d7f1de66a2ec966068308ae517f
   languageName: node
   linkType: hard
 
@@ -4753,11 +4753,11 @@ __metadata:
   linkType: hard
 
 "synckit@npm:^0.11.7, synckit@npm:^0.6.2 || ^0.7.3 || ^0.11.5":
-  version: 0.11.10
-  resolution: "synckit@npm:0.11.10"
+  version: 0.11.11
+  resolution: "synckit@npm:0.11.11"
   dependencies:
-    "@pkgr/core": "npm:^0.3.0"
-  checksum: 10/e5055e1d57f00cf1d7232ee233a5c9c0b70f05832b1332166ef02f1baa39b2fdd5573dcefbe5b54e8c36d776fcf1a2facd507df797f976ec9507c5d6ee25b920
+    "@pkgr/core": "npm:^0.2.9"
+  checksum: 10/6ecd88212b5be80004376b6ea74babcba284566ff59a50d8803afcaa78c165b5d268635c1dd84532ee3f690a979409e1eda225a8a35bed2d135ffdcea06ce7b0
   languageName: node
   linkType: hard
 
