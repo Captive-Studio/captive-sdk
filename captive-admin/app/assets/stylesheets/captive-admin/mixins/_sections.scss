@@ -8,13 +8,13 @@
 
   // Fin héritage AA
   padding: $spacer-2 $spacer-4;
-  color: $fg-muted;
-  background: $bg-default;
+  color: var(--fg-muted);
+  background: var(--bg-default);
   border-bottom: 1px solid $border-color;
 }
 
 @mixin section-background {
-  background: $bg-default;
+  background: var(--bg-default);
   border-radius: 0;
   overflow: hidden;
 }

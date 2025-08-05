@@ -9,7 +9,7 @@
   #main_content_wrapper {
     #main_content {
       padding: $spacer-4 $spacer-6;
-      background: $bg-subtle;
+      background: var(--bg-subtle);
       margin-right: 0;
     }
   }
