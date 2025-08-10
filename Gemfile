@@ -8,7 +8,7 @@ gemspec
 gem "rails", "~> 7.1.0"
 gem "puma", "~> 6.6.0"
 
-gem "sqlite3", "~> 1.7.0"
+gem "sqlite3", "~> 2.7.0"
 gem "pg", "~> 1.6.0"
 
 # Start debugger with binding.b [https://github.com/ruby/debug]
