@@ -61,7 +61,6 @@ GEM
     loofah (2.24.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    mini_portile2 (2.8.9)
     minitest (5.26.0)
     nio4r (2.7.4)
     nokogiri (1.18.10-arm64-darwin)
@@ -134,8 +133,8 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (1.7.3)
-      mini_portile2 (~> 2.8.0)
+    sqlite3 (2.7.4-arm64-darwin)
+    sqlite3 (2.7.4-x86_64-linux-gnu)
     stringio (3.1.7)
     thor (1.4.0)
     tsort (0.2.0)
@@ -153,7 +152,7 @@ DEPENDENCIES
   captive-crash-reporter!
   puma (= 6.6.1)
   sprockets-rails (= 3.5.2)
-  sqlite3 (= 1.7.3)
+  sqlite3 (= 2.7.4)
 
 BUNDLED WITH
    2.4.17
