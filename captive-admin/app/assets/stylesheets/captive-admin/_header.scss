@@ -8,11 +8,11 @@
 
 #header {
   text-shadow: none;
-  background: $bg-emphasis;
+  background: var(--bg-emphasis);
   padding: 0 $spacer-6;
 
   h1 {
-    color: $fg-on-emphasis;
+    color: var(--fg-on-emphasis);
     padding-left: 0;
     height: 60px;
     display: flex;
@@ -48,7 +48,7 @@
 
         &::before {
           content: '';
-          background-color: $primary-emphasis;
+          background-color: var(--primary-emphasis);
           position: absolute;
           bottom: 0;
           width: 19px;
@@ -90,20 +90,20 @@
       ul {
         @include rounded-all(12px, 12px, 12px, 12px);
 
-        background: $bg-default;
+        background: var(--bg-default);
         text-align: left;
         box-shadow: $shadow-m;
         min-width: $spacer-11;
 
         li {
           a {
-            color: $fg-default;
+            color: var(--fg-default);
             padding-top: $spacer-3;
             padding-bottom: $spacer-3;
 
             &:hover {
-              background: $bg-subtle;
-              color: $fg-default;
+              background: var(--bg-subtle);
+              color: var(--fg-default);
               border-radius: 0;
             }
           }

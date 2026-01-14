@@ -5,12 +5,12 @@
   padding: $spacer-2 $spacer-3;
 
   &.yes {
-    background: $success-subtle;
-    color: $success-fg;
+    background: var(--success-subtle);
+    color: var(--success-fg);
   }
 
   &.no {
-    background: $bg-subtle;
-    color: $fg-muted;
+    background: var(--bg-subtle);
+    color: var(--fg-muted);
   }
 }

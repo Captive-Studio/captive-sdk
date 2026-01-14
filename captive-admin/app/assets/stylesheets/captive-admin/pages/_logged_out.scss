@@ -1,12 +1,12 @@
 body.logged_out {
-  background: $bg-subtle;
+  background: var(--bg-subtle);
 
   #content_wrapper {
     width: 450px;
     margin: $spacer-10 auto;
 
     #active_admin_content {
-      background: $bg-default;
+      background: var(--bg-default);
       box-shadow: $shadow-m;
       border-radius: $border-radius-s;
       padding: $spacer-6;
@@ -19,7 +19,7 @@ body.logged_out {
     text-shadow: none;
     text-align: center;
     box-shadow: none;
-    color: $fg-default;
+    color: var(--fg-default);
     @include title-large;
 
     margin: 0;
