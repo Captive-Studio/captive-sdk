@@ -63,7 +63,7 @@ GEM
       nokogiri (>= 1.12.0)
     mini_portile2 (2.8.9)
     minitest (5.26.0)
-    nio4r (2.7.4)
+    nio4r (2.7.5)
     nokogiri (1.18.10-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.10-x86_64-linux-gnu)
@@ -74,7 +74,7 @@ GEM
     psych (5.2.6)
       date
       stringio
-    puma (6.6.1)
+    puma (7.2.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.2.3)
@@ -151,7 +151,7 @@ PLATFORMS
 
 DEPENDENCIES
   captive-crash-reporter!
-  puma (= 6.6.1)
+  puma (= 7.2.0)
   sprockets-rails (= 3.5.2)
   sqlite3 (= 1.7.3)
 
